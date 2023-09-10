@@ -1,8 +1,51 @@
 :root {
-    /* Defining colors and fonts */
+    /* Color */
     --bg-color: #1B2631;
     --text-color: #EEEEEE;
+    --navbar-color: #17202A;
+    --speed-color: #2196F3;
+    --stamina-color: #E53935;
+    --power-color: #FF9800;
+    --guts-color: #EC407A;
+    --wisdom-color: #43A047;
+    --friend-color: #FFB300;
+    --group-color: #AFB42B;
+    /* Font */
     --text-font: 'Noto Sans TC', sans-serif;
     --title-font: 'Quicksand', sans-serif;
+    /* Size */
+    --item-gap: 10px;
+    --item-radius: 15px;
+
     background-color: var(--bg-color);
+    max-width: 100vw;
+
+    font-family: var(--text-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0 0 0 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: var(--item-gap);
+    align-items: stretch;
+}
+
+.main {
+    margin-top: var(--item-gap);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+
+    background-color: #17202A;
+
+    border-radius: var(--item-radius);
 }

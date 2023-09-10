@@ -1,9 +1,133 @@
-.title {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 600;
-  font-size: 60px;
-  color: var(--text-color);
+/***** First part *****/
 
-  width: 100%;
+.title {
+  font-family: var(--title-font);
+  font-weight: 600;
+  font-size: 6.5vw;
+  text-shadow: 2px 2px #BDBDBD;
+  user-select: none;
+
+  background-color: #34495E;
+
   text-align: center;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.intro {
+  /* font-family: var(--text-font); */
+  font-size: 20px;
+
+  background-color: #2C3E50;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.title, .intro, .icon {
+  color: var(--text-color);
+  border-radius: var(--item-radius);
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+  aspect-ratio: 1/1;
+  
+  background: url("/Umamusume_logo.png");
+  background-size: cover;
+}
+
+.sns_row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: var(--item-gap);
+}
+
+.sns_button {
+  border: 1px white solid;
+  border-radius: 30px;
+  color: white;
+  font-family: var(--text-font);
+
+  font-size: 20px;
+  padding-bottom: 2px;
+}
+
+/* #twitter_button {
+  background-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+} */
+
+#gamer_button {
+  background-color: #009cad;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/***** Second part *****/
+
+/* Grid title */
+
+.grid_title_container {
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.title_line {
+  width: 10%;
+  border: 1px solid white;
+  height: 0;
+}
+
+.grid_title {
+  font-family: var(--text-font);
+  font-size: 50px;
+  color: white
+}
+
+/* Grid item */
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(min(420px,100%),1fr));
+  column-gap: 24px;
+  row-gap: 24px;
+}
+
+.grid_item {
+  /* font-family: var(--text-font); */
+  font-size: 45px;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  user-select: none;
+
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: var(--item-radius);
+  border: 1px solid #AEB6BF;
+
+  background-color: #E5E7E9;
+
+  box-shadow: 5px 5px #BDBDBD;
+  transition: transform .15s ease-out, box-shadow .15s ease-out;
+}
+
+/* Move the item when hovered. Make it looks like being pressed */
+.grid_item:hover {
+  box-shadow: 0 0 #BDBDBD;
+  transform: translate(5px, 5px)
 }
