@@ -1,0 +1,41 @@
+/***** Navigation Bar *****/
+
+.refresh {
+    background-color: inherit;
+    border: transparent;
+    border-radius: var(--item-radius);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1/1;
+}
+
+.refresh:hover {
+    background-color: #2C3E50;
+}
+
+.main {
+    margin-left: var(--item-gap);
+    margin-right: var(--item-gap);
+    position: relative;
+    top: 90px;
+}
+
+/***** Search table *****/
+
+.grid_container {
+    display: grid;
+    column-gap: 15px;
+    row-gap: 15px;
+    grid-template-columns: 10% repeat(7, minmax(100px, 1fr));
+
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    text-align: right;
+}
+
+.grid_head {
+    padding-right: 20px;
+}

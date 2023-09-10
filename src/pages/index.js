@@ -23,6 +23,8 @@ export default function Home() {
           <div className={`${styles.title} ${styles.col}`}>Uma Site</div>
           <div className={`${styles.intro} ${styles.col}`}>
             <div className={styles.sns_row}>
+              <div className={styles.about}>簡介</div>
+              <div style={{flexGrow: 1}}></div> {/* Placeholder */}
               <button className={styles.sns_button} id={styles.gamer_button}>巴哈姆特</button>
             </div>
             <div>{intro_text}</div>
@@ -37,9 +39,9 @@ export default function Home() {
             <div className={styles.title_line}></div>
           </div>
           <div className={styles.grid_container}>
-            <GridItem title="支援卡查詢" image="/SSR.png" link="/support_card"></GridItem>
-            <GridItem title="賽馬娘查詢" image="/Chara.png" link="/support_card"></GridItem>
-            <GridItem title="技能查詢" image="/Skill.png" link="/support_card"></GridItem>
+            <GridItem title="支援卡查詢" image="/icon/SSR.png" link="/support_card"></GridItem>
+            <GridItem title="賽馬娘查詢" image="/icon/Chara.png" link="/chara"></GridItem>
+            <GridItem title="技能查詢" image="/icon/Skill.png" link="/skill"></GridItem>
           </div>
         </div>
       </main>
