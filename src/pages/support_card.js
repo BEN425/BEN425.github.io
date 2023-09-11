@@ -1,9 +1,29 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '@/styles/SupportCardPage.module.css'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function SupportCardPage() {
+    const [loading, setLoading] = useState(true);
+    // Load support card json file
+    const [supportList, setSupportList] = useState([]);
+    async function fetchJson() {
+        setLoading(true)
+        await fetch("/data/card.json")
+        .then(res => res.json())
+        .then(res => {
+            setSupportList(res)
+        })
+        setLoading(false)
+        console.log(supportList)
+    }
+    
+    useEffect(() => {fetchJson()}, []);
+
+    function getDataHtml() {
+        return supportList.map(item => <SupportCardItem card={item}></SupportCardItem>)
+    }
+
     return (
     <>
         <Head>
@@ -24,7 +44,7 @@ export default function SupportCardPage() {
             <div className={`${styles.main} main`}>
                 {/* Search Table */}
                 <div className={styles.searchTable}>
-                    <div class={styles.grid_container}>
+                    <div className={styles.grid_container}>
                         <div className={styles.grid_head}>屬性</div>
                         <ToggleButton text="速度" color="var(--speed-color)"></ToggleButton>
                         <ToggleButton text="持久力" color="var(--stamina-color)"></ToggleButton>
@@ -46,6 +66,9 @@ export default function SupportCardPage() {
                 }}></hr>
 
                 {/* Support Card Section */}
+                <div className={styles.support_grid_container}>
+                    {loading ? <h1 style={{color: "white", fontWeight: "bold"}}>Loading</h1> : getDataHtml()}
+                </div>
             </div>
             
         </main>
@@ -78,3 +101,32 @@ function ToggleButton({text, color}) {
     </button>
     return button;  
 }
+
+function SupportCardItem({card}) {
+    // return <div>{String(card)}</div>
+    const [title, name, rarity, type]  = [card.name, card.chara, card.rarity, translate(card.type)];
+    const src = "/images/card/" + card.id.replace(" thumb ", "_thumb_") + ".png";
+
+    return <Link href={""}><div className={styles.support_card_item}>
+        <img src={src} className={styles.support_card_image}></img>
+        <div className={styles.support_card_sub}>
+            <div className={styles.support_card_title}>{title}</div>
+            {/* <div className={styles.support_card_title}>{name}</div> */}
+            <div className={styles.support_card_sub_sub}>
+                <div className={styles.support_card_type} style={{backgroundImage: `url(/icon/${type}.png)`}}></div>
+                <div>{rarity}</div>
+            </div>
+        </div>
+    </div></Link>
+}
+
+const table = {
+    "速度": "speed",
+    "耐力": "stamina",
+    "力量": "power",
+    "毅力": "guts",
+    "智力": "wisdom",
+    "友人": "friend",
+    "团队": "group",
+}
+function translate(input) {return table[input]}

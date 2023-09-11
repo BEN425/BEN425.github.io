@@ -39,3 +39,47 @@
 .grid_head {
     padding-right: 20px;
 }
+
+/***** Main Section *****/
+
+.support_grid_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr) );
+    gap: 30px;
+}
+
+.support_card_item {
+    display: flex;
+
+    color: white;
+}
+
+.support_card_sub {
+    font-size: 20px;
+    text-align: left;
+}
+
+.support_card_title {
+    font-size: 20px;
+    font-weight: bold;
+    text-wrap: wrap;
+}
+
+.support_card_image {
+    width: 150px;
+    margin-right: var(--item-gap);
+}
+
+.support_card_sub_sub {
+    display: flex;
+}
+
+.support_card_type {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    aspect-ratio: 1/1;
+
+    margin-top: 3px;
+    margin-right: var(--item-gap);
+}

@@ -42,5 +42,5 @@
 
 .toggle_button {
     color: white;
-    background-color: #1B4F72;
+    background-color: var(--toggle-color);
 }
