@@ -1,9 +1,30 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { useState, useEffect } from 'react'
 import styles from '@/styles/SkillPage.module.css'
-import { useState } from 'react'
 
 export default function SupportCardPage() {
+    const [loading, setLoading] = useState(true);
+    // Load skill json file
+    const [skillList, setSkillList] = useState([]);
+    async function fetchJson() {
+        setLoading(true)
+        await fetch("/data/skill.json")
+        .then(res => res.json())
+        .then(res => {
+            setSkillList(res)
+            // console.log(res)
+        })
+        setLoading(false)
+        console.log(skillList)
+    }
+    
+    useEffect(() => {fetchJson()}, []);
+
+    function getDataHtml() {
+        return skillList.map(item => <SkillItem skill={item}></SkillItem>)
+    }
+
     return (
     <>
         <Head>
@@ -29,7 +50,7 @@ export default function SupportCardPage() {
                         <ToggleButton text="普通" color="var(--r-color)"></ToggleButton>
                         <ToggleButton text="稀有" color="var(--sr-color)"></ToggleButton>
                         <ToggleButton text="固有" color="var(--ssr-color)"></ToggleButton>
-                        <ToggleButton text="繼承" color="var(--guts-color)"></ToggleButton>
+                        <ToggleButton text="繼承" color="var(--r-color)"></ToggleButton>
                         <ToggleButton text="劇情" color="var(--toggle-color)"></ToggleButton>
                         <div className={styles.grid_head} style={{gridRow: "2/5"}}>條件限制</div>
                         <ToggleButton text="通用" color="var(--toggle-color)"></ToggleButton>
@@ -50,6 +71,9 @@ export default function SupportCardPage() {
                         <ToggleButton text="藍技" color="var(--speed-color)"></ToggleButton>
                         <ToggleButton text="紅技" color="var(--stamina-color)"></ToggleButton>
                         <ToggleButton text="紫技" color="var(--purple-color)"></ToggleButton>
+                        {/* Search Bar */}
+                        <div className={styles.grid_head}>搜尋</div>
+                        <input type="text" className="search" placeholder="以名稱搜尋" style={{gridColumn: "2/-1"}}></input>
                     </div>
                 </div>
 
@@ -59,6 +83,9 @@ export default function SupportCardPage() {
                 }}></hr>
 
                 {/* Skill Section */}
+                <div className={styles.skill_grid_container}>
+                    {loading ? <h1 style={{color: "white", fontWeight: "bold"}}>Loading</h1> : getDataHtml()}
+                </div>
             </div>
             
         </main>
@@ -89,5 +116,17 @@ function ToggleButton({text, color}) {
         style={{background: color}}
         onClick={handlePress}>{text}
     </button>
-    return button;  
+    return button;
+}
+
+function SkillItem({skill}) {
+    const [name, id, desc] = [skill["3"], skill["17"], skill["8"]]
+
+    return <Link href=""><div className={styles.skill_item}>
+        <img src={"/images/skill/Utx_ico_skill_" + id + ".png"} className={styles.skill_image}></img>
+        <div className={styles.skill_sub}>
+            <div className={styles.skill_name}>{name}</div>
+            <div className={styles.skill_desc}>{desc}</div>
+        </div>
+    </div></Link>
 }

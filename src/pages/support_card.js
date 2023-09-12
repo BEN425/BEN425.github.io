@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '@/styles/SupportCardPage.module.css'
 import { useEffect, useState } from 'react'
+import styles from '@/styles/SupportCardPage.module.css'
 
 export default function SupportCardPage() {
     const [loading, setLoading] = useState(true);
@@ -13,6 +13,7 @@ export default function SupportCardPage() {
         .then(res => res.json())
         .then(res => {
             setSupportList(res)
+            // console.log(res);
         })
         setLoading(false)
         console.log(supportList)
@@ -57,6 +58,10 @@ export default function SupportCardPage() {
                         <ToggleButton text="SSR" color="var(--ssr-color)"></ToggleButton>
                         <ToggleButton text="SR" color="var(--sr-color)"></ToggleButton>
                         <ToggleButton text="R" color="var(--r-color)"></ToggleButton>
+                        <div></div><div></div><div></div><div></div>
+                        {/* Search Bar */}
+                        <div className={styles.grid_head}>搜尋</div>
+                        <input type="text" className="search" placeholder="以名稱搜尋" style={{gridColumn: "2/-1"}}></input>
                     </div>
                 </div>
 
@@ -67,7 +72,7 @@ export default function SupportCardPage() {
 
                 {/* Support Card Section */}
                 <div className={styles.support_grid_container}>
-                    {loading ? <h1 style={{color: "white", fontWeight: "bold"}}>Loading</h1> : getDataHtml()}
+                    {loading ? <h1 style={{color: "white", fontWeight: "bold"}}>loading</h1> : getDataHtml()}
                 </div>
             </div>
             
@@ -104,7 +109,7 @@ function ToggleButton({text, color}) {
 
 function SupportCardItem({card}) {
     // return <div>{String(card)}</div>
-    const [title, name, rarity, type]  = [card.name, card.chara, card.rarity, translate(card.type)];
+    const [title, rarity, type]  = [card.name, card.rarity, translate(card.type)];
     const src = "/images/card/" + card.id.replace(" thumb ", "_thumb_") + ".png";
 
     return <Link href={""}><div className={styles.support_card_item}>
@@ -127,6 +132,6 @@ const table = {
     "毅力": "guts",
     "智力": "wisdom",
     "友人": "friend",
-    "团队": "group",
+    "团队": "team",
 }
 function translate(input) {return table[input]}

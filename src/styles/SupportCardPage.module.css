@@ -20,6 +20,7 @@
     margin-right: var(--item-gap);
     position: relative;
     top: 90px;
+    min-width: fit-content;
 }
 
 /***** Search table *****/
@@ -28,7 +29,7 @@
     display: grid;
     column-gap: 15px;
     row-gap: 15px;
-    grid-template-columns: 10% repeat(7, minmax(100px, 1fr));
+    grid-template-columns: 10% repeat(7, minmax(11%, 1fr));
 
     font-size: 30px;
     font-weight: 400;
@@ -45,13 +46,19 @@
 .support_grid_container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr) );
-    gap: 30px;
+    gap: 20px;
 }
 
 .support_card_item {
     display: flex;
+    padding: 10px;
+    border-radius: var(--item-radius);
 
     color: white;
+}
+
+.support_card_item:hover {
+    background: #273746;
 }
 
 .support_card_sub {

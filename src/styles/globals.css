@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
@@ -19,7 +19,7 @@
     --sr-color: linear-gradient(150deg, hsla(58, 100%, 68%, 1) 0%, hsla(33, 100%, 53%, 1) 100%);
     --r-color: linear-gradient(150deg, hsla(218, 32%, 80%, 1) 0%, hsla(212, 35%, 58%, 1) 100%);
     /* Font */
-    --text-font: 'Noto Sans TC', sans-serif;
+    --text-font: 'Noto Sans TC', 'Quicksand', sans-serif;
     --title-font: 'Quicksand', sans-serif;
     /* Size */
     --item-gap: 10px;
@@ -53,7 +53,7 @@ body {
 
     width: 100%;
     height: 12vh;
-    min-height: 60px;
+    min-height: 75px;
     max-height: 90px;
     position: fixed;
     top: 0;
@@ -99,6 +99,17 @@ body {
     background-color: #17202A;
 
     border-radius: var(--item-radius);
+}
+
+.search {
+    vertical-align: middle;
+
+    font-size: 25px;
+
+    border: 1px solid #34495E;
+    border-radius: var(--item-radius);
+    padding-left: 15px;
+    padding-top: 5px;
 }
 
 .toggle {

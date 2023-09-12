@@ -44,3 +44,40 @@
     color: white;
     background-color: var(--toggle-color);
 }
+
+/***** Main Section *****/
+
+.chara_grid_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(160px, 100%), 1fr) );
+    gap: 30px;
+}
+
+.chara_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: var(--item-radius);
+
+    color: white;
+}
+
+.chara_item:hover {
+    background: #273746;
+}
+
+.chara_image {
+    width: 80%;
+}
+
+.chara_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.chara_title, .chara_name {
+    text-align: center;
+    text-wrap: wrap;
+}

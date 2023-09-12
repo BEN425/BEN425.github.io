@@ -43,3 +43,45 @@
     align-items: center;
     justify-content: right;
 }
+
+/***** Main Section *****/
+
+.skill_grid_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(40%, 100%), 1fr) );
+    gap: 30px;
+}
+
+.skill_item {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: var(--item-radius);
+
+    color: white;
+    font-family: var(--title-font);
+}
+
+.skill_item:hover {
+    background: #273746;
+}
+
+.skill_image {
+    width: 80px;
+    margin-right: var(--item-gap);
+}
+
+.skill_sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill_name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.skill_name, .skill_sesc {
+    text-wrap: wrap;
+}
