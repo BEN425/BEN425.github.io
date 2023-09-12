@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import styles from '@/styles/SkillPage.module.css'
 
-export default function SupportCardPage() {
+export default function SkillPage() {
     const [loading, setLoading] = useState(true);
     // Load skill json file
     const [skillList, setSkillList] = useState([]);
@@ -13,17 +13,16 @@ export default function SupportCardPage() {
         .then(res => res.json())
         .then(res => {
             setSkillList(res)
-            // console.log(res)
         })
         setLoading(false)
-        console.log(skillList)
+        // console.log(skillList)
     }
     
     useEffect(() => {fetchJson()}, []);
 
-    function getDataHtml() {
-        return skillList.map(item => <SkillItem skill={item}></SkillItem>)
-    }
+    // function getDataHtml() {
+    //     return skillList.map(item => <SkillItem skill={item}></SkillItem>)
+    // }
 
     return (
     <>
@@ -84,7 +83,9 @@ export default function SupportCardPage() {
 
                 {/* Skill Section */}
                 <div className={styles.skill_grid_container}>
-                    {loading ? <h1 style={{color: "white", fontWeight: "bold"}}>Loading</h1> : getDataHtml()}
+                    {loading 
+                    ? <h1 style={{color: "white", fontWeight: "bold"}}>Loading</h1> 
+                    : skillList.map(item => <SkillItem skill={item}></SkillItem>)}
                 </div>
             </div>
             

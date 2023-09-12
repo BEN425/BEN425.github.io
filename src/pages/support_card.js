@@ -13,17 +13,16 @@ export default function SupportCardPage() {
         .then(res => res.json())
         .then(res => {
             setSupportList(res)
-            // console.log(res);
         })
         setLoading(false)
-        console.log(supportList)
+        // console.log(supportList)
     }
     
     useEffect(() => {fetchJson()}, []);
 
-    function getDataHtml() {
-        return supportList.map(item => <SupportCardItem card={item}></SupportCardItem>)
-    }
+    // function getDataHtml() {
+    //     return supportList.map(item => <SupportCardItem card={item}></SupportCardItem>)
+    // }
 
     return (
     <>
@@ -72,7 +71,9 @@ export default function SupportCardPage() {
 
                 {/* Support Card Section */}
                 <div className={styles.support_grid_container}>
-                    {loading ? <h1 style={{color: "white", fontWeight: "bold"}}>loading</h1> : getDataHtml()}
+                    {loading 
+                    ? <h1 style={{color: "white", fontWeight: "bold"}}>loading</h1> 
+                    : supportList.map(item => <SupportCardItem card={item}></SupportCardItem>)}
                 </div>
             </div>
             

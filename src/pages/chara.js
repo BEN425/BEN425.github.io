@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import styles from '@/styles/CharaPage.module.css'
 
-export default function SupportCardPage() {
+export default function CharaPage() {
     const [loading, setLoading] = useState(true);
     // Load character json file
     const [charaList, setCharaList] = useState([]);
@@ -13,17 +13,16 @@ export default function SupportCardPage() {
         .then(res => res.json())
         .then(res => {
             setCharaList(res)
-            // console.log(res)
         })
         setLoading(false)
-        console.log(charaList)
+        // console.log(charaList)
     }
     
     useEffect(() => {fetchJson()}, []);
 
-    function getDataHtml() {
-        return charaList.map(item => <CharaItem chara={item}></CharaItem>)
-    }
+    // function getDataHtml() {
+    //     return charaList.map(item => <CharaItem chara={item}></CharaItem>)
+    // }
 
     return (
     <>
@@ -64,7 +63,9 @@ export default function SupportCardPage() {
 
                 {/* Character Section */}
                 <div className={styles.chara_grid_container}>
-                    {loading ? <h1 style={{color: "white", fontWeight: "bold"}}>Loading</h1> : getDataHtml()}
+                    {loading 
+                    ? <h1 style={{color: "white", fontWeight: "bold"}}>Loading</h1> 
+                    : charaList.map(item => <CharaItem chara={item}></CharaItem>)}
                 </div>
             </div>
             

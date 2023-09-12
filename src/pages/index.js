@@ -42,6 +42,7 @@ export default function Home() {
             <GridItem title="支援卡查詢" image="/icon/SSR.png" link="/support_card"></GridItem>
             <GridItem title="賽馬娘查詢" image="/icon/Chara.png" link="/chara"></GridItem>
             <GridItem title="技能查詢" image="/icon/Skill.png" link="/skill"></GridItem>
+            <GridItem title="測試" link="/test"></GridItem>
           </div>
         </div>
       </main>
