@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 
 import App from './_app'
+import { useEffect } from 'react';
 
 export default function Home() {
   const intro_text = "Uma Site 是以一人製作出來的賽馬娘資訊網站，會不定時更新。如果作者有時間的話未來可能新增更多功能。如果資訊有錯誤也歡迎提出更正。";
@@ -42,7 +43,7 @@ export default function Home() {
             <GridItem title="支援卡查詢" image="/icon/SSR.png" link="/support_card"></GridItem>
             <GridItem title="賽馬娘查詢" image="/icon/Chara.png" link="/chara"></GridItem>
             <GridItem title="技能查詢" image="/icon/Skill.png" link="/skill"></GridItem>
-            <GridItem title="測試" link="/test"></GridItem>
+            {/* <GridItem title="測試" link="/test"></GridItem> */}
           </div>
         </div>
       </main>

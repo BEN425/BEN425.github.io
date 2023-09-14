@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react'
 import styles from '@/styles/SupportCardPage.module.css'
 
@@ -19,6 +20,9 @@ export default function SupportCardPage() {
     }
     
     useEffect(() => {fetchJson()}, []);
+
+    // Use router for dynamic routing to each support card page
+    const router = useRouter();
 
     // function getDataHtml() {
     //     return supportList.map(item => <SupportCardItem card={item}></SupportCardItem>)
@@ -73,7 +77,17 @@ export default function SupportCardPage() {
                 <div className={styles.support_grid_container}>
                     {loading 
                     ? <h1 style={{color: "white", fontWeight: "bold"}}>loading</h1> 
-                    : supportList.map(item => <SupportCardItem card={item}></SupportCardItem>)}
+                    : supportList.map(item =>
+                        <SupportCardItem
+                            card={item}
+                            onClick={() => { router.push({
+                                pathname: "/support_card/[id]",
+                                query: {
+                                    id: item.id
+                                },
+                            })}}>
+                        </SupportCardItem>)
+                    }
                 </div>
             </div>
             
@@ -108,12 +122,12 @@ function ToggleButton({text, color}) {
     return button;  
 }
 
-function SupportCardItem({card}) {
+function SupportCardItem({card, onClick}) {
     // return <div>{String(card)}</div>
     const [title, rarity, type]  = [card.name, card.rarity, translate(card.type)];
     const src = "/images/card/" + card.id.replace(" thumb ", "_thumb_") + ".png";
 
-    return <Link href={""}><div className={styles.support_card_item}>
+    return <div className={styles.support_card_item} onClick={onClick}>
         <img src={src} className={styles.support_card_image}></img>
         <div className={styles.support_card_sub}>
             <div className={styles.support_card_title}>{title}</div>
@@ -123,7 +137,7 @@ function SupportCardItem({card}) {
                 <div>{rarity}</div>
             </div>
         </div>
-    </div></Link>
+    </div>
 }
 
 const table = {

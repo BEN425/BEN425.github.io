@@ -6,6 +6,7 @@
     --bg-color: #1B2631;
     --text-color: #EEEEEE;
     --navbar-color: #212F3D;
+    --section-color: #212F3C;
     --speed-color: #2196F3;
     --stamina-color: #E53935;
     --power-color: #FF9800;
@@ -24,6 +25,7 @@
     /* Size */
     --item-gap: 10px;
     --item-radius: 15px;
+    --section-padding: 20px;
 
     background-color: var(--bg-color);
     max-width: 100vw;
