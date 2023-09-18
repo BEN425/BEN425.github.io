@@ -4,10 +4,15 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react'
 import styles from '@/styles/SupportCardPage.module.css'
 
+import * as mylib from "../lib"
+
 export default function SupportCardPage() {
     const [loading, setLoading] = useState(true);
+    // Filter
+    const [typeFilter, setTypeFilter] = useState(Array(7).fill(false));
+    const [rarityFilter, setRarityFilter] = useState(Array(3).fill(false));
     // Load support card json file
-    const [supportList, setSupportList] = useState([]);
+    const [supportList, setSupportList] = useState([])
     async function fetchJson() {
         setLoading(true)
         await fetch("/data/card.json")
@@ -20,13 +25,10 @@ export default function SupportCardPage() {
     }
     
     useEffect(() => {fetchJson()}, []);
+    useEffect(() => {console.log(typeFilter)});
 
     // Use router for dynamic routing to each support card page
     const router = useRouter();
-
-    // function getDataHtml() {
-    //     return supportList.map(item => <SupportCardItem card={item}></SupportCardItem>)
-    // }
 
     return (
     <>
@@ -42,7 +44,7 @@ export default function SupportCardPage() {
                 </Link>
                 <div className="nav_title">支援卡一覽</div>
                 <div style={{flexGrow: 1}}></div> {/* Space holder */}
-                <RefreshButton></RefreshButton>
+                {/* <RefreshButton></RefreshButton> */}
             </div>
             
             <div className={`${styles.main} main`}>
@@ -50,17 +52,9 @@ export default function SupportCardPage() {
                 <div className={styles.searchTable}>
                     <div className={styles.grid_container}>
                         <div className={styles.grid_head}>屬性</div>
-                        <ToggleButton text="速度" color="var(--speed-color)"></ToggleButton>
-                        <ToggleButton text="持久力" color="var(--stamina-color)"></ToggleButton>
-                        <ToggleButton text="力量" color="var(--power-color)"></ToggleButton>
-                        <ToggleButton text="意志力" color="var(--guts-color)"></ToggleButton>
-                        <ToggleButton text="智力" color="var(--wisdom-color)"></ToggleButton>
-                        <ToggleButton text="友人" color="var(--friend-color)"></ToggleButton>
-                        <ToggleButton text="團隊" color="var(--group-color)"></ToggleButton>
+                            {generateTypeButtons(typeFilter, setTypeFilter)}
                         <div className={styles.grid_head}>稀有度</div>
-                        <ToggleButton text="SSR" color="var(--ssr-color)"></ToggleButton>
-                        <ToggleButton text="SR" color="var(--sr-color)"></ToggleButton>
-                        <ToggleButton text="R" color="var(--r-color)"></ToggleButton>
+                            {generateRarityButtons(rarityFilter, setRarityFilter)}
                         <div></div><div></div><div></div><div></div>
                         {/* Search Bar */}
                         <div className={styles.grid_head}>搜尋</div>
@@ -77,8 +71,23 @@ export default function SupportCardPage() {
                 <div className={styles.support_grid_container}>
                     {loading 
                     ? <h1 style={{color: "white", fontWeight: "bold"}}>loading</h1> 
-                    : supportList.map(item =>
-                        <SupportCardItem
+                    : supportList.map(item =>{
+                        // If the list is all false, the filter is off
+                        let matchType = !typeFilter.includes(true);
+                        let matchRarity = !rarityFilter.includes(true);
+                        // Check filters
+                        if (typeFilter[0] && "速度" === item.type) matchType = true;
+                        if (typeFilter[1] && "耐力" === item.type) matchType = true;
+                        if (typeFilter[2] && "力量" === item.type) matchType = true;
+                        if (typeFilter[3] && "毅力" === item.type) matchType = true;
+                        if (typeFilter[4] && "智力" === item.type) matchType = true;
+                        if (typeFilter[5] && "友人" === item.type) matchType = true;
+                        if (typeFilter[6] && "团隊" === item.type) matchType = true;
+                        if (rarityFilter[0] && "SSR" === item.rarity) matchRarity = true;
+                        if (rarityFilter[1] && "SR" === item.rarity) matchRarity = true;
+                        if (rarityFilter[2] && "R" === item.rarity) matchRarity = true;
+
+                        return matchType && matchRarity ? <SupportCardItem
                             card={item}
                             onClick={() => { router.push({
                                 pathname: "/support_card/[id]",
@@ -86,7 +95,8 @@ export default function SupportCardPage() {
                                     id: item.id
                                 },
                             })}}>
-                        </SupportCardItem>)
+                        </SupportCardItem> : null;
+                        })
                     }
                 </div>
             </div>
@@ -96,21 +106,17 @@ export default function SupportCardPage() {
     )
 }
 
-function RefreshButton() {
-    function handlePress() {
-        // TODO
-    }
-
-    return <button className={styles.refresh}>
+function RefreshButton({onPress}) {
+    return <button className={styles.refresh} onClick={onPress}>
         <img className="nav_icon" src="/icon/refresh.svg"></img>
     </button>
 }
 
-function ToggleButton({text, color}) {
+function ToggleButton({text, color, onToggle}) {
     const [pressed, setPressed] = useState(false);
 
     function handlePress() {
-        // TODO
+        onToggle();
         setPressed(!pressed);
     }
 
@@ -124,7 +130,7 @@ function ToggleButton({text, color}) {
 
 function SupportCardItem({card, onClick}) {
     // return <div>{String(card)}</div>
-    const [title, rarity, type]  = [card.name, card.rarity, translate(card.type)];
+    const [title, rarity, type]  = [card.name, card.rarity, mylib.translate(card.type)];
     const src = "/images/card/" + card.id.replace(" thumb ", "_thumb_") + ".png";
 
     return <div className={styles.support_card_item} onClick={onClick}>
@@ -140,13 +146,23 @@ function SupportCardItem({card, onClick}) {
     </div>
 }
 
-const table = {
-    "速度": "speed",
-    "耐力": "stamina",
-    "力量": "power",
-    "毅力": "guts",
-    "智力": "wisdom",
-    "友人": "friend",
-    "团队": "team",
+function generateTypeButtons(typeFilter, setTypeFilter) {
+    const types = ["速度", "持久力", "力量", "意志力", "智力", "友人", "團隊"]
+    const typesEn = ["speed", "stamina", "power", "guts", "wisdom", "friend", "group"]
+
+    return types.map((value, index) => <ToggleButton
+        text={value}
+        color={`var(--${typesEn[index]}-color)`}
+        onToggle={() => { mylib.toggleFilterList(typeFilter, setTypeFilter, index) }}>
+    </ToggleButton>)
 }
-function translate(input) {return table[input]}
+
+function generateRarityButtons(rarityFilter, setRarityFilter) {
+    const rarity = ["SSR", "SR", "R"]
+
+    return rarity.map((value, index) => <ToggleButton
+        text={value}
+        color={`var(--${value}-color)`}
+        onToggle={() => { mylib.toggleFilterList(rarityFilter, setRarityFilter, index) }}>
+    </ToggleButton>)
+}

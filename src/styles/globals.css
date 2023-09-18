@@ -6,7 +6,7 @@
     --bg-color: #1B2631;
     --text-color: #EEEEEE;
     --navbar-color: #212F3D;
-    --section-color: #212F3C;
+    --section-color: #212F3D;
     --speed-color: #2196F3;
     --stamina-color: #E53935;
     --power-color: #FF9800;
@@ -134,5 +134,16 @@ body {
 
 /* Class for toggled button, add shadow */
 .selected {
-    box-shadow: inset 3px 5px 3px #00000077;
+    box-shadow: inset 4px 6px 3px #00000077;
+}
+
+.section {
+    border-radius: var(--item-radius);
+    background-color: var(--section-color);
+
+    padding: var(--section-padding);
+
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
 }

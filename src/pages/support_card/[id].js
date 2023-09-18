@@ -4,12 +4,24 @@ import { useRouter } from 'next/router'
 import { useState, useEffect } from 'react'
 import styles from '@/styles/SingleSupportCard.module.css'
 
+import * as mylib from "../../lib"
+
 export default function SingleSupportCard() {
     const router = useRouter();
     const [card, setCard] = useState(null);
+    const [skills, setSkills] = useState([]);
 
     function getDataHtml() {
         if (router.isReady) {
+            // Fetch skill data
+            if (skills.length === 0) {
+                fetch("/data/skill.json")
+                .then(res => res.json())
+                .then(res => {setSkills(res)})
+                return <h1>loading</h1>
+            }
+
+            // Fetch card data and return `Page` element
             if (card === null) {
                 fetch("/data/card.json")
                 .then(res => res.json())
@@ -19,8 +31,8 @@ export default function SingleSupportCard() {
                 return <h1>loading</h1>
             }
             else {
-                console.log(card);
-                return <Page card={card}></Page>
+                // console.log(skills);
+                return <Page card={card} skills={skills}></Page>
             }
         }
         else return <h1>loading</h1>
@@ -50,7 +62,9 @@ export default function SingleSupportCard() {
     );
 }
 
-function Page({card}) {
+function Page({card, skills}) {
+    const [showEffectTable, setShowEffectTable] = useState(false);
+
     // Columns of the effect grid
     const effColNum = card.rarity === "SSR" ?
         11 : (card.rarity === "SR" ? 10 : 9);
@@ -59,16 +73,16 @@ function Page({card}) {
         {/* Title Row */}
         <div className={styles.title_row}>
             {/* Card Image */}
-            <img src={"/images/card/" + card.id + ".png"}></img>
+            <img src={"/images/card/" + card.id + ".png"} className={styles.card_image}></img>
             {/* Card title */}
             <div className={styles.title_column}>
                 <div className={styles.title}>{card.name}</div>
                 <div className={styles.title_subrow}>
-                    <img src={"/icon/" + translate(card.type) + ".png"} className={styles.type_icon}></img>
+                    <img src={"/icon/" + mylib.translate(card.type) + ".png"} className={styles.type_icon}></img>
                     <div>{card.rarity}</div>
                 </div>
                 {/* Special Skills */}
-                <div className={styles.special}>
+                <div className={styles.special + " section"}>
                     <div>固有技能</div>
                     <hr></hr>
                     <div className={styles.special_grid}>
@@ -78,20 +92,46 @@ function Page({card}) {
             </div>
         </div>
         {/* Effect Table */}
-        <div className={styles.effect_col}>
-            <div className={styles.effect_title}>卡片效果</div>
+        <div className={styles.effect_col + " section"}>
+            <div className={styles.effect_row}>
+                <div className={styles.effect_title}>卡片效果</div>
+                <ToggleButton
+                    text="顯示詳細內容"
+                    onToggle={() => setShowEffectTable(!showEffectTable)}>
+                </ToggleButton>
+            </div>
             <hr style={{width: "100%"}}></hr>
             <div className={styles.effect_flex}>
-                <EffectGrid effetcs={card.effect} effColNum={effColNum}></EffectGrid>
+                <EffectGrid
+                    effetcs={card.effect} 
+                    effColNum={effColNum} 
+                    showTable={showEffectTable}>
+                </EffectGrid>
             </div>
         </div>
         {/* Skill Row */}
+        <div className={styles.skill_row}>
+            <div className="section" style={{width: "40%"}}>
+                <div>靈感技能</div>
+                <hr></hr>
+                <div className={styles.skill_col}>
+                    <SkillCol card_skills={card.hint_skills} skillList={skills}></SkillCol>
+                </div>
+            </div>
+            <div className="section" style={{width: "40%"}}>
+                <div>事件技能</div>
+                <hr></hr>
+                <div className={styles.skill_col}>
+                    <SkillCol card_skills={card.event_skills} skillList={skills}></SkillCol>
+                </div>
+            </div>
+        </div>
     </div>
 }
 
 function SpecialGrid({special}) {
     return <>{
-    objToArray(special).map(element => {
+    mylib.objToArray(special).map(element => {
         const [key, item] = element;
         // Check whether key has value (the special skill has only a column)
         return (key === "") ? <>
@@ -104,7 +144,7 @@ function SpecialGrid({special}) {
     }</>
 }
 
-function EffectGrid({effetcs, effColNum}) {
+function EffectGrid({effetcs, effColNum, showTable}) {
     function GridHead({index}) {
         // Check if the index is larger than column number
         if (index >= effColNum) return
@@ -117,31 +157,53 @@ function EffectGrid({effetcs, effColNum}) {
     }
 
     return <>{
-    objToArray(effetcs).map(element => {
+    mylib.objToArray(effetcs).map(element => {
         const [key, item] = element;
         return <div className={styles.effect_grid} style={{gridTemplateColumns: `repeat(${effColNum}, auto)`}}>
             {/* Table title */}
             <div className={styles.effect_name}>{key}</div>
+            <div className={styles.effect_value}>{item[item.length-1]}</div>
             {/* Table head */}
-            {item.map((_, index) => <GridHead index={index}></GridHead>)}
+            {showTable ? item.map((_, index) => <GridHead index={index}></GridHead>) : null}
             {/* Table body */}
-            {item.map((value, index) => <GridBody value={value} index={index}></GridBody>)}
+            {showTable ? item.map((value, index) => <GridBody value={value} index={index}></GridBody>) : null}
         </div>
     })
     }</>
 }
 
-const table = {
-    "速度": "speed",
-    "耐力": "stamina",
-    "力量": "power",
-    "毅力": "guts",
-    "智力": "wisdom",
-    "友人": "friend",
-    "团队": "team",
-}
-function translate(input) {return table[input]}
+function SkillCol({card_skills, skillList}) {
+    function SkillBlock({skill}) {
+        // Find the skill data from the `skillList`
+        const skillData = skillList.find(element => element["3"] == skill)
+        console.log(skillData);
+        const [name, icon, desc] = [skillData["3"], skillData["17"], skillData["8"]]
+        
+        return <div className={styles.skill_block}>
+            <img src={"/images/skill/Utx_ico_skill_" + icon + ".png"} className={styles.skill_icon}></img>
+            <div className={styles.skill_block_col}>
+                <div className={styles.skill_name}>{name}</div>
+                <div className={styles.skill_desc}>{desc}</div>
+            </div>
+        </div>
+    }
 
-function objToArray(obj) {
-    return Array.from(new Map(Object.entries(obj)))
+    return <>{
+        card_skills.map(element => <SkillBlock skill={element}></SkillBlock>)
+    }</>
+}
+
+function ToggleButton({text, onToggle}) {
+    const [pressed, setPressed] = useState(false);
+
+    function handlePress() {
+        onToggle();
+        setPressed(!pressed);
+    }
+
+    const button = <button
+        className={`${styles.toggle_button} toggle ${pressed ? "selected" : ""}`} 
+        onClick={handlePress}>{text}
+    </button>
+    return button;  
 }
