@@ -30,7 +30,8 @@
 }
 
 .card_image {
-    width: 30%;
+    width: 20vw;
+    height: fit-content;
     aspect-ratio: 3/4;
     display: inline;
 }
@@ -43,7 +44,7 @@
     align-items: flex-start;
     gap: var(--item-gap);
 
-    max-width: 60%;
+    max-width: 75%;
 }
 
 .title {
