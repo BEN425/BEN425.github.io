@@ -162,7 +162,7 @@ function generateRarityButtons(rarityFilter, setRarityFilter) {
 
     return rarity.map((value, index) => <ToggleButton
         text={value}
-        color={`var(--${value}-color)`}
+        color={`var(--${value.toLowerCase()}-color)`}
         onToggle={() => { mylib.toggleFilterList(rarityFilter, setRarityFilter, index) }}>
     </ToggleButton>)
 }
