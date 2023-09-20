@@ -156,39 +156,3 @@
     flex-direction: column;
     gap: var(--item-gap);
 }
-
-.skill_block {
-    display: flex;
-    gap: 10px;
-    padding: 10px;
-
-    border-radius: var(--item-radius);
-    background-color: #34495E;
-}
-
-.skill_icon {
-    width: 12%;
-    max-width: 12%;
-    min-width: 12%;
-    height: fit-content;
-}
-
-.skill_block_col {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-
-    flex-grow: 1;
-}
-
-.skill_name {
-    font-size: 25px;
-    flex-grow: 0;
-}
-
-.skill_desc {
-    font-size: 16px;
-    font-weight: 300;
-    flex-grow: 1;
-}

@@ -2,8 +2,10 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import styles from '@/styles/CharaPage.module.css'
+import { useRouter } from 'next/router';
 
 export default function CharaPage() {
+    const router = useRouter();
     const [loading, setLoading] = useState(true);
     // Load character json file
     const [charaList, setCharaList] = useState([]);
@@ -20,9 +22,17 @@ export default function CharaPage() {
     
     useEffect(() => {fetchJson()}, []);
 
-    // function getDataHtml() {
-    //     return charaList.map(item => <CharaItem chara={item}></CharaItem>)
-    // }
+    function getItem(item) {
+        return <CharaItem
+            chara={item}
+            onClick={() => { router.push({
+                pathname: "/chara/[id]",
+                query: {
+                    id: item.id
+                }
+            })}}>
+        </CharaItem>
+    }
 
     return (
     <>
@@ -44,7 +54,7 @@ export default function CharaPage() {
             <div className={`${styles.main} main`}>
                 {/* Search Table */}
                 <div className={styles.searchTable}>
-                    <div class={styles.grid_container}>
+                    <div className={styles.grid_container}>
                         <div className={styles.grid_head}>稀有度</div>
                         <ToggleButton text="三星"></ToggleButton>
                         <ToggleButton text="二星"></ToggleButton>
@@ -63,9 +73,9 @@ export default function CharaPage() {
 
                 {/* Character Section */}
                 <div className={styles.chara_grid_container}>
-                    {loading 
+                    { loading 
                     ? <h1 style={{color: "white", fontWeight: "bold"}}>Loading</h1> 
-                    : charaList.map(item => <CharaItem chara={item}></CharaItem>)}
+                    : charaList.map(item => getItem(item))}
                 </div>
             </div>
             
@@ -99,12 +109,12 @@ function ToggleButton({text}) {
     return button;  
 }
 
-function CharaItem({chara}) {
+function CharaItem({chara, onClick}) {
     const [title, name, id] = [chara.title, chara.name, chara.id];
 
-    return <Link href=""><div className={styles.chara_item}>
+    return <div className={styles.chara_item} onClick={onClick}>
         <img className={styles.chara_image} src={"/images/chara/" + id + ".png"}></img>
         <div className={styles.chara_title}>{title}</div>
         <div className={styles.chara_name}>{name}</div>
-    </div></Link>
+    </div>
 }

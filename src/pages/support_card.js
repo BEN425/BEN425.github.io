@@ -7,6 +7,7 @@ import styles from '@/styles/SupportCardPage.module.css'
 import * as mylib from "../lib"
 
 export default function SupportCardPage() {
+    const router = useRouter();
     const [loading, setLoading] = useState(true);
     // Filter
     const [typeFilter, setTypeFilter] = useState(Array(7).fill(false));
@@ -25,10 +26,36 @@ export default function SupportCardPage() {
     }
     
     useEffect(() => {fetchJson()}, []);
-    useEffect(() => {console.log(typeFilter)});
+    // useEffect(() => {console.log(typeFilter)});
 
-    // Use router for dynamic routing to each support card page
-    const router = useRouter();
+    // Return a corresponding <SupportCardItem> from the item,
+    // or return null if the filter is not matched
+    function getItem(item) {
+        // If all toggle buttons are off, the filter is off
+        let matchType = !typeFilter.includes(true);
+        let matchRarity = !rarityFilter.includes(true);
+        // Check filters
+        if (typeFilter[0] && "速度" === item.type) matchType = true;
+        if (typeFilter[1] && "耐力" === item.type) matchType = true;
+        if (typeFilter[2] && "力量" === item.type) matchType = true;
+        if (typeFilter[3] && "毅力" === item.type) matchType = true;
+        if (typeFilter[4] && "智力" === item.type) matchType = true;
+        if (typeFilter[5] && "友人" === item.type) matchType = true;
+        if (typeFilter[6] && "团隊" === item.type) matchType = true;
+        if (rarityFilter[0] && "SSR" === item.rarity) matchRarity = true;
+        if (rarityFilter[1] && "SR" === item.rarity) matchRarity = true;
+        if (rarityFilter[2] && "R" === item.rarity) matchRarity = true;
+
+        return matchType && matchRarity ? <SupportCardItem
+            card={item}
+            onClick={() => { router.push({
+                pathname: "/support_card/[id]",
+                query: {
+                    id: item.id
+                },
+            })}}>
+        </SupportCardItem> : null;
+    }
 
     return (
     <>
@@ -69,35 +96,9 @@ export default function SupportCardPage() {
 
                 {/* Support Card Section */}
                 <div className={styles.support_grid_container}>
-                    {loading 
+                    { loading 
                     ? <h1 style={{color: "white", fontWeight: "bold"}}>loading</h1> 
-                    : supportList.map(item =>{
-                        // If the list is all false, the filter is off
-                        let matchType = !typeFilter.includes(true);
-                        let matchRarity = !rarityFilter.includes(true);
-                        // Check filters
-                        if (typeFilter[0] && "速度" === item.type) matchType = true;
-                        if (typeFilter[1] && "耐力" === item.type) matchType = true;
-                        if (typeFilter[2] && "力量" === item.type) matchType = true;
-                        if (typeFilter[3] && "毅力" === item.type) matchType = true;
-                        if (typeFilter[4] && "智力" === item.type) matchType = true;
-                        if (typeFilter[5] && "友人" === item.type) matchType = true;
-                        if (typeFilter[6] && "团隊" === item.type) matchType = true;
-                        if (rarityFilter[0] && "SSR" === item.rarity) matchRarity = true;
-                        if (rarityFilter[1] && "SR" === item.rarity) matchRarity = true;
-                        if (rarityFilter[2] && "R" === item.rarity) matchRarity = true;
-
-                        return matchType && matchRarity ? <SupportCardItem
-                            card={item}
-                            onClick={() => { router.push({
-                                pathname: "/support_card/[id]",
-                                query: {
-                                    id: item.id
-                                },
-                            })}}>
-                        </SupportCardItem> : null;
-                        })
-                    }
+                    : supportList.map(item => getItem(item))}
                 </div>
             </div>
             

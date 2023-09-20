@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import styles from '@/styles/SingleSupportCard.module.css'
 
 import * as mylib from "../../lib"
@@ -91,6 +91,7 @@ function Page({card, skills}) {
                 </div>
             </div>
         </div>
+
         {/* Effect Table */}
         <div className={styles.effect_col + " section"}>
             <div className={styles.effect_row}>
@@ -109,8 +110,10 @@ function Page({card, skills}) {
                 </EffectGrid>
             </div>
         </div>
+        
         {/* Skill Row */}
         <div className={styles.skill_row}>
+            {/* Hint skills */}
             <div className="section" style={{width: "40%"}}>
                 <div>靈感技能</div>
                 <hr></hr>
@@ -118,6 +121,7 @@ function Page({card, skills}) {
                     <SkillCol card_skills={card.hint_skills} skillList={skills}></SkillCol>
                 </div>
             </div>
+            {/* Event Skills */}
             <div className="section" style={{width: "40%"}}>
                 <div>事件技能</div>
                 <hr></hr>
@@ -176,14 +180,14 @@ function SkillCol({card_skills, skillList}) {
     function SkillBlock({skill}) {
         // Find the skill data from the `skillList`
         const skillData = skillList.find(element => element["3"] == skill)
-        console.log(skillData);
         const [name, icon, desc] = [skillData["3"], skillData["17"], skillData["8"]]
+        // console.log(skillData);
         
-        return <div className={styles.skill_block}>
-            <img src={"/images/skill/Utx_ico_skill_" + icon + ".png"} className={styles.skill_icon}></img>
-            <div className={styles.skill_block_col}>
-                <div className={styles.skill_name}>{name}</div>
-                <div className={styles.skill_desc}>{desc}</div>
+        return <div className="skill_block">
+            <img src={"/images/skill/Utx_ico_skill_" + icon + ".png"} className="skill_icon"></img>
+            <div className="skill_block_col">
+                <div className="skill_name">{name}</div>
+                <div className="skill_desc">{desc}</div>
             </div>
         </div>
     }
