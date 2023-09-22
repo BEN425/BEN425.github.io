@@ -16,6 +16,7 @@
     --group-color: #AFB42B;
     --purple-color: #6A1B9A;
     --toggle-color: #1B4F72;
+    --block-color: #34495E;
     --ssr-color: linear-gradient(150deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
     --sr-color: linear-gradient(150deg, hsla(58, 100%, 68%, 1) 0%, hsla(33, 100%, 53%, 1) 100%);
     --r-color: linear-gradient(150deg, hsla(218, 32%, 80%, 1) 0%, hsla(212, 35%, 58%, 1) 100%);
@@ -172,14 +173,16 @@ body {
     gap: 10px;
     padding: 10px;
 
+    text-align: left;
+
     border-radius: var(--item-radius);
-    background-color: #34495E;
+    background-color: var(--block-color);
 }
 
 .skill_icon {
-    width: 12%;
-    max-width: 12%;
-    min-width: 12%;
+    width: 65px;
+    max-width: 65px;
+    min-width: 65px;
     height: fit-content;
 }
 
@@ -193,6 +196,7 @@ body {
 }
 
 .skill_name {
+    font-family: var(--title-font);
     font-size: 25px;
     flex-grow: 0;
 }
@@ -201,4 +205,23 @@ body {
     font-size: 16px;
     font-weight: 300;
     flex-grow: 1;
+}
+
+/* Target Block */
+
+.target_block {
+    border-radius: var(--item-radius);
+    background-color: var(--block-color);
+
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: var(--item-gap);
+
+    font-size: 25px;
+}
+
+.target_block div:last-child {
+    font-size: 20px;
+    font-weight: normal;
 }

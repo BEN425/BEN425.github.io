@@ -41,12 +41,12 @@ export default function SingleSupportCard() {
     return (
     <>
         <Head>
-            <title>test</title>
+            <title>{chara === null ? "角色" : `【${chara.title}】${chara.name}`}</title>
         </Head>
         <main>
             {/* Navigation Bar */}
             <div className="navbar">
-                <Link href="/support_card">
+                <Link href="/chara">
                     <img className="nav_icon" src="/icon/arrow_back.svg"></img>
                 </Link>
                 <div className="nav_title">角色查詢</div>
@@ -109,6 +109,26 @@ function Page({chara, skills}) {
                         <div>{chara.nickname.name}</div>
                         <div>{chara.nickname.condition}</div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        {/* Row 2 */}
+        <div className={styles.basic_row}>
+            {/* Skills */}
+            <div className="section middle" style={{width: "50%"}}>
+                <div>技能</div>
+                <hr></hr>
+                <div>
+                    <SkillCol skills={chara.skills} skillList={skills}></SkillCol>
+                </div>
+            </div>
+            {/* Targets */}
+            <div className="section middle">
+                <div>育成目標</div>
+                <hr></hr>
+                <div>
+                    <TargetCol targets={chara.targets}></TargetCol>
                 </div>
             </div>
         </div>
@@ -189,6 +209,36 @@ function TalentGrid({talent, growing_rate}) {
             {growing_rate.map((item, index) => <div style={{color: `var(--${type_table[index]}-color)`}}>{item}</div>)}
         </div>
     </>
+}
+
+function SkillCol({skills, skillList}) { 
+    return <div className={styles.skill_col}>
+        <div>固有技能</div>
+        <mylib.SkillBlock skill={skills.special} skillList={skillList}></mylib.SkillBlock>
+        <div>初始技能</div>
+        <mylib.SkillCol skills={skills.initial} skillList={skillList}></mylib.SkillCol>
+        <div>覺醒 Lv2</div>
+        <mylib.SkillBlock skill={skills.lv2} skillList={skillList}></mylib.SkillBlock>
+        <div>覺醒 Lv3</div>
+        <mylib.SkillBlock skill={skills.lv3} skillList={skillList}></mylib.SkillBlock>
+        <div>覺醒 Lv4</div>
+        <mylib.SkillBlock skill={skills.lv4} skillList={skillList}></mylib.SkillBlock>
+        <div>覺醒 Lv5</div>
+        <mylib.SkillBlock skill={skills.lv5} skillList={skillList}></mylib.SkillBlock>
+    </div>
+}
+
+function TargetCol({targets}) {
+    function TargetBlock({target}) {
+        return <div className="target_block">
+            <div>{target.title}</div>
+            <div>{target.date}</div>
+        </div>
+    }
+    
+    return <>{
+        targets.map(element => <TargetBlock target={element}></TargetBlock>)
+    }</>
 }
 
 function ToggleButton({text, onToggle}) {

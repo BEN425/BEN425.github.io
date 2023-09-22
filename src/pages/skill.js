@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
+import { useRouter } from 'next/router'
 import styles from '@/styles/SkillPage.module.css'
 
 export default function SkillPage() {
+    const router = useRouter();
     const [loading, setLoading] = useState(true);
     // Load skill json file
     const [skillList, setSkillList] = useState([]);
@@ -44,7 +46,7 @@ export default function SkillPage() {
             <div className={`${styles.main} main`}>
                 {/* Search Table */}
                 <div className={styles.searchTable}>
-                    <div class={styles.grid_container}>
+                    <div className={styles.grid_container}>
                         <div className={styles.grid_head}>稀有度</div>
                         <ToggleButton text="普通" color="var(--r-color)"></ToggleButton>
                         <ToggleButton text="稀有" color="var(--sr-color)"></ToggleButton>
@@ -85,7 +87,15 @@ export default function SkillPage() {
                 <div className={styles.skill_grid_container}>
                     {loading 
                     ? <h1 style={{color: "white", fontWeight: "bold"}}>Loading</h1> 
-                    : skillList.map(item => <SkillItem skill={item}></SkillItem>)}
+                    : skillList.map(item => <SkillItem
+                        skill={item}
+                        onClick={() => { router.push({
+                            pathname: "/skill/[name]",
+                            query: {
+                                name: item["3"]
+                            },
+                        })}}>
+                    </SkillItem>)}
                 </div>
             </div>
             
@@ -120,10 +130,10 @@ function ToggleButton({text, color}) {
     return button;
 }
 
-function SkillItem({skill}) {
+function SkillItem({skill, onClick}) {
     const [name, id, desc] = [skill["3"], skill["17"], skill["8"]]
 
-    return <Link href=""><div className={styles.skill_item}>
+    return <Link href={`/skill/${skill["3"]}`}><div className={styles.skill_item} onClick={onClick}>
         <img src={"/images/skill/Utx_ico_skill_" + id + ".png"} className={styles.skill_image}></img>
         <div className={styles.skill_sub}>
             <div className={styles.skill_name}>{name}</div>

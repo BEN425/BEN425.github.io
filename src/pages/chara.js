@@ -112,9 +112,9 @@ function ToggleButton({text}) {
 function CharaItem({chara, onClick}) {
     const [title, name, id] = [chara.title, chara.name, chara.id];
 
-    return <div className={styles.chara_item} onClick={onClick}>
+    return <Link href={`/chara/${chara.id}`}><div className={styles.chara_item} onClick={onClick}>
         <img className={styles.chara_image} src={"/images/chara/" + id + ".png"}></img>
         <div className={styles.chara_title}>{title}</div>
         <div className={styles.chara_name}>{name}</div>
-    </div>
+    </div></Link>
 }

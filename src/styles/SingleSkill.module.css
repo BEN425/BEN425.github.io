@@ -1,0 +1,70 @@
+.main {
+    margin-left: var(--item-gap);
+    margin-right: var(--item-gap);
+    position: relative;
+    top: 90px;
+    min-width: fit-content;
+}
+
+.main_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.basic_row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
+}
+
+.toggle_button {
+    color: white;
+    background-color: #5D6D7E;
+}
+
+/* Title Section */
+
+.title_row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.icon {
+    width: 100px;
+}
+
+/* Data Grid */
+
+.data_grid {
+    display: grid;
+    grid-template-columns: 120px auto;
+    row-gap: 5px;
+    column-gap: 8%;
+
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    text-wrap: wrap;
+
+    width: fit-content;
+    min-width: 60%;
+    border-radius: var(--item-radius);
+    padding: var(--section-padding);
+    background-color: var(--section-color);
+}
+
+.data_grid div:nth-child(2n+1) {
+    /* width: 60px; */
+    font-weight: bold;
+    text-align: right;
+}

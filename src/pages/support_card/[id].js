@@ -41,7 +41,7 @@ export default function SingleSupportCard() {
     return (
     <>
         <Head>
-            <title>test</title>
+            <title>{card === null ? "支援卡" : card.name}</title>
         </Head>
         <main>
             {/* Navigation Bar */}
@@ -118,7 +118,7 @@ function Page({card, skills}) {
                 <div>靈感技能</div>
                 <hr></hr>
                 <div className={styles.skill_col}>
-                    <SkillCol card_skills={card.hint_skills} skillList={skills}></SkillCol>
+                    <mylib.SkillCol skills={card.hint_skills} skillList={skills}></mylib.SkillCol>
                 </div>
             </div>
             {/* Event Skills */}
@@ -126,7 +126,7 @@ function Page({card, skills}) {
                 <div>事件技能</div>
                 <hr></hr>
                 <div className={styles.skill_col}>
-                    <SkillCol card_skills={card.event_skills} skillList={skills}></SkillCol>
+                    <mylib.SkillCol skills={card.event_skills} skillList={skills}></mylib.SkillCol>
                 </div>
             </div>
         </div>
@@ -176,26 +176,26 @@ function EffectGrid({effetcs, effColNum, showTable}) {
     }</>
 }
 
-function SkillCol({card_skills, skillList}) {
-    function SkillBlock({skill}) {
-        // Find the skill data from the `skillList`
-        const skillData = skillList.find(element => element["3"] == skill)
-        const [name, icon, desc] = [skillData["3"], skillData["17"], skillData["8"]]
-        // console.log(skillData);
+// function SkillCol({card_skills, skillList}) {
+//     function SkillBlock({skill}) {
+//         // Find the skill data from the `skillList`
+//         const skillData = skillList.find(element => element["3"] == skill)
+//         const [name, icon, desc] = [skillData["3"], skillData["17"], skillData["8"]]
+//         // console.log(skillData);
         
-        return <div className="skill_block">
-            <img src={"/images/skill/Utx_ico_skill_" + icon + ".png"} className="skill_icon"></img>
-            <div className="skill_block_col">
-                <div className="skill_name">{name}</div>
-                <div className="skill_desc">{desc}</div>
-            </div>
-        </div>
-    }
+//         return <div className="skill_block">
+//             <img src={"/images/skill/Utx_ico_skill_" + icon + ".png"} className="skill_icon"></img>
+//             <div className="skill_block_col">
+//                 <div className="skill_name">{name}</div>
+//                 <div className="skill_desc">{desc}</div>
+//             </div>
+//         </div>
+//     }
 
-    return <>{
-        card_skills.map(element => <SkillBlock skill={element}></SkillBlock>)
-    }</>
-}
+//     return <>{
+//         card_skills.map(element => <SkillBlock skill={element}></SkillBlock>)
+//     }</>
+// }
 
 function ToggleButton({text, onToggle}) {
     const [pressed, setPressed] = useState(false);

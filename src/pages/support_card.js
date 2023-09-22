@@ -53,12 +53,12 @@ export default function SupportCardPage() {
                 query: {
                     id: item.id
                 },
-            })}}>
+            })}}
+            >
         </SupportCardItem> : null;
     }
 
-    return (
-    <>
+    return <>
         <Head>
             <title>支援卡一覽</title>
         </Head>
@@ -104,7 +104,6 @@ export default function SupportCardPage() {
             
         </main>
     </>
-    )
 }
 
 function RefreshButton({onPress}) {
@@ -134,7 +133,7 @@ function SupportCardItem({card, onClick}) {
     const [title, rarity, type]  = [card.name, card.rarity, mylib.translate(card.type)];
     const src = "/images/card/" + card.id.replace(" thumb ", "_thumb_") + ".png";
 
-    return <div className={styles.support_card_item} onClick={onClick}>
+    return <Link href={`/support_card/${card.id}`}><div className={styles.support_card_item} onClick={onClick}>
         <img src={src} className={styles.support_card_image}></img>
         <div className={styles.support_card_sub}>
             <div className={styles.support_card_title}>{title}</div>
@@ -144,7 +143,7 @@ function SupportCardItem({card, onClick}) {
                 <div>{rarity}</div>
             </div>
         </div>
-    </div>
+    </div></Link>
 }
 
 function generateTypeButtons(typeFilter, setTypeFilter) {

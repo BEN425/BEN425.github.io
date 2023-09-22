@@ -23,3 +23,24 @@ export function toggleFilterList(list, setter, index) {
     setter(newList)
     // console.log(newList)
 }
+
+export function SkillBlock({skill, skillList}) {
+    // Find the skill data from the `skillList`
+    const skillData = skillList.find(element => element["3"] == skill)
+    const [name, icon, desc] = [skillData["3"], skillData["17"], skillData["8"]]
+    // console.log(skillData);
+    
+    return <div className="skill_block">
+        <img src={"/images/skill/Utx_ico_skill_" + icon + ".png"} className="skill_icon"></img>
+        <div className="skill_block_col">
+            <div className="skill_name">{name}</div>
+            <div className="skill_desc">{desc}</div>
+        </div>
+    </div>
+}
+
+export function SkillCol({skills, skillList}) {
+    return <>{
+        skills.map(element => <SkillBlock skill={element} skillList={skillList}></SkillBlock>)
+    }</>
+}
