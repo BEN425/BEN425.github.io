@@ -4,9 +4,15 @@ import { useState, useEffect } from 'react'
 import styles from '@/styles/CharaPage.module.css'
 import { useRouter } from 'next/router';
 
+import * as mylib from "../lib"
+
+const rarityList = ["三星", "二星", "一星"]
+
 export default function CharaPage() {
     const router = useRouter();
     const [loading, setLoading] = useState(true);
+    // Filter
+    const [rarityFilter, setRarityFilter] = useState(Array(3).fill(false));
     // Load character json file
     const [charaList, setCharaList] = useState([]);
     async function fetchJson() {
@@ -23,19 +29,27 @@ export default function CharaPage() {
     useEffect(() => {fetchJson()}, []);
 
     function getItem(item) {
-        return <CharaItem
+        let matchRarity = !rarityFilter.includes(true);
+        rarityList.forEach((_, index) => {
+            if (rarityFilter[index] && parseInt(item.stars) == 3 - index) matchRarity = true;
+        })
+        // if (rarityFilter[0] && item.stars === "3") matchRarity = true;
+        // if (rarityFilter[1] && item.stars === "2") matchRarity = true;
+        // if (rarityFilter[2] && item.stars === "1") matchRarity = true;
+        console.log(rarityFilter);
+
+        return matchRarity ? <CharaItem
             chara={item}
             onClick={() => { router.push({
-                pathname: "/chara/[id]",
+                pathname: "/chara/[uuid]",
                 query: {
-                    id: item.id
+                    uuid: item.uuid
                 }
             })}}>
-        </CharaItem>
+        </CharaItem> : null
     }
 
-    return (
-    <>
+    return <>
         <Head>
             <title>角色一覽</title>
         </Head>
@@ -48,7 +62,7 @@ export default function CharaPage() {
                 </Link>
                 <div className="nav_title">角色一覽</div>
                 <div style={{flexGrow: 1}}></div> {/* Space holder */}
-                <RefreshButton></RefreshButton>
+                {/* <RefreshButton></RefreshButton> */}
             </div>
             
             <div className={`${styles.main} main`}>
@@ -56,9 +70,7 @@ export default function CharaPage() {
                 <div className={styles.searchTable}>
                     <div className={styles.grid_container}>
                         <div className={styles.grid_head}>稀有度</div>
-                        <ToggleButton text="三星"></ToggleButton>
-                        <ToggleButton text="二星"></ToggleButton>
-                        <ToggleButton text="一星"></ToggleButton>
+                        {generateRarityButtons(rarityFilter, setRarityFilter)}
                         <div></div> {/* Placeholder */}
                         {/* Search Bar */}
                         <div className={styles.grid_head}>搜尋</div>
@@ -81,7 +93,6 @@ export default function CharaPage() {
             
         </main>
     </>
-    )
 }
 
 function RefreshButton() {
@@ -94,11 +105,11 @@ function RefreshButton() {
     </button>
 }
 
-function ToggleButton({text}) {
+function ToggleButton({text, onToggle}) {
     const [pressed, setPressed] = useState(false);
 
     function handlePress() {
-        // TODO
+        onToggle();
         setPressed(!pressed);
     }
 
@@ -110,11 +121,18 @@ function ToggleButton({text}) {
 }
 
 function CharaItem({chara, onClick}) {
-    const [title, name, id] = [chara.title, chara.name, chara.id];
+    const [title, name, id, uuid] = [chara.title, chara.name, chara.id, chara.uuid];
 
-    return <Link href={`/chara/${chara.id}`}><div className={styles.chara_item} onClick={onClick}>
+    return <Link href={`/chara/${uuid}`}><div className={styles.chara_item} onClick={onClick}>
         <img className={styles.chara_image} src={"/images/chara/" + id + ".png"}></img>
         <div className={styles.chara_title}>{title}</div>
         <div className={styles.chara_name}>{name}</div>
     </div></Link>
+}
+
+function generateRarityButtons(rarityFilter, setRarityFilter) {
+    return rarityList.map((value, index) => <ToggleButton
+        text={value}
+        onToggle={() => { mylib.toggleFilterList(rarityFilter, setRarityFilter, index) }}>
+    </ToggleButton>)
 }

@@ -26,7 +26,7 @@ export default function SingleSupportCard() {
                 fetch("/data/card.json")
                 .then(res => res.json())
                 .then(res => {
-                    setCard(res.find(element => element.id == router.query.id))
+                    setCard(res.find(element => element.uuid == router.query.uuid))
                 })
                 return <h1>loading</h1>
             }

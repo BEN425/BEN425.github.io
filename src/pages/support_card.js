@@ -6,6 +6,10 @@ import styles from '@/styles/SupportCardPage.module.css'
 
 import * as mylib from "../lib"
 
+const typeList = ["速度", "持久力", "力量", "意志力", "智力", "友人", "團隊"]
+const typesEnList = ["speed", "stamina", "power", "guts", "wisdom", "friend", "group"]
+const rarityList = ["SSR", "SR", "R"]
+
 export default function SupportCardPage() {
     const router = useRouter();
     const [loading, setLoading] = useState(true);
@@ -26,7 +30,6 @@ export default function SupportCardPage() {
     }
     
     useEffect(() => {fetchJson()}, []);
-    // useEffect(() => {console.log(typeFilter)});
 
     // Return a corresponding <SupportCardItem> from the item,
     // or return null if the filter is not matched
@@ -35,26 +38,21 @@ export default function SupportCardPage() {
         let matchType = !typeFilter.includes(true);
         let matchRarity = !rarityFilter.includes(true);
         // Check filters
-        if (typeFilter[0] && "速度" === item.type) matchType = true;
-        if (typeFilter[1] && "耐力" === item.type) matchType = true;
-        if (typeFilter[2] && "力量" === item.type) matchType = true;
-        if (typeFilter[3] && "毅力" === item.type) matchType = true;
-        if (typeFilter[4] && "智力" === item.type) matchType = true;
-        if (typeFilter[5] && "友人" === item.type) matchType = true;
-        if (typeFilter[6] && "团隊" === item.type) matchType = true;
-        if (rarityFilter[0] && "SSR" === item.rarity) matchRarity = true;
-        if (rarityFilter[1] && "SR" === item.rarity) matchRarity = true;
-        if (rarityFilter[2] && "R" === item.rarity) matchRarity = true;
+        typeList.forEach((value, index) => {
+            if (typeFilter[index] && value == item.type) matchType = true;
+        })
+        rarityList.forEach((value, index) => {
+            if (rarityFilter[index] && value == item.rarity) matchRarity = true;
+        })
 
         return matchType && matchRarity ? <SupportCardItem
             card={item}
             onClick={() => { router.push({
-                pathname: "/support_card/[id]",
+                pathname: "/support_card/[uuid]",
                 query: {
-                    id: item.id
+                    uuid: item.uuid
                 },
-            })}}
-            >
+            })}}>
         </SupportCardItem> : null;
     }
 
@@ -130,10 +128,10 @@ function ToggleButton({text, color, onToggle}) {
 
 function SupportCardItem({card, onClick}) {
     // return <div>{String(card)}</div>
-    const [title, rarity, type]  = [card.name, card.rarity, mylib.translate(card.type)];
+    const [uuid, title, rarity, type]  = [card.uuid, card.name, card.rarity, mylib.translate(card.type)];
     const src = "/images/card/" + card.id.replace(" thumb ", "_thumb_") + ".png";
 
-    return <Link href={`/support_card/${card.id}`}><div className={styles.support_card_item} onClick={onClick}>
+    return <Link href={`/support_card/${uuid}`}><div className={styles.support_card_item} onClick={onClick}>
         <img src={src} className={styles.support_card_image}></img>
         <div className={styles.support_card_sub}>
             <div className={styles.support_card_title}>{title}</div>
@@ -147,20 +145,15 @@ function SupportCardItem({card, onClick}) {
 }
 
 function generateTypeButtons(typeFilter, setTypeFilter) {
-    const types = ["速度", "持久力", "力量", "意志力", "智力", "友人", "團隊"]
-    const typesEn = ["speed", "stamina", "power", "guts", "wisdom", "friend", "group"]
-
-    return types.map((value, index) => <ToggleButton
+    return typeList.map((value, index) => <ToggleButton
         text={value}
-        color={`var(--${typesEn[index]}-color)`}
+        color={`var(--${typesEnList[index]}-color)`}
         onToggle={() => { mylib.toggleFilterList(typeFilter, setTypeFilter, index) }}>
     </ToggleButton>)
 }
 
 function generateRarityButtons(rarityFilter, setRarityFilter) {
-    const rarity = ["SSR", "SR", "R"]
-
-    return rarity.map((value, index) => <ToggleButton
+    return rarityList.map((value, index) => <ToggleButton
         text={value}
         color={`var(--${value.toLowerCase()}-color)`}
         onToggle={() => { mylib.toggleFilterList(rarityFilter, setRarityFilter, index) }}>

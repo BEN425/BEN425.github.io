@@ -26,7 +26,7 @@ export default function SingleSupportCard() {
                 fetch("/data/chara.json")
                 .then(res => res.json())
                 .then(res => {
-                    setChara(res.find(element => element.id == router.query.id))
+                    setChara(res.find(element => element.uuid == router.query.uuid))
                 })
                 return <h1>loading</h1>
             }

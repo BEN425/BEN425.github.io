@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const table = {
     "速度": "speed",
     "耐力": "stamina",
@@ -27,16 +29,16 @@ export function toggleFilterList(list, setter, index) {
 export function SkillBlock({skill, skillList}) {
     // Find the skill data from the `skillList`
     const skillData = skillList.find(element => element["3"] == skill)
-    const [name, icon, desc] = [skillData["3"], skillData["17"], skillData["8"]]
+    const [uuid, name, icon, desc] = [skillData.uuid, skillData["3"], skillData["17"], skillData["8"]]
     // console.log(skillData);
     
-    return <div className="skill_block">
+    return <Link href={`/skill/${uuid}`}><div className="skill_block">
         <img src={"/images/skill/Utx_ico_skill_" + icon + ".png"} className="skill_icon"></img>
         <div className="skill_block_col">
             <div className="skill_name">{name}</div>
             <div className="skill_desc">{desc}</div>
         </div>
-    </div>
+    </div></Link>
 }
 
 export function SkillCol({skills, skillList}) {

@@ -18,7 +18,7 @@ export default function SingleSkill() {
                 fetch("/data/skill.json")
                 .then(res => res.json())
                 .then(res => {
-                    setSkill(res.find(element => element["3"] == router.query.name))
+                    setSkill(res.find(item => item.uuid == router.query.uuid))
                 })
                 return <h1>loading</h1>
             }
@@ -32,7 +32,7 @@ export default function SingleSkill() {
 
     return <>
         <Head>
-            <title>{router.isReady ? router.query.name : "技能"}</title>
+            <title>{skill === null ? "技能" : skill["3"]}</title>
         </Head>
         <main>
             {/* Navigation Bar */}
@@ -61,12 +61,12 @@ function Page({skill}) {
         {/* Title row */}
         <div className={styles.title_row}>
             <img src={"/images/skill/Utx_ico_skill_" + icon + ".png"} className={styles.icon}></img>
-            <div>{name}</div>
+            <div style={{fontFamily: "var(--title-font)", fontWeight: "bold"}}>{name}</div>
         </div>
 
         {/* Data grid */}
         <div className={styles.data_grid}>
-            <div>名稱</div>   <div>{name}</div>
+            <div>名稱</div>   <div style={{fontFamily: "var(--title-font)", fontWeight: 600}}>{name}</div>
             <div>稀有度</div> <div>{rarity}</div>
             <div>限制</div>   <div>{limit}</div>
             <div>說明</div>   <div>{desc}</div>

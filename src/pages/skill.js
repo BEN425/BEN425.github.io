@@ -4,9 +4,21 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import styles from '@/styles/SkillPage.module.css'
 
+import * as mylib from "../lib"
+
+const rarityList = ["普通", "稀有", "固有", "繼承", "劇情"]
+const rarityColorList = ["r", "sr", "ssr", "r", "toggle"]
+const limitList = ["通用", "沙地", "短距離", "一哩", "中距離", "長距離", "領頭", "前列", "居中", "後追"]
+const typeList = ["綠技", "黃技", "藍技", "紅技", "紫技"]
+const typeColorList = ["wisdom", "power", "speed", "stamina", "purple"]
+
 export default function SkillPage() {
     const router = useRouter();
     const [loading, setLoading] = useState(true);
+    // Filter
+    const [rarityFilter, setRarityFilter] = useState(Array(5).fill(false));
+    const [limitFilter, setLimitFilter] = useState(Array(10).fill(false));
+    const [typeFilter, setTypeFilter] = useState(Array(5).fill(false));
     // Load skill json file
     const [skillList, setSkillList] = useState([]);
     async function fetchJson() {
@@ -22,12 +34,33 @@ export default function SkillPage() {
     
     useEffect(() => {fetchJson()}, []);
 
-    // function getDataHtml() {
-    //     return skillList.map(item => <SkillItem skill={item}></SkillItem>)
-    // }
+    function getItem(item) {
+        let matchRarity = !rarityFilter.includes(true);
+        let matchLimit = !limitFilter.includes(true);
+        let matchType = !typeFilter.includes(true);
 
-    return (
-    <>
+        rarityList.forEach((value, index) => {
+            if (rarityFilter[index] && item["5"] == value) matchRarity = true;
+        })
+        limitList.forEach((value, index) => {
+            if (limitFilter[index] && item["6"] == value) matchLimit = true;
+        })
+        typeList.forEach((value, index) => {
+            if (typeFilter[index] && item["7"][0] == value[0]) matchType = true;
+        })
+
+        return matchRarity && matchLimit && matchType ? <SkillItem
+            skill={item}
+            onClick={() => { router.push({
+                pathname: "/skill/[uuid]",
+                query: {
+                    uuid: item.uuid
+                }
+            })}}>
+        </SkillItem> : null
+    }
+
+    return <>
         <Head>
             <title>技能一覽</title>
         </Head>
@@ -40,7 +73,7 @@ export default function SkillPage() {
                 </Link>
                 <div className="nav_title">技能一覽</div>
                 <div style={{flexGrow: 1}}></div> {/* Space holder */}
-                <RefreshButton></RefreshButton>
+                {/* <RefreshButton></RefreshButton> */}
             </div>
             
             <div className={`${styles.main} main`}>
@@ -48,30 +81,12 @@ export default function SkillPage() {
                 <div className={styles.searchTable}>
                     <div className={styles.grid_container}>
                         <div className={styles.grid_head}>稀有度</div>
-                        <ToggleButton text="普通" color="var(--r-color)"></ToggleButton>
-                        <ToggleButton text="稀有" color="var(--sr-color)"></ToggleButton>
-                        <ToggleButton text="固有" color="var(--ssr-color)"></ToggleButton>
-                        <ToggleButton text="繼承" color="var(--r-color)"></ToggleButton>
-                        <ToggleButton text="劇情" color="var(--toggle-color)"></ToggleButton>
+                        {generateRairtyButtons(rarityFilter, setRarityFilter)}
                         <div className={styles.grid_head} style={{gridRow: "2/5"}}>條件限制</div>
-                        <ToggleButton text="通用" color="var(--toggle-color)"></ToggleButton>
-                        <div></div><div></div><div></div><div></div>
-                        <ToggleButton text="沙地" color="var(--toggle-color)"></ToggleButton>
-                        <ToggleButton text="短距離" color="var(--toggle-color)"></ToggleButton>
-                        <ToggleButton text="一哩" color="var(--toggle-color)"></ToggleButton>
-                        <ToggleButton text="中距離" color="var(--toggle-color)"></ToggleButton>
-                        <ToggleButton text="長距離" color="var(--toggle-color)"></ToggleButton>
-                        <ToggleButton text="領頭" color="var(--toggle-color)"></ToggleButton>
-                        <ToggleButton text="前列" color="var(--toggle-color)"></ToggleButton>
-                        <ToggleButton text="居中" color="var(--toggle-color)"></ToggleButton>
-                        <ToggleButton text="後追" color="var(--toggle-color)"></ToggleButton>
+                        {generateLimitButtons(limitFilter, setLimitFilter)}
                         <div></div>
                         <div className={styles.grid_head}>技能類型</div>
-                        <ToggleButton text="綠技" color="var(--wisdom-color)"></ToggleButton>
-                        <ToggleButton text="黃技" color="var(--power-color)"></ToggleButton>
-                        <ToggleButton text="藍技" color="var(--speed-color)"></ToggleButton>
-                        <ToggleButton text="紅技" color="var(--stamina-color)"></ToggleButton>
-                        <ToggleButton text="紫技" color="var(--purple-color)"></ToggleButton>
+                        {generateTypeButtons(typeFilter, setTypeFilter)}
                         {/* Search Bar */}
                         <div className={styles.grid_head}>搜尋</div>
                         <input type="text" className="search" placeholder="以名稱搜尋" style={{gridColumn: "2/-1"}}></input>
@@ -87,21 +102,12 @@ export default function SkillPage() {
                 <div className={styles.skill_grid_container}>
                     {loading 
                     ? <h1 style={{color: "white", fontWeight: "bold"}}>Loading</h1> 
-                    : skillList.map(item => <SkillItem
-                        skill={item}
-                        onClick={() => { router.push({
-                            pathname: "/skill/[name]",
-                            query: {
-                                name: item["3"]
-                            },
-                        })}}>
-                    </SkillItem>)}
+                    : skillList.map(item => getItem(item))}
                 </div>
             </div>
             
         </main>
     </>
-    )
 }
 
 function RefreshButton() {
@@ -114,11 +120,11 @@ function RefreshButton() {
     </button>
 }
 
-function ToggleButton({text, color}) {
+function ToggleButton({text, color, onToggle}) {
     const [pressed, setPressed] = useState(false);
 
     function handlePress() {
-        // TODO
+        onToggle()
         setPressed(!pressed);
     }
 
@@ -131,13 +137,44 @@ function ToggleButton({text, color}) {
 }
 
 function SkillItem({skill, onClick}) {
-    const [name, id, desc] = [skill["3"], skill["17"], skill["8"]]
+    const [name, id, desc, uuid] = [skill["3"], skill["17"], skill["8"], skill.uuid]
 
-    return <Link href={`/skill/${skill["3"]}`}><div className={styles.skill_item} onClick={onClick}>
-        <img src={"/images/skill/Utx_ico_skill_" + id + ".png"} className={styles.skill_image}></img>
-        <div className={styles.skill_sub}>
-            <div className={styles.skill_name}>{name}</div>
-            <div className={styles.skill_desc}>{desc}</div>
+    return <Link href={`/skill/${uuid}`}>
+        <div className={styles.skill_item} onClick={onClick}>
+            <img src={"/images/skill/Utx_ico_skill_" + id + ".png"} className={styles.skill_image}></img>
+            <div className={styles.skill_sub}>
+                <div className={styles.skill_name}>{name}</div>
+                <div className={styles.skill_desc}>{desc}</div>
+            </div>
         </div>
-    </div></Link>
+    </Link>
+}
+
+function generateRairtyButtons(rarityFilter, setRarityFilter) {
+    return rarityList.map((value, index) => <ToggleButton
+        text={value}
+        color={`var(--${rarityColorList[index].toLowerCase()}-color)`}
+        onToggle={() => { mylib.toggleFilterList(rarityFilter, setRarityFilter, index) }}>
+    </ToggleButton>)
+}
+
+function generateLimitButtons(limitFilter, setLimitFilter) {
+    return limitList.map((value, index) => <>
+        <ToggleButton
+            text={value}
+            color={"var(--toggle-color)"}
+            onToggle={() => { mylib.toggleFilterList(limitFilter, setLimitFilter, index) }}>
+        </ToggleButton>
+        {value === "通用" 
+            ? <><div></div><div></div><div></div><div></div></> 
+            : null}
+    </>)
+}
+
+function generateTypeButtons(typeFilter, setTypeFilter) {
+    return typeList.map((value, index) => <ToggleButton
+        text={value}
+        color={`var(--${typeColorList[index]}-color)`}
+        onToggle={() => { mylib.toggleFilterList(typeFilter, setTypeFilter, index) }}>
+    </ToggleButton>)
 }
