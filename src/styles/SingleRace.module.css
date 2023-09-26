@@ -1,0 +1,145 @@
+.main {
+	margin-left: var(--item-gap);
+	margin-right: var(--item-gap);
+	position: relative;
+	top: 90px;
+	min-width: fit-content;
+}
+
+.main_column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+
+.toggle_button {
+	color: white;
+	background-color: #5d6d7e;
+}
+
+/***** Title *****/
+
+.title_row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 5vw;
+
+	color: white;
+	font-family: var(--text-font);
+	font-size: 45px;
+	font-weight: 600;
+
+	background-color: transparent;
+	width: 100%;
+}
+
+.race_image {
+	width: 20%;
+}
+
+/***** Data Row *****/
+
+.data_row {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 10px;
+
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+
+	width: 100%;
+}
+
+.data_grid {
+	display: grid;
+	row-gap: var(--item-gap);
+
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+}
+
+.grid_head {
+	text-align: right;
+	font-weight: bold;
+}
+
+/***** Graph Section *****/
+
+.graph_section {
+	border-radius: var(--item-radius);
+	background-color: var(--section-color);
+	padding: var(--section-padding);
+
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.course_graph {
+	background-color: transparent;
+	border-radius: var(--item-radius);
+	width: 100%;
+	height: 300px;
+	color: black;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.graph_row {
+	flex-grow: 1;
+	display: flex;
+	position: relative;
+}
+
+.graph_item {
+	position: relative;
+}
+
+.graph_item:hover {
+	filter: brightness(110%);
+	z-index: 1;
+}
+
+.dist_tooltip {
+	/* display: none; */
+
+	border-radius: var(--item-radius);
+	background-color: #212121;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+
+	width: fit-content;
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	z-index: 100;
+}
+
+/* .graph_row div:last-child .dist_tooltip {
+	display: none;
+} */
+
+.type_tooltip {
+	width: fit-content;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+
+	color: black;
+	font-size: 15px;
+	text-align: center;
+}
