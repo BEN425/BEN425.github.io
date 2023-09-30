@@ -41,6 +41,11 @@
 	--flat-color: #a75d5d;
 	--uphill-color: #d3756b;
 	--downhill-color: #f0997d;
+	--g1-color: #1565c0;
+	--g2-color: #e91e63;
+	--g3-color: #1b5e20;
+	--op-color: #ff6f00;
+	--pre-op-color: #fbc02d;
 	/* Font */
 	--text-font: "Noto Sans TC", "Quicksand", sans-serif;
 	--title-font: "Quicksand", sans-serif;

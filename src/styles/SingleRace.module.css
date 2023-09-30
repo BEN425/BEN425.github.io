@@ -103,7 +103,7 @@
 }
 
 .graph_item:hover {
-	filter: brightness(110%);
+	filter: brightness(105%);
 	z-index: 1;
 }
 
