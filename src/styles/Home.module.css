@@ -138,3 +138,18 @@
 	box-shadow: 0 0 #bdbdbd;
 	transform: translate(5px, 5px);
 }
+
+/***** Third part *****/
+
+.text {
+	font: var(--text-font);
+	font-size: 20px;
+	color: white;
+}
+
+.link {
+	font: var(--text-font);
+	font-weight: bold;
+	font-size: 20px;
+	color: #1565c0;
+}

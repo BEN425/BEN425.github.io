@@ -1,7 +1,7 @@
 {
 	"G1": [
 		{
-			"name": "フェブラリーステークス",
+			"name": "二月錦標賽",
 			"link": "/race/races/1001",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1001.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -31,10 +31,11 @@
 				"downhill": ["575 ~ 775（-1%）"],
 				"uphill": ["1100 ~ 1350（1.5%）"]
 			},
-			"uuid": "69d4f85e57ff18f55e05cb2247dc5e3f"
+			"uuid": "69d4f85e57ff18f55e05cb2247dc5e3f",
+			"abbr": "二月S"
 		},
 		{
-			"name": "高松宮記念",
+			"name": "高松宮紀念",
 			"link": "/race/races/1002",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1002.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -47,7 +48,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -64,10 +65,11 @@
 				"downhill": ["100 ~ 875（-1%）"],
 				"uphill": ["875 ~ 975（2%）"]
 			},
-			"uuid": "9026ad699c9592aa7e677048f7c7429d"
+			"uuid": "2733b622ebad969d3974cb8f3e66f007",
+			"abbr": "高松宮紀念"
 		},
 		{
-			"name": "大阪杯",
+			"name": "大阪盃",
 			"link": "/race/races/1003",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1003.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -99,10 +101,11 @@
 				"downhill": ["0 ~ 140（-1%）", "1200 ~ 1795（-1%）"],
 				"uphill": ["145 ~ 270（2%）", "1800 ~ 1925（2%）"]
 			},
-			"uuid": "8b746ca0a5e9dfa7e88e640239f201a9"
+			"uuid": "8b746ca0a5e9dfa7e88e640239f201a9",
+			"abbr": "大阪盃"
 		},
 		{
-			"name": "桜花賞",
+			"name": "櫻花賞",
 			"link": "/race/races/1004",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1004.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -132,10 +135,11 @@
 				"downhill": ["950 ~ 1350（-1%）"],
 				"uphill": ["1405 ~ 1525（2%）"]
 			},
-			"uuid": "1aec43c4676193ab227b17c4a3b829a1"
+			"uuid": "1aec43c4676193ab227b17c4a3b829a1",
+			"abbr": "櫻花賞"
 		},
 		{
-			"name": "皐月賞",
+			"name": "皋月賞",
 			"link": "/race/races/1005",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1005.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -167,7 +171,8 @@
 				"uphill": ["125 ~ 235（2%）", "325 ~ 525（1.5%）", "1825 ~ 1935（2%）"],
 				"downhill": ["625 ~ 1025（-1.5%）"]
 			},
-			"uuid": "d1ffdb785ab3551b55353254e2e7fa8b"
+			"uuid": "d1ffdb785ab3551b55353254e2e7fa8b",
+			"abbr": "皋月賞"
 		},
 		{
 			"name": "天皇賞（春）",
@@ -183,7 +188,7 @@
 				"distance": "3200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 533",
@@ -207,10 +212,11 @@
 				],
 				"downhill": ["533 ~ 683（-2%）", "2375 ~ 2525（-2%）"]
 			},
-			"uuid": "cde0d3e7d86ddc2d08a67801e4cea7a8"
+			"uuid": "356939f0f5a16528f554ad04b77d336c",
+			"abbr": "天皇賞（春）"
 		},
 		{
-			"name": "NHKマイルカップ",
+			"name": "NHK一哩賽",
 			"link": "/race/races/1007",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1007.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -240,10 +246,11 @@
 				"uphill": ["325 ~ 400（2%）", "1150 ~ 1300（1.5%）"],
 				"downhill": ["450 ~ 700（-1.5%）"]
 			},
-			"uuid": "cc8c062fb2885459458aba9747a7f844"
+			"uuid": "cc8c062fb2885459458aba9747a7f844",
+			"abbr": "NHK一哩C"
 		},
 		{
-			"name": "ヴィクトリアマイル",
+			"name": "維多利亞一哩賽",
 			"link": "/race/races/1008",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1008.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -273,10 +280,11 @@
 				"uphill": ["325 ~ 400（2%）", "1150 ~ 1300（1.5%）"],
 				"downhill": ["450 ~ 700（-1.5%）"]
 			},
-			"uuid": "58fe42e5cc976bc46ce80877319bfb43"
+			"uuid": "58fe42e5cc976bc46ce80877319bfb43",
+			"abbr": "維多利亞M"
 		},
 		{
-			"name": "オークス",
+			"name": "奧克斯",
 			"link": "/race/races/1009",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1009.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -289,7 +297,7 @@
 				"distance": "2400",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 400",
@@ -308,10 +316,11 @@
 				"uphill": ["0 ~ 40（1.5%）", "1125 ~ 1200（2%）", "1950 ~ 2100（1.5%）"],
 				"downhill": ["1250 ~ 1500（-1.5%）"]
 			},
-			"uuid": "8330076a5cd69599ddbe70455591600c"
+			"uuid": "b0120a536a146a46e248c7e987b0e54a",
+			"abbr": "奧克斯"
 		},
 		{
-			"name": "東京優駿（日本ダービー）",
+			"name": "東京優駿（日本打比）",
 			"link": "/race/races/1010",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1010.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -324,7 +333,7 @@
 				"distance": "2400",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 400",
@@ -343,10 +352,11 @@
 				"uphill": ["0 ~ 40（1.5%）", "1125 ~ 1200（2%）", "1950 ~ 2100（1.5%）"],
 				"downhill": ["1250 ~ 1500（-1.5%）"]
 			},
-			"uuid": "72d200f0fbc711b57445fab4384bc716"
+			"uuid": "8a2f661f03f42fee7bf4c807114ec906",
+			"abbr": "日本打比"
 		},
 		{
-			"name": "安田記念",
+			"name": "安田紀念",
 			"link": "/race/races/1011",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1011.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -376,10 +386,11 @@
 				"uphill": ["325 ~ 400（2%）", "1150 ~ 1300（1.5%）"],
 				"downhill": ["450 ~ 700（-1.5%）"]
 			},
-			"uuid": "cbeb892bae2e4637daf629a5beeb239f"
+			"uuid": "cbeb892bae2e4637daf629a5beeb239f",
+			"abbr": "安田紀念"
 		},
 		{
-			"name": "宝塚記念",
+			"name": "寶塚紀念",
 			"link": "/race/races/1012",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1012.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -411,10 +422,11 @@
 				"downhill": ["0 ~ 290（-1%）", "1400 ~ 1995（-1%）"],
 				"uphill": ["295 ~ 420（2%）", "2000 ~ 2125（2%）"]
 			},
-			"uuid": "979b4fa58a0fda7a25574ddae7914d05"
+			"uuid": "979b4fa58a0fda7a25574ddae7914d05",
+			"abbr": "寶塚紀念"
 		},
 		{
-			"name": "スプリンターズステークス",
+			"name": "短途跑者錦標賽",
 			"link": "/race/races/1013",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1013.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -427,7 +439,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -444,7 +456,8 @@
 				"downhill": ["0 ~ 200（-1.5%）"],
 				"uphill": ["1025 ~ 1135（2%）"]
 			},
-			"uuid": "a217e7a10f03d0cb7c54d11f8c847911"
+			"uuid": "8212468c98266b3b06f6458c54e91e29",
+			"abbr": "短途跑者S"
 		},
 		{
 			"name": "秋華賞",
@@ -479,7 +492,8 @@
 				"uphill": ["970 ~ 1145（1.5%）"],
 				"downhill": ["1270 ~ 1420（-1.5%）"]
 			},
-			"uuid": "c93e2c82da2df792699392b8b665310f"
+			"uuid": "c93e2c82da2df792699392b8b665310f",
+			"abbr": "秋華賞"
 		},
 		{
 			"name": "菊花賞",
@@ -519,7 +533,8 @@
 				],
 				"downhill": ["336 ~ 486（-2%）", "2175 ~ 2325（-2%）"]
 			},
-			"uuid": "475489c960f6df48043fa43cffdaaec4"
+			"uuid": "475489c960f6df48043fa43cffdaaec4",
+			"abbr": "菊花賞"
 		},
 		{
 			"name": "天皇賞（秋）",
@@ -535,7 +550,7 @@
 				"distance": "2000",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 333",
@@ -554,10 +569,11 @@
 				"uphill": ["725 ~ 800（2%）", "1550 ~ 1700（1.5%）"],
 				"downhill": ["850 ~ 1100（-1.5%）"]
 			},
-			"uuid": "afd956364a53514b652ea9a802eb16b1"
+			"uuid": "68715b6df63b71b27608e63b66ce0de4",
+			"abbr": "天皇賞（秋）"
 		},
 		{
-			"name": "エリザベス女王杯",
+			"name": "伊麗莎白女王盃",
 			"link": "/race/races/1017",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1017.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -589,10 +605,11 @@
 				"uphill": ["1050 ~ 1150（2%）", "1150 ~ 1375（1%）"],
 				"downhill": ["1375 ~ 1525（-2%）"]
 			},
-			"uuid": "90a6ca7041f48698181db4d85cf9e0e2"
+			"uuid": "90a6ca7041f48698181db4d85cf9e0e2",
+			"abbr": "伊麗莎白女王盃"
 		},
 		{
-			"name": "マイルチャンピオンシップ",
+			"name": "一哩冠軍賽",
 			"link": "/race/races/1018",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1018.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -623,10 +640,11 @@
 				"uphill": ["450 ~ 550（2%）", "550 ~ 775（1%）"],
 				"downhill": ["775 ~ 925（-2%）"]
 			},
-			"uuid": "6bbdee2fa8cdef512e621a1e418dccb7"
+			"uuid": "6bbdee2fa8cdef512e621a1e418dccb7",
+			"abbr": "一哩CS"
 		},
 		{
-			"name": "ジャパンカップ",
+			"name": "日本盃",
 			"link": "/race/races/1019",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1019.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -639,7 +657,7 @@
 				"distance": "2400",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 400",
@@ -658,10 +676,11 @@
 				"uphill": ["0 ~ 40（1.5%）", "1125 ~ 1200（2%）", "1950 ~ 2100（1.5%）"],
 				"downhill": ["1250 ~ 1500（-1.5%）"]
 			},
-			"uuid": "fc9b1213bf29505d5e6e96ed66a9eb8e"
+			"uuid": "96048fc752811022c8d49a387be4cc3f",
+			"abbr": "日本C"
 		},
 		{
-			"name": "チャンピオンズカップ",
+			"name": "日本冠軍盃",
 			"link": "/race/races/1020",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1020.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -693,10 +712,11 @@
 				"uphill": ["0 ~ 50（1.5%）", "1425 ~ 1575（1.5%）"],
 				"downhill": ["825 ~ 1425（-1.5%）"]
 			},
-			"uuid": "3b5bf0ad18706dd3a96a59690d28d3d2"
+			"uuid": "3b5bf0ad18706dd3a96a59690d28d3d2",
+			"abbr": "日本冠軍C"
 		},
 		{
-			"name": "阪神ジュベナイルフィリーズ",
+			"name": "阪神新手級賽馬娘賽",
 			"link": "/race/races/1021",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1021.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -726,10 +746,11 @@
 				"downhill": ["950 ~ 1350（-1%）"],
 				"uphill": ["1405 ~ 1525（2%）"]
 			},
-			"uuid": "611b7b7d7bed040e7887def8e811c7a0"
+			"uuid": "611b7b7d7bed040e7887def8e811c7a0",
+			"abbr": "阪神JF"
 		},
 		{
-			"name": "朝日杯フューチュリティステークス",
+			"name": "朝日盃未來錦標賽",
 			"link": "/race/races/1022",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1022.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -759,10 +780,11 @@
 				"downhill": ["950 ~ 1350（-1%）"],
 				"uphill": ["1405 ~ 1525（2%）"]
 			},
-			"uuid": "04e4c4991900181ba5e1b69ab7b11934"
+			"uuid": "04e4c4991900181ba5e1b69ab7b11934",
+			"abbr": "朝日盃FS"
 		},
 		{
-			"name": "有馬記念",
+			"name": "有馬紀念",
 			"link": "/race/races/1023",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1023.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -795,10 +817,11 @@
 				"uphill": ["621 ~ 731（2%）", "825 ~ 1025（1.5%）", "2325 ~ 2435（2%）"],
 				"downhill": ["1125 ~ 1525（-1.5%）"]
 			},
-			"uuid": "05ee9f877b46780a4ac9fab1e438a10d"
+			"uuid": "05ee9f877b46780a4ac9fab1e438a10d",
+			"abbr": "有馬紀念"
 		},
 		{
-			"name": "ホープフルステークス",
+			"name": "希望錦標賽",
 			"link": "/race/races/1024",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1024.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -830,7 +853,8 @@
 				"uphill": ["125 ~ 235（2%）", "325 ~ 525（1.5%）", "1825 ~ 1935（2%）"],
 				"downhill": ["625 ~ 1025（-1.5%）"]
 			},
-			"uuid": "673c028696bc727ebc86f10a4b69c523"
+			"uuid": "673c028696bc727ebc86f10a4b69c523",
+			"abbr": "希望S"
 		},
 		{
 			"name": "帝王賞",
@@ -863,10 +887,11 @@
 				"corner3": ["1300 ~ 1450"],
 				"corner4": ["1450 ~ 1614"]
 			},
-			"uuid": "2da3327baf28e090019a3215b6d42db4"
+			"uuid": "2da3327baf28e090019a3215b6d42db4",
+			"abbr": "帝王賞"
 		},
 		{
-			"name": "ジャパンダートダービー",
+			"name": "日本沙地打比",
 			"link": "/race/races/1102",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1102.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -896,10 +921,11 @@
 				"corner3": ["1300 ~ 1450"],
 				"corner4": ["1450 ~ 1614"]
 			},
-			"uuid": "fa3e9a8745f72d29defb8a676be908f5"
+			"uuid": "fa3e9a8745f72d29defb8a676be908f5",
+			"abbr": "日本沙地打比"
 		},
 		{
-			"name": "JBCレディスクラシック",
+			"name": "JBC女士經典賽",
 			"link": "/race/races/1103",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1103.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -930,10 +956,11 @@
 				"corner3": ["1100 ~ 1250"],
 				"corner4": ["1250 ~ 1414"]
 			},
-			"uuid": "e7aefea164ac820881e91330099693ed"
+			"uuid": "e7aefea164ac820881e91330099693ed",
+			"abbr": "JBC女士經典賽"
 		},
 		{
-			"name": "JBCスプリント",
+			"name": "JBC短途賽",
 			"link": "/race/races/1104",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1104.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -961,10 +988,11 @@
 				"corner4": ["650 ~ 814"],
 				"straight1": ["814 ~ 1200"]
 			},
-			"uuid": "5df0d776fd4324c950f4e42d1baef6e9"
+			"uuid": "5df0d776fd4324c950f4e42d1baef6e9",
+			"abbr": "JBC短途賽"
 		},
 		{
-			"name": "JBCクラシック",
+			"name": "JBC經典賽",
 			"link": "/race/races/1105",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1105.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -994,7 +1022,8 @@
 				"corner3": ["1300 ~ 1450"],
 				"corner4": ["1450 ~ 1614"]
 			},
-			"uuid": "54b8d691620c3f4438d5fa2b0c9c2c7d"
+			"uuid": "54b8d691620c3f4438d5fa2b0c9c2c7d",
+			"abbr": "JBC經典賽"
 		},
 		{
 			"name": "東京大賞典",
@@ -1027,7 +1056,8 @@
 				"corner3": ["1300 ~ 1450"],
 				"corner4": ["1450 ~ 1614"]
 			},
-			"uuid": "9ac2825b8afd83ad3763d0e31dde82de"
+			"uuid": "9ac2825b8afd83ad3763d0e31dde82de",
+			"abbr": "東京大賞典"
 		},
 		{
 			"name": "川崎記念",
@@ -1060,10 +1090,11 @@
 				"corner1": ["1000 ~ 1100"],
 				"corner2": ["1100 ~ 1200"]
 			},
-			"uuid": "1ab09abb8edde348c066ccec059b628d"
+			"uuid": "1ab09abb8edde348c066ccec059b628d",
+			"abbr": "川崎記念"
 		},
 		{
-			"name": "全日本ジュニア優駿",
+			"name": "全日本新手級優駿",
 			"link": "/race/races/1108",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1108.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1094,10 +1125,11 @@
 				"corner3": ["1100 ~ 1200"],
 				"corner4": ["1200 ~ 1300"]
 			},
-			"uuid": "9e662161a6703e87ab23a3610fbf476e"
+			"uuid": "9e662161a6703e87ab23a3610fbf476e",
+			"abbr": "全日本新手級優駿"
 		},
 		{
-			"name": "かしわ記念",
+			"name": "柏市紀念",
 			"link": "/race/races/1109",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1109.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1110,7 +1142,7 @@
 				"distance": "1600",
 				"course": "沙地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 267",
@@ -1127,10 +1159,11 @@
 				"corner3": ["970 ~ 1140"],
 				"corner4": ["1140 ~ 1292"]
 			},
-			"uuid": "f3a01321352c2ffd961d07ae6363700c"
+			"uuid": "fdf4904ba1b0095bf2cca9920fa55f0d",
+			"abbr": "柏市紀念"
 		},
 		{
-			"name": "マイルチャンピオンシップ南部杯",
+			"name": "一哩冠軍賽南部盃",
 			"link": "/race/races/1110",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/1110.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1161,7 +1194,8 @@
 				"uphill": ["500 ~ 875（1%）", "1375 ~ 1550（1%）"],
 				"downhill": ["875 ~ 1325（-1.5%）"]
 			},
-			"uuid": "732a655603b0c1055f13fe3b58ddbac9"
+			"uuid": "732a655603b0c1055f13fe3b58ddbac9",
+			"abbr": "一哩CS南部盃"
 		},
 		{
 			"name": "凱旋門賞",
@@ -1195,12 +1229,13 @@
 				"uphill": ["400 ~ 1000（2%）"],
 				"downhill": ["1017 ~ 1400（-2%）", "1400 ~ 1617（-1.5%）"]
 			},
-			"uuid": "71dbd662aaab10eabee0bf17ff333f6f"
+			"uuid": "71dbd662aaab10eabee0bf17ff333f6f",
+			"abbr": "凱旋門賞"
 		}
 	],
 	"G2": [
 		{
-			"name": "日経新春杯",
+			"name": "日經新春盃",
 			"link": "/race/races/2001",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2001.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1232,10 +1267,11 @@
 				"uphill": ["1250 ~ 1350（2%）", "1350 ~ 1575（1%）"],
 				"downhill": ["1575 ~ 1725（-2%）"]
 			},
-			"uuid": "6d6dfe8d17554b6f6aefc8b6bb191c74"
+			"uuid": "6d6dfe8d17554b6f6aefc8b6bb191c74",
+			"abbr": "日經新春盃"
 		},
 		{
-			"name": "東海ステークス",
+			"name": "東海錦標賽",
 			"link": "/race/races/2002",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2002.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1267,10 +1303,11 @@
 				"uphill": ["0 ~ 50（1.5%）", "1425 ~ 1575（1.5%）"],
 				"downhill": ["825 ~ 1425（-1.5%）"]
 			},
-			"uuid": "996ed3f92252b0c155a9b429b724fce7"
+			"uuid": "996ed3f92252b0c155a9b429b724fce7",
+			"abbr": "東海S"
 		},
 		{
-			"name": "アメリカJCC",
+			"name": "美國JCC",
 			"link": "/race/races/2003",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2003.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1302,10 +1339,11 @@
 				"uphill": ["153 ~ 263（2%）", "353 ~ 553（1.5%）", "2025 ~ 2135（2%）"],
 				"downhill": ["900 ~ 1200（-1.5%）"]
 			},
-			"uuid": "5ac6abbdfd415dcf8344e36622aa1e54"
+			"uuid": "5ac6abbdfd415dcf8344e36622aa1e54",
+			"abbr": "美國JCC"
 		},
 		{
-			"name": "京都記念",
+			"name": "京都紀念",
 			"link": "/race/races/2004",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2004.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1337,10 +1375,11 @@
 				"uphill": ["1050 ~ 1150（2%）", "1150 ~ 1375（1%）"],
 				"downhill": ["1375 ~ 1525（-2%）"]
 			},
-			"uuid": "c4d2d40b5e81c719d3e2da69715a19cd"
+			"uuid": "c4d2d40b5e81c719d3e2da69715a19cd",
+			"abbr": "京都紀念"
 		},
 		{
-			"name": "中山記念",
+			"name": "中山紀念",
 			"link": "/race/races/2005",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2005.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1353,7 +1392,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -1372,10 +1411,11 @@
 				"uphill": ["1 ~ 36（2%）", "125 ~ 325（1.5%）", "1625 ~ 1735（2%）"],
 				"downhill": ["425 ~ 825（-1.5%）"]
 			},
-			"uuid": "17f22abbf98f307c784c459a91d468be"
+			"uuid": "91a26fecffaf0353e53650b95229f2a4",
+			"abbr": "中山紀念"
 		},
 		{
-			"name": "弥生賞",
+			"name": "彌生賞",
 			"link": "/race/races/2006",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2006.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1407,7 +1447,8 @@
 				"uphill": ["125 ~ 235（2%）", "325 ~ 525（1.5%）", "1825 ~ 1935（2%）"],
 				"downhill": ["625 ~ 1025（-1.5%）"]
 			},
-			"uuid": "aeb3daeb9ee317320311dbc1d2d117e9"
+			"uuid": "aeb3daeb9ee317320311dbc1d2d117e9",
+			"abbr": "彌生賞"
 		},
 		{
 			"name": "金鯱賞",
@@ -1423,7 +1464,7 @@
 				"distance": "2000",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 333",
@@ -1442,10 +1483,11 @@
 				"uphill": ["0 ~ 50（2%）", "1675 ~ 1775（2%）"],
 				"downhill": ["900 ~ 1675（-1%）"]
 			},
-			"uuid": "ca17df4c787704acf54a3836cf56b051"
+			"uuid": "45f5a8e7d7292652fed5b07d74b3f0e8",
+			"abbr": "金鯱賞"
 		},
 		{
-			"name": "フィリーズレビュー",
+			"name": "賽馬娘賽",
 			"link": "/race/races/2008",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2008.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1458,7 +1500,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -1475,7 +1517,8 @@
 				"downhill": ["600 ~ 1195（-1%）"],
 				"uphill": ["1200 ~ 1325（2%）"]
 			},
-			"uuid": "c552a99dca96253cfec3e012a07a654e"
+			"uuid": "c54b5373b54ad7e0b9109f974c0c0609",
+			"abbr": "賽馬娘賽"
 		},
 		{
 			"name": "阪神大賞典",
@@ -1510,10 +1553,11 @@
 				"downhill": ["498 ~ 1093（-1%）", "2200 ~ 2795（-1%）"],
 				"uphill": ["1095 ~ 1220（2%）", "2800 ~ 2925（2%）"]
 			},
-			"uuid": "db466f77212e6a658dae414a87f32e17"
+			"uuid": "db466f77212e6a658dae414a87f32e17",
+			"abbr": "阪神大賞典"
 		},
 		{
-			"name": "スプリングステークス",
+			"name": "春季錦標賽",
 			"link": "/race/races/2010",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2010.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1526,7 +1570,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -1545,10 +1589,11 @@
 				"uphill": ["1 ~ 36（2%）", "125 ~ 325（1.5%）", "1625 ~ 1735（2%）"],
 				"downhill": ["425 ~ 825（-1.5%）"]
 			},
-			"uuid": "2eec3a85940a6b449f4daf11a9707927"
+			"uuid": "e28145c655c4e96c7d245254ddeb27a9",
+			"abbr": "春季S"
 		},
 		{
-			"name": "日経賞",
+			"name": "日經賞",
 			"link": "/race/races/2011",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2011.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1581,10 +1626,11 @@
 				"uphill": ["621 ~ 731（2%）", "825 ~ 1025（1.5%）", "2325 ~ 2435（2%）"],
 				"downhill": ["1125 ~ 1525（-1.5%）"]
 			},
-			"uuid": "a7269dda3ef0d5ea7f9e104aee5dddba"
+			"uuid": "a7269dda3ef0d5ea7f9e104aee5dddba",
+			"abbr": "日經賞"
 		},
 		{
-			"name": "阪神ウマ娘ステークス",
+			"name": "阪神賽馬娘錦標賽",
 			"link": "/race/races/2012",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2012.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1614,10 +1660,11 @@
 				"downhill": ["950 ~ 1350（-1%）"],
 				"uphill": ["1405 ~ 1525（2%）"]
 			},
-			"uuid": "24fd4b191a069cc55312b853c7ab1f76"
+			"uuid": "24fd4b191a069cc55312b853c7ab1f76",
+			"abbr": "阪神賽馬娘S"
 		},
 		{
-			"name": "ニュージーランドトロフィー",
+			"name": "紐西蘭盃",
 			"link": "/race/races/2013",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2013.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1648,10 +1695,11 @@
 				"downhill": ["300 ~ 600（-1.5%）"],
 				"uphill": ["1425 ~ 1535（2%）"]
 			},
-			"uuid": "d47b66e49d8df32c221471ef5208f093"
+			"uuid": "d47b66e49d8df32c221471ef5208f093",
+			"abbr": "紐西蘭T"
 		},
 		{
-			"name": "マイラーズカップ",
+			"name": "一哩跑者盃",
 			"link": "/race/races/2014",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2014.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1682,10 +1730,11 @@
 				"uphill": ["450 ~ 550（2%）", "550 ~ 775（1%）"],
 				"downhill": ["775 ~ 925（-2%）"]
 			},
-			"uuid": "38d7cf93932ba5cef1f485e06d82ca76"
+			"uuid": "38d7cf93932ba5cef1f485e06d82ca76",
+			"abbr": "一哩跑者C"
 		},
 		{
-			"name": "フローラステークス",
+			"name": "花仙錦標賽",
 			"link": "/race/races/2015",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2015.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1698,7 +1747,7 @@
 				"distance": "2000",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 333",
@@ -1717,7 +1766,8 @@
 				"uphill": ["725 ~ 800（2%）", "1550 ~ 1700（1.5%）"],
 				"downhill": ["850 ~ 1100（-1.5%）"]
 			},
-			"uuid": "3fbd7fea1ad63eee0bac3f4232c893da"
+			"uuid": "31928f9dc70c3ce8208da82ac43391e5",
+			"abbr": "花仙S"
 		},
 		{
 			"name": "青葉賞",
@@ -1733,7 +1783,7 @@
 				"distance": "2400",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 400",
@@ -1752,10 +1802,11 @@
 				"uphill": ["0 ~ 40（1.5%）", "1125 ~ 1200（2%）", "1950 ~ 2100（1.5%）"],
 				"downhill": ["1250 ~ 1500（-1.5%）"]
 			},
-			"uuid": "649e01cf05dba52279cf8f1e3f72877f"
+			"uuid": "f666879de88a5776676852e4be7044a1",
+			"abbr": "青葉賞"
 		},
 		{
-			"name": "京都新聞杯",
+			"name": "京都新聞盃",
 			"link": "/race/races/2017",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2017.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1787,10 +1838,11 @@
 				"uphill": ["1050 ~ 1150（2%）", "1150 ~ 1375（1%）"],
 				"downhill": ["1375 ~ 1525（-2%）"]
 			},
-			"uuid": "efe4480a517f05f3737d22b918064f03"
+			"uuid": "efe4480a517f05f3737d22b918064f03",
+			"abbr": "京都新聞盃"
 		},
 		{
-			"name": "京王杯スプリングカップ",
+			"name": "京王盃春季盃",
 			"link": "/race/races/2018",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2018.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1820,10 +1872,11 @@
 				"uphill": ["125 ~ 200（2%）", "950 ~ 1100（1.5%）"],
 				"downhill": ["250 ~ 500（-1.5%）"]
 			},
-			"uuid": "dd8a66118b05ffc05aff29dcd7d680a6"
+			"uuid": "dd8a66118b05ffc05aff29dcd7d680a6",
+			"abbr": "京王盃春季C"
 		},
 		{
-			"name": "目黒記念",
+			"name": "目黑紀念",
 			"link": "/race/races/2019",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2019.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1855,10 +1908,11 @@
 				"uphill": ["0 ~ 140（1.5%）", "1225 ~ 1300（2%）", "2050 ~ 2200（1.5%）"],
 				"downhill": ["1350 ~ 1600（-1.5%）"]
 			},
-			"uuid": "080e64b4ea4ca8011eb64ea4b074092b"
+			"uuid": "080e64b4ea4ca8011eb64ea4b074092b",
+			"abbr": "目黑紀念"
 		},
 		{
-			"name": "札幌記念",
+			"name": "札幌紀念",
 			"link": "/race/races/2020",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2020.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1888,10 +1942,11 @@
 				"corner3": ["1200 ~ 1475"],
 				"corner4": ["1475 ~ 1734"]
 			},
-			"uuid": "f4bd33bdf7a38be25bda3405bcb5d680"
+			"uuid": "f4bd33bdf7a38be25bda3405bcb5d680",
+			"abbr": "札幌紀念"
 		},
 		{
-			"name": "セントウルステークス",
+			"name": "人馬錦標賽",
 			"link": "/race/races/2021",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2021.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1904,7 +1959,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -1921,10 +1976,11 @@
 				"downhill": ["400 ~ 995（-1%）"],
 				"uphill": ["1000 ~ 1125（2%）"]
 			},
-			"uuid": "88c531b7153362aba2b6fc06b2d9e250"
+			"uuid": "58846811a230f40e0caf331aca521ade",
+			"abbr": "人馬S"
 		},
 		{
-			"name": "ローズステークス",
+			"name": "玫瑰錦標賽",
 			"link": "/race/races/2022",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2022.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1954,10 +2010,11 @@
 				"downhill": ["1150 ~ 1550（-1%）"],
 				"uphill": ["1605 ~ 1725（2%）"]
 			},
-			"uuid": "6da2a12774ca628b35d4475f80aabeb3"
+			"uuid": "6da2a12774ca628b35d4475f80aabeb3",
+			"abbr": "玫瑰S"
 		},
 		{
-			"name": "セントライト記念",
+			"name": "聖烈特紀念",
 			"link": "/race/races/2023",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2023.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -1989,10 +2046,11 @@
 				"uphill": ["153 ~ 263（2%）", "353 ~ 553（1.5%）", "2025 ~ 2135（2%）"],
 				"downhill": ["900 ~ 1200（-1.5%）"]
 			},
-			"uuid": "fc7e2c289eda86b63504c9b8aa28c877"
+			"uuid": "fc7e2c289eda86b63504c9b8aa28c877",
+			"abbr": "聖烈特紀念"
 		},
 		{
-			"name": "神戸新聞杯",
+			"name": "神戶新聞盃",
 			"link": "/race/races/2024",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2024.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2025,10 +2083,11 @@
 				"downhill": ["0 ~ 132（-1%）", "1750 ~ 2150（-1%）"],
 				"uphill": ["187 ~ 307（2%）", "2205 ~ 2325（2%）"]
 			},
-			"uuid": "8f5fa4090d6945ffadf7b2a624551eae"
+			"uuid": "8f5fa4090d6945ffadf7b2a624551eae",
+			"abbr": "神戶新聞盃"
 		},
 		{
-			"name": "オールカマー",
+			"name": "產經賞",
 			"link": "/race/races/2025",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2025.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2060,10 +2119,11 @@
 				"uphill": ["153 ~ 263（2%）", "353 ~ 553（1.5%）", "2025 ~ 2135（2%）"],
 				"downhill": ["900 ~ 1200（-1.5%）"]
 			},
-			"uuid": "0efdf6dc1ca59a701f015b31cc5b310e"
+			"uuid": "0efdf6dc1ca59a701f015b31cc5b310e",
+			"abbr": "產經賞"
 		},
 		{
-			"name": "毎日王冠",
+			"name": "每日王冠",
 			"link": "/race/races/2026",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2026.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2095,7 +2155,8 @@
 				"uphill": ["525 ~ 600（2%）", "1350 ~ 1500（1.5%）"],
 				"downhill": ["650 ~ 900（-1.5%）"]
 			},
-			"uuid": "e2e5c083b032ec34c5c199712654d493"
+			"uuid": "e2e5c083b032ec34c5c199712654d493",
+			"abbr": "每日王冠"
 		},
 		{
 			"name": "京都大賞典",
@@ -2130,10 +2191,11 @@
 				"uphill": ["1250 ~ 1350（2%）", "1350 ~ 1575（1%）"],
 				"downhill": ["1575 ~ 1725（-2%）"]
 			},
-			"uuid": "35fbd5815132cfc5caeb918a244fe7e4"
+			"uuid": "35fbd5815132cfc5caeb918a244fe7e4",
+			"abbr": "京都大賞典"
 		},
 		{
-			"name": "府中ウマ娘ステークス",
+			"name": "府中賽馬娘錦標賽",
 			"link": "/race/races/2028",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2028.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2165,10 +2227,11 @@
 				"uphill": ["525 ~ 600（2%）", "1350 ~ 1500（1.5%）"],
 				"downhill": ["650 ~ 900（-1.5%）"]
 			},
-			"uuid": "d55e35f8ed9dfe01c23d51eb4daea109"
+			"uuid": "d55e35f8ed9dfe01c23d51eb4daea109",
+			"abbr": "府中賽馬娘S"
 		},
 		{
-			"name": "スワンステークス",
+			"name": "天鵝錦標賽",
 			"link": "/race/races/2029",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2029.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2181,7 +2244,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -2198,10 +2261,11 @@
 				"uphill": ["250 ~ 350（2%）", "350 ~ 575（1%）"],
 				"downhill": ["575 ~ 725（-2%）"]
 			},
-			"uuid": "9ee829ef22a51c399e96390b746d5e31"
+			"uuid": "81f4a37616ca7210d69d74a95f8781fa",
+			"abbr": "天鵝S"
 		},
 		{
-			"name": "京王杯ジュニアステークス",
+			"name": "京王盃新手級錦標賽",
 			"link": "/race/races/2030",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2030.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2231,10 +2295,11 @@
 				"uphill": ["125 ~ 200（2%）", "950 ~ 1100（1.5%）"],
 				"downhill": ["250 ~ 500（-1.5%）"]
 			},
-			"uuid": "61510fcdcfecd465de3f44c2407281e2"
+			"uuid": "61510fcdcfecd465de3f44c2407281e2",
+			"abbr": "京王盃新手級S"
 		},
 		{
-			"name": "アルゼンチン共和国杯",
+			"name": "阿根廷共和國盃",
 			"link": "/race/races/2031",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2031.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2266,10 +2331,11 @@
 				"uphill": ["0 ~ 140（1.5%）", "1225 ~ 1300（2%）", "2050 ~ 2200（1.5%）"],
 				"downhill": ["1350 ~ 1600（-1.5%）"]
 			},
-			"uuid": "19ab667beea263be253d66ec44c814f5"
+			"uuid": "19ab667beea263be253d66ec44c814f5",
+			"abbr": "阿根廷共和國盃"
 		},
 		{
-			"name": "デイリー杯ジュニアステークス",
+			"name": "每日盃新手級錦標賽",
 			"link": "/race/races/2032",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2032.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2300,10 +2366,11 @@
 				"uphill": ["450 ~ 550（2%）", "550 ~ 775（1%）"],
 				"downhill": ["775 ~ 925（-2%）"]
 			},
-			"uuid": "8c863c1caed2f5a26584b35c12929522"
+			"uuid": "8c863c1caed2f5a26584b35c12929522",
+			"abbr": "每日盃新手級S"
 		},
 		{
-			"name": "ステイヤーズステークス",
+			"name": "長途跑者錦標賽",
 			"link": "/race/races/2033",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2033.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2341,10 +2408,11 @@
 				],
 				"downhill": ["540 ~ 940（-1.5%）", "2225 ~ 2625（-1.5%）"]
 			},
-			"uuid": "40a50f54694b225a0b03e102d6186001"
+			"uuid": "40a50f54694b225a0b03e102d6186001",
+			"abbr": "長途跑者S"
 		},
 		{
-			"name": "阪神カップ",
+			"name": "阪神盃",
 			"link": "/race/races/2034",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2034.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2357,7 +2425,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -2374,10 +2442,11 @@
 				"downhill": ["600 ~ 1195（-1%）"],
 				"uphill": ["1200 ~ 1325（2%）"]
 			},
-			"uuid": "822a3b38bf325bda44efb0ee29e65048"
+			"uuid": "2cf8ac51a3211a5d295424c3b2bb04d3",
+			"abbr": "阪神C"
 		},
 		{
-			"name": "レディスプレリュード",
+			"name": "女士預賽",
 			"link": "/race/races/2036",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2036.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2408,7 +2477,8 @@
 				"corner3": ["1100 ~ 1250"],
 				"corner4": ["1250 ~ 1414"]
 			},
-			"uuid": "77e5d581663e8416502966b89fb1b610"
+			"uuid": "77e5d581663e8416502966b89fb1b610",
+			"abbr": "女士預賽"
 		},
 		{
 			"name": "東京盃",
@@ -2439,10 +2509,11 @@
 				"corner4": ["650 ~ 814"],
 				"straight1": ["814 ~ 1200"]
 			},
-			"uuid": "f52bbf9c3c3b6daaf85b5137bc98b913"
+			"uuid": "f52bbf9c3c3b6daaf85b5137bc98b913",
+			"abbr": "東京盃"
 		},
 		{
-			"name": "エンプレス杯",
+			"name": "女皇盃",
 			"link": "/race/races/2038",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2038.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2472,10 +2543,11 @@
 				"corner1": ["1000 ~ 1100"],
 				"corner2": ["1100 ~ 1200"]
 			},
-			"uuid": "ae561c45204a14b3f78c748bcda4f8d5"
+			"uuid": "ae561c45204a14b3f78c748bcda4f8d5",
+			"abbr": "女皇盃"
 		},
 		{
-			"name": "関東オークス",
+			"name": "關東奧克斯",
 			"link": "/race/races/2039",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2039.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2505,10 +2577,11 @@
 				"corner1": ["1000 ~ 1100"],
 				"corner2": ["1100 ~ 1200"]
 			},
-			"uuid": "5e51c69aeac04edca5a50ecc8acc0e9d"
+			"uuid": "5e51c69aeac04edca5a50ecc8acc0e9d",
+			"abbr": "關東奧克斯"
 		},
 		{
-			"name": "ダイオライト記念",
+			"name": "",
 			"link": "/race/races/2040",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2040.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2538,10 +2611,11 @@
 				"corner1": ["1060 ~ 1240"],
 				"corner2": ["1240 ~ 1400"]
 			},
-			"uuid": "4a1a056813f73a062b005cccbd9ed0bb"
+			"uuid": "4a1a056813f73a062b005cccbd9ed0bb",
+			"abbr": "大尾光紀念"
 		},
 		{
-			"name": "さざんかテレビ杯",
+			"name": "山茶花電視盃",
 			"link": "/race/races/2041",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/2041.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2554,7 +2628,7 @@
 				"distance": "1800",
 				"course": "沙地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -2572,10 +2646,11 @@
 				"corner3": ["1170 ~ 1340"],
 				"corner4": ["1340 ~ 1492"]
 			},
-			"uuid": "931adabfdd48ebe38b3c9b6a23acadbd"
+			"uuid": "8412c934248bc14987202f050c36a252",
+			"abbr": "山茶花電視盃"
 		},
 		{
-			"name": "チューリップ賞",
+			"name": "鬱金香賞",
 			"link": "/race/races/3018",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3018.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2605,10 +2680,11 @@
 				"downhill": ["950 ~ 1350（-1%）"],
 				"uphill": ["1405 ~ 1525（2%）"]
 			},
-			"uuid": "df31b6edcc01ce62b473558cfd67ce3b"
+			"uuid": "df31b6edcc01ce62b473558cfd67ce3b",
+			"abbr": "鬱金香賞"
 		},
 		{
-			"name": "富士ステークス",
+			"name": "富士錦標賽",
 			"link": "/race/races/3058",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3058.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2638,10 +2714,11 @@
 				"uphill": ["325 ~ 400（2%）", "1150 ~ 1300（1.5%）"],
 				"downhill": ["450 ~ 700（-1.5%）"]
 			},
-			"uuid": "4f4dd151b1e3f55c121aa02b5bbb4dae"
+			"uuid": "4f4dd151b1e3f55c121aa02b5bbb4dae",
+			"abbr": "富士S"
 		},
 		{
-			"name": "ニエル賞",
+			"name": "尼爾賞",
 			"link": "/race/races/17201",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/17201.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2672,10 +2749,11 @@
 				"uphill": ["400 ~ 1000（2%）"],
 				"downhill": ["1017 ~ 1400（-2%）", "1400 ~ 1617（-1.5%）"]
 			},
-			"uuid": "04a2551a2270a9f120d801c1c07d77ca"
+			"uuid": "04a2551a2270a9f120d801c1c07d77ca",
+			"abbr": "尼爾賞"
 		},
 		{
-			"name": "フォワ賞",
+			"name": "福依賞",
 			"link": "/race/races/17202",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/17202.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2706,12 +2784,13 @@
 				"uphill": ["400 ~ 1000（2%）"],
 				"downhill": ["1017 ~ 1400（-2%）", "1400 ~ 1617（-1.5%）"]
 			},
-			"uuid": "9a551018389e1d045a302b7ecce00d5f"
+			"uuid": "9a551018389e1d045a302b7ecce00d5f",
+			"abbr": "福依賞"
 		}
 	],
 	"G3": [
 		{
-			"name": "京都金杯",
+			"name": "京都金盃",
 			"link": "/race/races/3001",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3001.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2742,10 +2821,11 @@
 				"uphill": ["450 ~ 550（2%）", "550 ~ 775（1%）"],
 				"downhill": ["775 ~ 925（-2%）"]
 			},
-			"uuid": "06affbede82abcdaec2a0f480dac7475"
+			"uuid": "06affbede82abcdaec2a0f480dac7475",
+			"abbr": "京都金盃"
 		},
 		{
-			"name": "中山金杯",
+			"name": "中山金盃",
 			"link": "/race/races/3002",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3002.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2777,10 +2857,11 @@
 				"uphill": ["125 ~ 235（2%）", "325 ~ 525（1.5%）", "1825 ~ 1935（2%）"],
 				"downhill": ["625 ~ 1025（-1.5%）"]
 			},
-			"uuid": "be205552c95ac38b6d0692d8dcec9f3f"
+			"uuid": "be205552c95ac38b6d0692d8dcec9f3f",
+			"abbr": "中山金盃"
 		},
 		{
-			"name": "シンザン記念",
+			"name": "新山紀念",
 			"link": "/race/races/3003",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3003.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2811,10 +2892,11 @@
 				"uphill": ["450 ~ 550（2%）", "550 ~ 775（1%）"],
 				"downhill": ["775 ~ 925（-2%）"]
 			},
-			"uuid": "c0bd0b3106f95da166396b42c776a3aa"
+			"uuid": "c0bd0b3106f95da166396b42c776a3aa",
+			"abbr": "新山紀念"
 		},
 		{
-			"name": "フェアリーステークス",
+			"name": "妖精錦標賽",
 			"link": "/race/races/3004",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3004.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2845,10 +2927,11 @@
 				"downhill": ["300 ~ 600（-1.5%）"],
 				"uphill": ["1425 ~ 1535（2%）"]
 			},
-			"uuid": "088afc59eddcad369e0c7dd5c99777cd"
+			"uuid": "088afc59eddcad369e0c7dd5c99777cd",
+			"abbr": "妖精S"
 		},
 		{
-			"name": "愛知杯",
+			"name": "愛知盃",
 			"link": "/race/races/3005",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3005.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2861,7 +2944,7 @@
 				"distance": "2000",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 333",
@@ -2880,10 +2963,11 @@
 				"uphill": ["0 ~ 50（2%）", "1675 ~ 1775（2%）"],
 				"downhill": ["900 ~ 1675（-1%）"]
 			},
-			"uuid": "a91c770d9b07279868b65eeb7518539d"
+			"uuid": "0f99203b2dc258970148d50e088132b3",
+			"abbr": "愛知盃"
 		},
 		{
-			"name": "京成杯",
+			"name": "京成盃",
 			"link": "/race/races/3006",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3006.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2915,10 +2999,11 @@
 				"uphill": ["125 ~ 235（2%）", "325 ~ 525（1.5%）", "1825 ~ 1935（2%）"],
 				"downhill": ["625 ~ 1025（-1.5%）"]
 			},
-			"uuid": "c6959b8d33d4412f68955cdebc98170e"
+			"uuid": "c6959b8d33d4412f68955cdebc98170e",
+			"abbr": "京成盃"
 		},
 		{
-			"name": "シルクロードステークス",
+			"name": "絲路錦標賽",
 			"link": "/race/races/3007",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3007.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2931,7 +3016,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -2948,10 +3033,11 @@
 				"uphill": ["120 ~ 295（1.5%）"],
 				"downhill": ["420 ~ 570（-1.5%）"]
 			},
-			"uuid": "987b4d69f18eef7b2714929ead750ad2"
+			"uuid": "0032e84510683ee8fa198f638653d599",
+			"abbr": "絲路S"
 		},
 		{
-			"name": "根岸ステークス",
+			"name": "根岸錦標賽",
 			"link": "/race/races/3008",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3008.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2981,10 +3067,11 @@
 				"downhill": ["375 ~ 575（-1%）"],
 				"uphill": ["900 ~ 1150（1.5%）"]
 			},
-			"uuid": "d415e0a42921e5208e0727d10f1a285b"
+			"uuid": "d415e0a42921e5208e0727d10f1a285b",
+			"abbr": "根岸S"
 		},
 		{
-			"name": "きさらぎ賞",
+			"name": "如月賞",
 			"link": "/race/races/3009",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3009.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -2997,7 +3084,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -3015,10 +3102,11 @@
 				"uphill": ["650 ~ 750（2%）", "750 ~ 975（1%）"],
 				"downhill": ["975 ~ 1125（-2%）"]
 			},
-			"uuid": "dcdb71e950bdbf6872a34fdf2829ed8a"
+			"uuid": "4776cc69323b87d185225d5605a41c25",
+			"abbr": "如月賞"
 		},
 		{
-			"name": "東京新聞杯",
+			"name": "東京新聞盃",
 			"link": "/race/races/3010",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3010.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3048,10 +3136,11 @@
 				"uphill": ["325 ~ 400（2%）", "1150 ~ 1300（1.5%）"],
 				"downhill": ["450 ~ 700（-1.5%）"]
 			},
-			"uuid": "9722f3c4c52b2040db43f4ef65607ce1"
+			"uuid": "9722f3c4c52b2040db43f4ef65607ce1",
+			"abbr": "東京新聞盃"
 		},
 		{
-			"name": "クイーンカップ",
+			"name": "女王盃",
 			"link": "/race/races/3011",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3011.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3081,10 +3170,11 @@
 				"uphill": ["325 ~ 400（2%）", "1150 ~ 1300（1.5%）"],
 				"downhill": ["450 ~ 700（-1.5%）"]
 			},
-			"uuid": "ecf7b83de8d6a215ef64a2561d256f44"
+			"uuid": "ecf7b83de8d6a215ef64a2561d256f44",
+			"abbr": "女王C"
 		},
 		{
-			"name": "共同通信杯",
+			"name": "共同通信盃",
 			"link": "/race/races/3012",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3012.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3116,10 +3206,11 @@
 				"uphill": ["525 ~ 600（2%）", "1350 ~ 1500（1.5%）"],
 				"downhill": ["650 ~ 900（-1.5%）"]
 			},
-			"uuid": "ff1c682c0a6d2514f995019a9b2669e1"
+			"uuid": "ff1c682c0a6d2514f995019a9b2669e1",
+			"abbr": "共同通信盃"
 		},
 		{
-			"name": "京都ウマ娘ステークス",
+			"name": "京都賽馬娘錦標賽",
 			"link": "/race/races/3013",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3013.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3132,7 +3223,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -3149,10 +3240,11 @@
 				"uphill": ["250 ~ 350（2%）", "350 ~ 575（1%）"],
 				"downhill": ["575 ~ 725（-2%）"]
 			},
-			"uuid": "e2f5c6cdc3b553fb1b2faf22d0f9a95a"
+			"uuid": "d33b813a0f9c68161063069dca20a9f6",
+			"abbr": "京都賽馬娘S"
 		},
 		{
-			"name": "ダイヤモンドステークス",
+			"name": "鑽石錦標賽",
 			"link": "/race/races/3014",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3014.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3165,7 +3257,7 @@
 				"distance": "3400",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 567",
@@ -3189,7 +3281,8 @@
 				],
 				"downhill": ["192 ~ 442（-1.5%）", "2250 ~ 2500（-1.5%）"]
 			},
-			"uuid": "6525f643f150e32a36d56d9fd6f3962c"
+			"uuid": "7e56407159a4b9153a73bdf732a23538",
+			"abbr": "鑽石S"
 		},
 		{
 			"name": "小倉大賞典",
@@ -3205,7 +3298,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -3223,10 +3316,11 @@
 				"corner4": ["1305 ~ 1507"],
 				"uphill": ["280 ~ 535（1.5%）"]
 			},
-			"uuid": "86b9d5a4c183251591679ec1cf886c98"
+			"uuid": "de0832e3e25640f9e75ef74225488ca8",
+			"abbr": "小倉大賞典"
 		},
 		{
-			"name": "アーリントンカップ",
+			"name": "阿靈頓盃",
 			"link": "/race/races/3016",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3016.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3256,10 +3350,11 @@
 				"downhill": ["950 ~ 1350（-1%）"],
 				"uphill": ["1405 ~ 1525（2%）"]
 			},
-			"uuid": "48b16d5e3edbc5e36ff4cd300507b0a5"
+			"uuid": "48b16d5e3edbc5e36ff4cd300507b0a5",
+			"abbr": "阿靈頓C"
 		},
 		{
-			"name": "阪急杯",
+			"name": "阪急盃",
 			"link": "/race/races/3017",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3017.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3272,7 +3367,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -3289,10 +3384,11 @@
 				"downhill": ["600 ~ 1195（-1%）"],
 				"uphill": ["1200 ~ 1325（2%）"]
 			},
-			"uuid": "a7e6570e0acb103521e114d1f4575e07"
+			"uuid": "2a2f1b2219f5726e2aa3088bf7528633",
+			"abbr": "阪急盃"
 		},
 		{
-			"name": "オーシャンステークス",
+			"name": "大海錦標賽",
 			"link": "/race/races/3019",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3019.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3305,7 +3401,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -3322,10 +3418,11 @@
 				"downhill": ["0 ~ 200（-1.5%）"],
 				"uphill": ["1025 ~ 1135（2%）"]
 			},
-			"uuid": "5642116faf9b93dac30fb59ced879d7b"
+			"uuid": "758d34d635a8c5934128c4f839738725",
+			"abbr": "大海S"
 		},
 		{
-			"name": "中山ウマ娘ステークス",
+			"name": "中山賽馬娘錦標賽",
 			"link": "/race/races/3020",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3020.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3338,7 +3435,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -3357,10 +3454,11 @@
 				"uphill": ["1 ~ 36（2%）", "125 ~ 325（1.5%）", "1625 ~ 1735（2%）"],
 				"downhill": ["425 ~ 825（-1.5%）"]
 			},
-			"uuid": "91b292ae38ca6ac7d84623867a92eb8e"
+			"uuid": "db4eedc27b1db0ed45f2777c86a0281d",
+			"abbr": "中山賽馬娘S"
 		},
 		{
-			"name": "ファルコンステークス",
+			"name": "獵鷹錦標賽",
 			"link": "/race/races/3021",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3021.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3373,7 +3471,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -3390,10 +3488,11 @@
 				"downhill": ["300 ~ 1075（-1%）"],
 				"uphill": ["1075 ~ 1175（2%）"]
 			},
-			"uuid": "4091174fdb15198a5db19659a51602d3"
+			"uuid": "01ed6492ed6cf1c1f27a353608c7ddf4",
+			"abbr": "獵鷹S"
 		},
 		{
-			"name": "フラワーカップ",
+			"name": "百花盃",
 			"link": "/race/races/3022",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3022.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3406,7 +3505,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -3425,10 +3524,11 @@
 				"uphill": ["1 ~ 36（2%）", "125 ~ 325（1.5%）", "1625 ~ 1735（2%）"],
 				"downhill": ["425 ~ 825（-1.5%）"]
 			},
-			"uuid": "387830064d99c0b6de49961b50fb1989"
+			"uuid": "2a3213882d5eb89db8872740065b1542",
+			"abbr": "百花C"
 		},
 		{
-			"name": "毎日杯",
+			"name": "每日盃",
 			"link": "/race/races/3023",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3023.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3458,10 +3558,11 @@
 				"downhill": ["1150 ~ 1550（-1%）"],
 				"uphill": ["1605 ~ 1725（2%）"]
 			},
-			"uuid": "352054fcbae3752e077d3949cbe0374d"
+			"uuid": "352054fcbae3752e077d3949cbe0374d",
+			"abbr": "每日盃"
 		},
 		{
-			"name": "マーチステークス",
+			"name": "三月錦標賽",
 			"link": "/race/races/3024",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3024.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3492,10 +3593,11 @@
 				"uphill": ["100 ~ 275（1.5%）", "350 ~ 525（1%）", "1600 ~ 1775（1.5%）"],
 				"downhill": ["775 ~ 950（-1.5%）"]
 			},
-			"uuid": "f0e5d5595f5dd0f267df02167d96d2f3"
+			"uuid": "f0e5d5595f5dd0f267df02167d96d2f3",
+			"abbr": "三月S"
 		},
 		{
-			"name": "ダービー卿チャレンジトロフィー",
+			"name": "打比伯爵挑戰盃",
 			"link": "/race/races/3025",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3025.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3526,10 +3628,11 @@
 				"downhill": ["300 ~ 600（-1.5%）"],
 				"uphill": ["1425 ~ 1535（2%）"]
 			},
-			"uuid": "233eabb4e56c423511fa4cccb23f5092"
+			"uuid": "233eabb4e56c423511fa4cccb23f5092",
+			"abbr": "打比伯爵CT"
 		},
 		{
-			"name": "アンタレスステークス",
+			"name": "心宿二錦標賽",
 			"link": "/race/races/3026",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3026.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3542,7 +3645,7 @@
 				"distance": "1800",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -3560,10 +3663,11 @@
 				"corner4": ["1200 ~ 1448"],
 				"uphill": ["105 ~ 230（1.5%）", "1599 ~ 1724（1.5%）"]
 			},
-			"uuid": "575899f8fb2034cca43604479cec41a0"
+			"uuid": "89934dcb27d8ea279b07eb918c94ee27",
+			"abbr": "心宿二S"
 		},
 		{
-			"name": "福島ウマ娘ステークス",
+			"name": "福島賽馬娘錦標賽",
 			"link": "/race/races/3027",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3027.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3594,7 +3698,8 @@
 				"corner4": ["1320 ~ 1508"],
 				"uphill": ["780 ~ 880（1.5%）"]
 			},
-			"uuid": "6232ca5f728655c9db0033e6975b8aaa"
+			"uuid": "6232ca5f728655c9db0033e6975b8aaa",
+			"abbr": "福島賽馬娘S"
 		},
 		{
 			"name": "新潟大賞典",
@@ -3627,10 +3732,11 @@
 				"uphill": ["650 ~ 1000（1%）"],
 				"downhill": ["1000 ~ 1300（-1.5%）"]
 			},
-			"uuid": "1865ee608adb57c6f58e018315d9df00"
+			"uuid": "1865ee608adb57c6f58e018315d9df00",
+			"abbr": "新潟大賞典"
 		},
 		{
-			"name": "平安ステークス",
+			"name": "平安錦標賽",
 			"link": "/race/races/3029",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3029.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3643,7 +3749,7 @@
 				"distance": "1900",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 317",
@@ -3662,10 +3768,11 @@
 				"uphill": ["875 ~ 1075（1.5%）"],
 				"downhill": ["1175 ~ 1375（-1.5%）"]
 			},
-			"uuid": "3b7c7958117e85f71f649ba310c0d5d8"
+			"uuid": "e531f1af7a000988ccf622f97d8757c2",
+			"abbr": "平安S"
 		},
 		{
-			"name": "鳴尾記念",
+			"name": "鳴尾紀念",
 			"link": "/race/races/3030",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3030.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3697,10 +3804,11 @@
 				"downhill": ["0 ~ 140（-1%）", "1200 ~ 1795（-1%）"],
 				"uphill": ["145 ~ 270（2%）", "1800 ~ 1925（2%）"]
 			},
-			"uuid": "77c67c579096f79741e60d63565a762b"
+			"uuid": "77c67c579096f79741e60d63565a762b",
+			"abbr": "鳴尾紀念"
 		},
 		{
-			"name": "マーメイドステークス",
+			"name": "人魚錦標賽",
 			"link": "/race/races/3031",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3031.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3732,10 +3840,11 @@
 				"downhill": ["0 ~ 140（-1%）", "1200 ~ 1795（-1%）"],
 				"uphill": ["145 ~ 270（2%）", "1800 ~ 1925（2%）"]
 			},
-			"uuid": "a196f415987eb4a7a71224059a6f0a99"
+			"uuid": "a196f415987eb4a7a71224059a6f0a99",
+			"abbr": "人魚S"
 		},
 		{
-			"name": "エプソムカップ",
+			"name": "葉森盃",
 			"link": "/race/races/3032",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3032.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3767,10 +3876,11 @@
 				"uphill": ["525 ~ 600（2%）", "1350 ~ 1500（1.5%）"],
 				"downhill": ["650 ~ 900（-1.5%）"]
 			},
-			"uuid": "87197b80c75cd08db68e0c2eb7a29dd6"
+			"uuid": "87197b80c75cd08db68e0c2eb7a29dd6",
+			"abbr": "葉森C"
 		},
 		{
-			"name": "ユニコーンステークス",
+			"name": "獨角獸錦標賽",
 			"link": "/race/races/3033",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3033.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3800,10 +3910,11 @@
 				"downhill": ["575 ~ 775（-1%）"],
 				"uphill": ["1100 ~ 1350（1.5%）"]
 			},
-			"uuid": "9fd9762a7d263ea167446f3cfaf4c227"
+			"uuid": "9fd9762a7d263ea167446f3cfaf4c227",
+			"abbr": "獨角獸S"
 		},
 		{
-			"name": "函館スプリントステークス",
+			"name": "函館短途錦標賽",
 			"link": "/race/races/3034",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3034.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3816,7 +3927,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -3832,7 +3943,8 @@
 				"straight1": ["938 ~ 1200"],
 				"uphill": ["0 ~ 755（1%）"]
 			},
-			"uuid": "03bad08f6d3b2ac045694f69cf6f37cc"
+			"uuid": "5c305073dcfebad36564d696a4a9c777",
+			"abbr": "函館短途S"
 		},
 		{
 			"name": "CBC賞",
@@ -3848,7 +3960,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -3865,10 +3977,11 @@
 				"downhill": ["100 ~ 875（-1%）"],
 				"uphill": ["875 ~ 975（2%）"]
 			},
-			"uuid": "29f5bd5eb5e8adc1a1a8f749f0373646"
+			"uuid": "6a3f0f198f2187ed6349ea8047e6aba9",
+			"abbr": "CBC賞"
 		},
 		{
-			"name": "ラジオNIKKEI賞",
+			"name": "日經電台賞",
 			"link": "/race/races/3036",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3036.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3899,10 +4012,11 @@
 				"corner4": ["1320 ~ 1508"],
 				"uphill": ["780 ~ 880（1.5%）"]
 			},
-			"uuid": "e55341c7f89ac5666539bf6403291edb"
+			"uuid": "e55341c7f89ac5666539bf6403291edb",
+			"abbr": "日經電台賞"
 		},
 		{
-			"name": "プロキオンステークス",
+			"name": "南河三錦標賽",
 			"link": "/race/races/3037",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3037.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -3915,7 +4029,7 @@
 				"distance": "1400",
 				"course": "沙地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -3932,7 +4046,8 @@
 				"downhill": ["425 ~ 1025（-1.5%）"],
 				"uphill": ["1025 ~ 1175（1.5%）"]
 			},
-			"uuid": "27a46a8370a47bc8adb43ff380c29549"
+			"uuid": "2cc176ea36716778986b24475dcd68a9",
+			"abbr": "南河三S"
 		},
 		{
 			"name": "七夕賞",
@@ -3966,10 +4081,11 @@
 				"corner4": ["1520 ~ 1708"],
 				"uphill": ["980 ~ 1080（1.5%）"]
 			},
-			"uuid": "f2487d7c50075cf25e5771ec2251d4ae"
+			"uuid": "f2487d7c50075cf25e5771ec2251d4ae",
+			"abbr": "七夕賞"
 		},
 		{
-			"name": "函館記念",
+			"name": "函館紀念",
 			"link": "/race/races/3039",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3039.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4001,10 +4117,11 @@
 				"downhill": ["420 ~ 620（-1%）"],
 				"uphill": ["865 ~ 1585（1%）"]
 			},
-			"uuid": "81a26feb3637cab1b14cf815e5335090"
+			"uuid": "81a26feb3637cab1b14cf815e5335090",
+			"abbr": "函館紀念"
 		},
 		{
-			"name": "中京記念",
+			"name": "中京紀念",
 			"link": "/race/races/3040",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3040.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4036,10 +4153,11 @@
 				"downhill": ["500 ~ 1275（-1%）"],
 				"uphill": ["1275 ~ 1375（2%）"]
 			},
-			"uuid": "406c493add571351938ee2fc442635a0"
+			"uuid": "406c493add571351938ee2fc442635a0",
+			"abbr": "中京紀念"
 		},
 		{
-			"name": "函館ジュニアステークス",
+			"name": "函館新手級錦標賽",
 			"link": "/race/races/3041",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3041.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4052,7 +4170,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -4068,10 +4186,11 @@
 				"straight1": ["938 ~ 1200"],
 				"uphill": ["0 ~ 755（1%）"]
 			},
-			"uuid": "2ad9531751af1e6da6c001b91cdc269a"
+			"uuid": "68eadfa4bfc7eeb4284f5b542de79328",
+			"abbr": "函館新手級S"
 		},
 		{
-			"name": "アイビスサマーダッシュ",
+			"name": "朱鷺夏季短途賽",
 			"link": "/race/races/3042",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3042.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4093,11 +4212,12 @@
 				"last_spring": "833 ~ 1000",
 				"pos_keep": "0 ~ 417"
 			},
-			"course": { "straight1": ["0 ~ 650", "650 ~ 1000"] },
-			"uuid": "a78907eeae9ac4ee7a111aace1779a60"
+			"course": { "straight1": ["0 ~ 1000"] },
+			"uuid": "a78907eeae9ac4ee7a111aace1779a60",
+			"abbr": "朱鷺SD"
 		},
 		{
-			"name": "クイーンステークス",
+			"name": "女王錦標賽",
 			"link": "/race/races/3043",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3043.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4110,7 +4230,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -4127,10 +4247,11 @@
 				"corner3": ["1000 ~ 1275"],
 				"corner4": ["1275 ~ 1534"]
 			},
-			"uuid": "c3348b5c961438ba1e3fc922d1aac9d2"
+			"uuid": "1a1b8881fe747c185aaa37e9ae75f258",
+			"abbr": "女王S"
 		},
 		{
-			"name": "小倉記念",
+			"name": "小倉紀念",
 			"link": "/race/races/3044",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3044.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4161,10 +4282,11 @@
 				"corner4": ["1505 ~ 1707"],
 				"uphill": ["480 ~ 735（1.5%）"]
 			},
-			"uuid": "f5761097205fff67791d13e07dfa2251"
+			"uuid": "f5761097205fff67791d13e07dfa2251",
+			"abbr": "小倉紀念"
 		},
 		{
-			"name": "レパードステークス",
+			"name": "獵豹錦標賽",
 			"link": "/race/races/3045",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3045.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4194,10 +4316,11 @@
 				"corner3": ["1140 ~ 1300"],
 				"corner4": ["1300 ~ 1447"]
 			},
-			"uuid": "473412e512af34fac6712426d2937edb"
+			"uuid": "473412e512af34fac6712426d2937edb",
+			"abbr": "獵豹S"
 		},
 		{
-			"name": "関屋記念",
+			"name": "關屋紀念",
 			"link": "/race/races/3046",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3046.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4210,7 +4333,7 @@
 				"distance": "1600",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 267",
@@ -4227,10 +4350,11 @@
 				"uphill": ["250 ~ 600（1%）"],
 				"downhill": ["600 ~ 900（-1.5%）"]
 			},
-			"uuid": "16845facfc1edbb999a300742f7dfabd"
+			"uuid": "7fd06615fe08cf522442420d1cdf5fec",
+			"abbr": "關屋紀念"
 		},
 		{
-			"name": "エルムステークス",
+			"name": "榆樹錦標賽",
 			"link": "/race/races/3047",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3047.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4260,10 +4384,11 @@
 				"corner3": ["980 ~ 1210"],
 				"corner4": ["1210 ~ 1436"]
 			},
-			"uuid": "6c81400433139f7c5950744fea23a8d0"
+			"uuid": "6c81400433139f7c5950744fea23a8d0",
+			"abbr": "榆樹S"
 		},
 		{
-			"name": "北九州記念",
+			"name": "北九州紀念",
 			"link": "/race/races/3048",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3048.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4292,10 +4417,11 @@
 				"straight1": ["907 ~ 1200"],
 				"downhill": ["0 ~ 60（-1.5%）"]
 			},
-			"uuid": "9a4d84ba61fdcb6fa9017defcb7b631d"
+			"uuid": "9a4d84ba61fdcb6fa9017defcb7b631d",
+			"abbr": "北九州紀念"
 		},
 		{
-			"name": "新潟ジュニアステークス",
+			"name": "新潟新手級錦標賽",
 			"link": "/race/races/3049",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3049.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4308,7 +4434,7 @@
 				"distance": "1600",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 267",
@@ -4325,10 +4451,11 @@
 				"uphill": ["250 ~ 600（1%）"],
 				"downhill": ["600 ~ 900（-1.5%）"]
 			},
-			"uuid": "eb20dfcd72c3449fb69ab1feea460d98"
+			"uuid": "4c13899233f4de919adcf9fd978d0d96",
+			"abbr": "新潟新手級S"
 		},
 		{
-			"name": "キーンランドカップ",
+			"name": "堅蘭盃",
 			"link": "/race/races/3050",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3050.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4341,7 +4468,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -4356,10 +4483,11 @@
 				"corner4": ["675 ~ 934"],
 				"straight1": ["934 ~ 1200"]
 			},
-			"uuid": "443c96039563519279039676f0292362"
+			"uuid": "f7ddd3bd42a3a39ae81b6ffbadb21359",
+			"abbr": "堅蘭C"
 		},
 		{
-			"name": "札幌ジュニアステークス",
+			"name": "札幌新手級錦標賽",
 			"link": "/race/races/3051",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3051.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4372,7 +4500,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -4389,10 +4517,11 @@
 				"corner3": ["1000 ~ 1275"],
 				"corner4": ["1275 ~ 1534"]
 			},
-			"uuid": "d581d0a59d63fe79267971b9f3059285"
+			"uuid": "e57fe76c105fc6bbd81096acb4a7d3a7",
+			"abbr": "札幌新手級S"
 		},
 		{
-			"name": "小倉ジュニアステークス",
+			"name": "小倉新手級錦標賽",
 			"link": "/race/races/3052",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3052.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4421,10 +4550,11 @@
 				"straight1": ["907 ~ 1200"],
 				"downhill": ["0 ~ 60（-1.5%）"]
 			},
-			"uuid": "bd03723ffe9319090c604d9ea4a2ce63"
+			"uuid": "bd03723ffe9319090c604d9ea4a2ce63",
+			"abbr": "小倉新手級S"
 		},
 		{
-			"name": "新潟記念",
+			"name": "新潟紀念",
 			"link": "/race/races/3053",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3053.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4454,10 +4584,11 @@
 				"uphill": ["650 ~ 1000（1%）"],
 				"downhill": ["1000 ~ 1300（-1.5%）"]
 			},
-			"uuid": "03c381138d19b950bb3c3fb3464de051"
+			"uuid": "03c381138d19b950bb3c3fb3464de051",
+			"abbr": "新潟紀念"
 		},
 		{
-			"name": "紫苑ステークス",
+			"name": "紫苑錦標賽",
 			"link": "/race/races/3054",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3054.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4489,10 +4620,11 @@
 				"uphill": ["125 ~ 235（2%）", "325 ~ 525（1.5%）", "1825 ~ 1935（2%）"],
 				"downhill": ["625 ~ 1025（-1.5%）"]
 			},
-			"uuid": "69e6d916ce8b70aca28cf80d68722057"
+			"uuid": "69e6d916ce8b70aca28cf80d68722057",
+			"abbr": "紫苑S"
 		},
 		{
-			"name": "京成杯オータムハンデキャップ",
+			"name": "京成盃秋季讓賽",
 			"link": "/race/races/3055",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3055.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4523,10 +4655,11 @@
 				"downhill": ["300 ~ 600（-1.5%）"],
 				"uphill": ["1425 ~ 1535（2%）"]
 			},
-			"uuid": "71f4bfddb3f99c028d1bf102276a6e15"
+			"uuid": "71f4bfddb3f99c028d1bf102276a6e15",
+			"abbr": "京成盃秋季H"
 		},
 		{
-			"name": "シリウスステークス",
+			"name": "天狼星錦標賽",
 			"link": "/race/races/3056",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3056.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4557,10 +4690,11 @@
 				"corner4": ["1400 ~ 1648"],
 				"uphill": ["275 ~ 400（1.5%）", "1800 ~ 1925（1.5%）"]
 			},
-			"uuid": "14f0dbe8ae7c9423e18473701b48bfd1"
+			"uuid": "14f0dbe8ae7c9423e18473701b48bfd1",
+			"abbr": "天狼星S"
 		},
 		{
-			"name": "サウジアラビアロイヤルカップ",
+			"name": "沙烏地阿拉伯皇家盃",
 			"link": "/race/races/3057",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3057.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4590,10 +4724,11 @@
 				"uphill": ["325 ~ 400（2%）", "1150 ~ 1300（1.5%）"],
 				"downhill": ["450 ~ 700（-1.5%）"]
 			},
-			"uuid": "39ee26afd3460dc5229646dde983b4fc"
+			"uuid": "39ee26afd3460dc5229646dde983b4fc",
+			"abbr": "沙烏地阿拉伯RC"
 		},
 		{
-			"name": "アルテミスステークス",
+			"name": "阿提米絲錦標賽",
 			"link": "/race/races/3059",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3059.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4623,10 +4758,11 @@
 				"uphill": ["325 ~ 400（2%）", "1150 ~ 1300（1.5%）"],
 				"downhill": ["450 ~ 700（-1.5%）"]
 			},
-			"uuid": "334f1755edf0878aad933a93682e4b5a"
+			"uuid": "334f1755edf0878aad933a93682e4b5a",
+			"abbr": "阿提米絲S"
 		},
 		{
-			"name": "ファンタジーステークス",
+			"name": "幻想錦標賽",
 			"link": "/race/races/3060",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3060.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4639,7 +4775,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -4656,10 +4792,11 @@
 				"uphill": ["250 ~ 350（2%）", "350 ~ 575（1%）"],
 				"downhill": ["575 ~ 725（-2%）"]
 			},
-			"uuid": "74516b610c8014d7dad64a44b17f232b"
+			"uuid": "763f2ee249ee62c207fe9717d8933f64",
+			"abbr": "幻想S"
 		},
 		{
-			"name": "みやこステークス",
+			"name": "都城錦標賽",
 			"link": "/race/races/3061",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3061.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4672,7 +4809,7 @@
 				"distance": "1800",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -4691,10 +4828,11 @@
 				"uphill": ["775 ~ 975（1.5%）"],
 				"downhill": ["1075 ~ 1275（-1.5%）"]
 			},
-			"uuid": "35b07a6db75d583b7f8748c23811b97a"
+			"uuid": "3922e5510bc7864adc73f1f03bab9cf1",
+			"abbr": "都城S"
 		},
 		{
-			"name": "武蔵野ステークス",
+			"name": "武藏野錦標賽",
 			"link": "/race/races/3062",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3062.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4724,10 +4862,11 @@
 				"downhill": ["575 ~ 775（-1%）"],
 				"uphill": ["1100 ~ 1350（1.5%）"]
 			},
-			"uuid": "c7d283cd72e4b22eb83d277451db90a3"
+			"uuid": "c7d283cd72e4b22eb83d277451db90a3",
+			"abbr": "武藏野S"
 		},
 		{
-			"name": "福島記念",
+			"name": "福島紀念",
 			"link": "/race/races/3063",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3063.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4758,10 +4897,11 @@
 				"corner4": ["1520 ~ 1708"],
 				"uphill": ["980 ~ 1080（1.5%）"]
 			},
-			"uuid": "11c73ba6df3580cc9c97dc1d90a7c758"
+			"uuid": "11c73ba6df3580cc9c97dc1d90a7c758",
+			"abbr": "福島紀念"
 		},
 		{
-			"name": "東京スポーツ杯ジュニアステークス",
+			"name": "東京運動盃新手級錦標賽",
 			"link": "/race/races/3064",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3064.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4793,10 +4933,11 @@
 				"uphill": ["525 ~ 600（2%）", "1350 ~ 1500（1.5%）"],
 				"downhill": ["650 ~ 900（-1.5%）"]
 			},
-			"uuid": "c1eca6691bca6246fb12660e5ad40418"
+			"uuid": "c1eca6691bca6246fb12660e5ad40418",
+			"abbr": "東京運動盃新手級S"
 		},
 		{
-			"name": "京都ジュニアステークス",
+			"name": "京都新手級錦標賽",
 			"link": "/race/races/3065",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3065.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4828,10 +4969,11 @@
 				"uphill": ["970 ~ 1145（1.5%）"],
 				"downhill": ["1270 ~ 1420（-1.5%）"]
 			},
-			"uuid": "561c0a481d0c7b06957e7d5273b77b50"
+			"uuid": "561c0a481d0c7b06957e7d5273b77b50",
+			"abbr": "京都新手級S"
 		},
 		{
-			"name": "京阪杯",
+			"name": "京阪盃",
 			"link": "/race/races/3066",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3066.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4844,7 +4986,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -4861,10 +5003,11 @@
 				"uphill": ["120 ~ 295（1.5%）"],
 				"downhill": ["420 ~ 570（-1.5%）"]
 			},
-			"uuid": "dffdf181e2902ee909a242251ea28ae6"
+			"uuid": "d0917a45324f34f8a63e63aba033b763",
+			"abbr": "京阪盃"
 		},
 		{
-			"name": "チャレンジカップ",
+			"name": "挑戰盃",
 			"link": "/race/races/3067",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3067.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4896,10 +5039,11 @@
 				"downhill": ["0 ~ 140（-1%）", "1200 ~ 1795（-1%）"],
 				"uphill": ["145 ~ 270（2%）", "1800 ~ 1925（2%）"]
 			},
-			"uuid": "b2b1d657daa5622a35ee44ad4b2a3bc4"
+			"uuid": "b2b1d657daa5622a35ee44ad4b2a3bc4",
+			"abbr": "挑戰C"
 		},
 		{
-			"name": "中日新聞杯",
+			"name": "中日新聞盃",
 			"link": "/race/races/3068",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3068.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4912,7 +5056,7 @@
 				"distance": "2000",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 333",
@@ -4931,10 +5075,11 @@
 				"uphill": ["0 ~ 50（2%）", "1675 ~ 1775（2%）"],
 				"downhill": ["900 ~ 1675（-1%）"]
 			},
-			"uuid": "01123dfbf64c2af96a5c7ab5c2be5fb5"
+			"uuid": "9b54047e02307afcda43844ae7226032",
+			"abbr": "中日新聞盃"
 		},
 		{
-			"name": "カペラステークス",
+			"name": "五車二錦標賽",
 			"link": "/race/races/3069",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3069.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4964,10 +5109,11 @@
 				"downhill": ["175 ~ 350（-1.5%）"],
 				"uphill": ["1000 ~ 1175（1.5%）"]
 			},
-			"uuid": "6ff0491e111fcbb07907b397b77501f3"
+			"uuid": "6ff0491e111fcbb07907b397b77501f3",
+			"abbr": "五車二S"
 		},
 		{
-			"name": "ターコイズステークス",
+			"name": "綠松石錦標賽",
 			"link": "/race/races/3070",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3070.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -4998,7 +5144,8 @@
 				"downhill": ["300 ~ 600（-1.5%）"],
 				"uphill": ["1425 ~ 1535（2%）"]
 			},
-			"uuid": "3f6988cb3744c334604142510df77170"
+			"uuid": "3f6988cb3744c334604142510df77170",
+			"abbr": "綠松石S"
 		},
 		{
 			"name": "TCK女王盃",
@@ -5032,10 +5179,11 @@
 				"corner3": ["1100 ~ 1250"],
 				"corner4": ["1250 ~ 1414"]
 			},
-			"uuid": "ee3e04f7e0713d096fb801bffc7607c1"
+			"uuid": "ee3e04f7e0713d096fb801bffc7607c1",
+			"abbr": "TCK女王盃"
 		},
 		{
-			"name": "東京スプリント",
+			"name": "東京短途賽",
 			"link": "/race/races/3072",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3072.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5063,10 +5211,11 @@
 				"corner4": ["650 ~ 814"],
 				"straight1": ["814 ~ 1200"]
 			},
-			"uuid": "43ac0f42d19ea0cc4ad03c6c1abd3a86"
+			"uuid": "43ac0f42d19ea0cc4ad03c6c1abd3a86",
+			"abbr": "東京短途賽"
 		},
 		{
-			"name": "スパーキングレディーカップ",
+			"name": "閃耀女士盃",
 			"link": "/race/races/3073",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3073.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5097,10 +5246,11 @@
 				"corner3": ["1100 ~ 1200"],
 				"corner4": ["1200 ~ 1300"]
 			},
-			"uuid": "bd48bb783e022573aef588503925f315"
+			"uuid": "bd48bb783e022573aef588503925f315",
+			"abbr": "閃耀女士盃"
 		},
 		{
-			"name": "マリーンカップ",
+			"name": "海洋盃",
 			"link": "/race/races/3074",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3074.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5113,7 +5263,7 @@
 				"distance": "1600",
 				"course": "沙地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 267",
@@ -5130,10 +5280,11 @@
 				"corner3": ["970 ~ 1140"],
 				"corner4": ["1140 ~ 1292"]
 			},
-			"uuid": "5928c119a9323ae5741e91f006d7b1c9"
+			"uuid": "ee777da3cae6c7cb10fcff77412108da",
+			"abbr": "海洋盃"
 		},
 		{
-			"name": "クイーン賞",
+			"name": "女王賞",
 			"link": "/race/races/3075",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3075.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5146,7 +5297,7 @@
 				"distance": "1800",
 				"course": "沙地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -5164,10 +5315,11 @@
 				"corner3": ["1170 ~ 1340"],
 				"corner4": ["1340 ~ 1492"]
 			},
-			"uuid": "2362aec7db2f174fda0098b943e3ef2c"
+			"uuid": "c5873d85f144af3efe3f5c7c4638b82e",
+			"abbr": "女王賞"
 		},
 		{
-			"name": "マーキュリーカップ",
+			"name": "水星盃",
 			"link": "/race/races/3076",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3076.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5200,10 +5352,11 @@
 				"uphill": ["175 ~ 350（1%）", "900 ~ 1275（1%）", "1775 ~ 1950（1%）"],
 				"downhill": ["1275 ~ 1725（-1.5%）"]
 			},
-			"uuid": "33fe3707b649fc2d019b15b8c82145f3"
+			"uuid": "33fe3707b649fc2d019b15b8c82145f3",
+			"abbr": "水星盃"
 		},
 		{
-			"name": "クラスターカップ",
+			"name": "星團盃",
 			"link": "/race/races/3077",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/3077.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5234,10 +5387,11 @@
 				"uphill": ["100 ~ 475（1%）", "975 ~ 1150（1%）"],
 				"downhill": ["475 ~ 925（-1.5%）"]
 			},
-			"uuid": "2f9616e21b25d60dc2dc4005163dcfc9"
+			"uuid": "2f9616e21b25d60dc2dc4005163dcfc9",
+			"abbr": "星團盃"
 		},
 		{
-			"name": "葵ステークス",
+			"name": "葵錦標賽",
 			"link": "/race/races/4050",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4050.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5250,7 +5404,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -5267,12 +5421,13 @@
 				"uphill": ["120 ~ 295（1.5%）"],
 				"downhill": ["420 ~ 570（-1.5%）"]
 			},
-			"uuid": "6f5195e807dddd4824b524d45b020378"
+			"uuid": "56869f9c6332eada139c36ce62464d79",
+			"abbr": "葵S"
 		}
 	],
 	"OP": [
 		{
-			"name": "万葉ステークス",
+			"name": "萬葉錦標賽",
 			"link": "/race/races/4001",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4001.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5309,10 +5464,11 @@
 				],
 				"downhill": ["336 ~ 486（-2%）", "2175 ~ 2325（-2%）"]
 			},
-			"uuid": "c13b4aab5d7e232118cc6edf650b6737"
+			"uuid": "c13b4aab5d7e232118cc6edf650b6737",
+			"abbr": "萬葉S"
 		},
 		{
-			"name": "ジュニアカップ",
+			"name": "新手級盃",
 			"link": "/race/races/4002",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4002.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5343,10 +5499,11 @@
 				"downhill": ["300 ~ 600（-1.5%）"],
 				"uphill": ["1425 ~ 1535（2%）"]
 			},
-			"uuid": "c248f4af0aa47b83521f7bc795fd92b1"
+			"uuid": "c248f4af0aa47b83521f7bc795fd92b1",
+			"abbr": "新手級盃"
 		},
 		{
-			"name": "淀短距離ステークス",
+			"name": "淀短途錦標賽",
 			"link": "/race/races/4003",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4003.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5359,7 +5516,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -5376,10 +5533,11 @@
 				"uphill": ["120 ~ 295（1.5%）"],
 				"downhill": ["420 ~ 570（-1.5%）"]
 			},
-			"uuid": "727cc2716ef2bb6ded7c2e847549fccf"
+			"uuid": "efd5462dc87ee7e57efa3d2b62455302",
+			"abbr": "淀短途S"
 		},
 		{
-			"name": "ポルックスステークス",
+			"name": "北河三錦標賽",
 			"link": "/race/races/4004",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4004.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5410,10 +5568,11 @@
 				"uphill": ["100 ~ 275（1.5%）", "350 ~ 525（1%）", "1600 ~ 1775（1.5%）"],
 				"downhill": ["775 ~ 950（-1.5%）"]
 			},
-			"uuid": "1991ecd71dc97386e10a2e7bdead7f75"
+			"uuid": "1991ecd71dc97386e10a2e7bdead7f75",
+			"abbr": "北河三S"
 		},
 		{
-			"name": "ジャニュアリーステークス",
+			"name": "一月錦標賽",
 			"link": "/race/races/4005",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4005.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5443,10 +5602,11 @@
 				"downhill": ["175 ~ 350（-1.5%）"],
 				"uphill": ["1000 ~ 1175（1.5%）"]
 			},
-			"uuid": "aaf8050d3d6aa97000f3f9a586913680"
+			"uuid": "aaf8050d3d6aa97000f3f9a586913680",
+			"abbr": "一月S"
 		},
 		{
-			"name": "ニューイヤーステークス",
+			"name": "新年錦標賽",
 			"link": "/race/races/4006",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4006.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5477,10 +5637,11 @@
 				"downhill": ["300 ~ 600（-1.5%）"],
 				"uphill": ["1425 ~ 1535（2%）"]
 			},
-			"uuid": "a507032914f6f4e6f4bb5cfd3642d032"
+			"uuid": "a507032914f6f4e6f4bb5cfd3642d032",
+			"abbr": "新年S"
 		},
 		{
-			"name": "紅梅ステークス",
+			"name": "紅梅錦標賽",
 			"link": "/race/races/4007",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4007.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5493,7 +5654,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -5510,10 +5671,11 @@
 				"uphill": ["250 ~ 350（2%）", "350 ~ 575（1%）"],
 				"downhill": ["575 ~ 725（-2%）"]
 			},
-			"uuid": "0673af2c2f8d084673bb59df2eba6f32"
+			"uuid": "de752bcaba1861daa8ccc1ee34d4b339",
+			"abbr": "紅梅S"
 		},
 		{
-			"name": "すばるステークス",
+			"name": "昴宿錦標賽",
 			"link": "/race/races/4008",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4008.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5526,7 +5688,7 @@
 				"distance": "1400",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -5544,10 +5706,11 @@
 				"uphill": ["375 ~ 575（1.5%）"],
 				"downhill": ["675 ~ 875（-1.5%）"]
 			},
-			"uuid": "9dd279ce357bc0c11e31050c0ed19b8a"
+			"uuid": "d71904bc05ee57c4393df742eda77b01",
+			"abbr": "昴宿S"
 		},
 		{
-			"name": "若駒ステークス",
+			"name": "幼駒錦標賽",
 			"link": "/race/races/4009",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4009.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5579,10 +5742,11 @@
 				"uphill": ["970 ~ 1145（1.5%）"],
 				"downhill": ["1270 ~ 1420（-1.5%）"]
 			},
-			"uuid": "6df448587c18cb17e0baa61b4fae72a2"
+			"uuid": "6df448587c18cb17e0baa61b4fae72a2",
+			"abbr": "幼駒S"
 		},
 		{
-			"name": "カーバンクルステークス",
+			"name": "紅寶石錦標賽",
 			"link": "/race/races/4010",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4010.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5595,7 +5759,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -5612,10 +5776,11 @@
 				"downhill": ["0 ~ 200（-1.5%）"],
 				"uphill": ["1025 ~ 1135（2%）"]
 			},
-			"uuid": "0fd58f1a1fcb78cfcaff6c6d125d4c17"
+			"uuid": "a52c3c08b05d5f5ec8adbebaee84d1a7",
+			"abbr": "紅寶石S"
 		},
 		{
-			"name": "白富士ステークス",
+			"name": "白富士錦標賽",
 			"link": "/race/races/4011",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4011.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5628,7 +5793,7 @@
 				"distance": "2000",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 333",
@@ -5647,10 +5812,11 @@
 				"uphill": ["725 ~ 800（2%）", "1550 ~ 1700（1.5%）"],
 				"downhill": ["850 ~ 1100（-1.5%）"]
 			},
-			"uuid": "f1b624c7e32fee23d7fe23ec6c13679a"
+			"uuid": "84cfebaebdc39a9755f980aa19269107",
+			"abbr": "白富士S"
 		},
 		{
-			"name": "クロッカスステークス",
+			"name": "番紅花錦標賽",
 			"link": "/race/races/4012",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4012.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5680,10 +5846,11 @@
 				"uphill": ["125 ~ 200（2%）", "950 ~ 1100（1.5%）"],
 				"downhill": ["250 ~ 500（-1.5%）"]
 			},
-			"uuid": "033216549ece7b282f3bee3b30d28cee"
+			"uuid": "033216549ece7b282f3bee3b30d28cee",
+			"abbr": "番紅花S"
 		},
 		{
-			"name": "大和ステークス",
+			"name": "大和錦標賽",
 			"link": "/race/races/4013",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4013.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5696,7 +5863,7 @@
 				"distance": "1200",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -5713,10 +5880,11 @@
 				"uphill": ["175 ~ 375（1.5%）"],
 				"downhill": ["475 ~ 675（-1.5%）"]
 			},
-			"uuid": "28ad9948742f41e6291bc987d6353b7a"
+			"uuid": "12494100ab63ca55e8bfd79316987c9b",
+			"abbr": "大和S"
 		},
 		{
-			"name": "エルフィンステークス",
+			"name": "精靈錦標賽",
 			"link": "/race/races/4014",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4014.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5747,10 +5915,11 @@
 				"uphill": ["450 ~ 550（2%）", "550 ~ 775（1%）"],
 				"downhill": ["775 ~ 925（-2%）"]
 			},
-			"uuid": "de38de4e9608c4ff91ec1cb3a30f5e1b"
+			"uuid": "de38de4e9608c4ff91ec1cb3a30f5e1b",
+			"abbr": "精靈S"
 		},
 		{
-			"name": "洛陽ステークス",
+			"name": "洛陽錦標賽",
 			"link": "/race/races/4015",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4015.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5781,10 +5950,11 @@
 				"uphill": ["450 ~ 550（2%）", "550 ~ 775（1%）"],
 				"downhill": ["775 ~ 925（-2%）"]
 			},
-			"uuid": "c96e382af1eadd0913866bfcef500f41"
+			"uuid": "c96e382af1eadd0913866bfcef500f41",
+			"abbr": "洛陽S"
 		},
 		{
-			"name": "アルデバランステークス",
+			"name": "畢宿五錦標賽",
 			"link": "/race/races/4016",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4016.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5797,7 +5967,7 @@
 				"distance": "1900",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 317",
@@ -5816,10 +5986,11 @@
 				"uphill": ["875 ~ 1075（1.5%）"],
 				"downhill": ["1175 ~ 1375（-1.5%）"]
 			},
-			"uuid": "72b26c937c0024944c73c4f038dfb11f"
+			"uuid": "b172667de1e906e863369dcc262a2324",
+			"abbr": "畢宿五S"
 		},
 		{
-			"name": "バレンタインステークス",
+			"name": "情人節錦標賽",
 			"link": "/race/races/4017",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4017.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5849,10 +6020,11 @@
 				"downhill": ["375 ~ 575（-1%）"],
 				"uphill": ["900 ~ 1150（1.5%）"]
 			},
-			"uuid": "4579cc1ef41812f6d9ad85868017e890"
+			"uuid": "4579cc1ef41812f6d9ad85868017e890",
+			"abbr": "情人節S"
 		},
 		{
-			"name": "ヒヤシンスステークス",
+			"name": "風信子錦標賽",
 			"link": "/race/races/4018",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4018.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5882,10 +6054,11 @@
 				"downhill": ["575 ~ 775（-1%）"],
 				"uphill": ["1100 ~ 1350（1.5%）"]
 			},
-			"uuid": "38e37235b2c33cf1c55b10ea86489c96"
+			"uuid": "38e37235b2c33cf1c55b10ea86489c96",
+			"abbr": "風信子S"
 		},
 		{
-			"name": "総武ステークス",
+			"name": "總武錦標賽",
 			"link": "/race/races/4019",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4019.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5916,10 +6089,11 @@
 				"uphill": ["100 ~ 275（1.5%）", "350 ~ 525（1%）", "1600 ~ 1775（1.5%）"],
 				"downhill": ["775 ~ 950（-1.5%）"]
 			},
-			"uuid": "06cccf78b51d6a6d9ae3c79651b672ec"
+			"uuid": "06cccf78b51d6a6d9ae3c79651b672ec",
+			"abbr": "總武S"
 		},
 		{
-			"name": "すみれステークス",
+			"name": "菫錦標賽",
 			"link": "/race/races/4020",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4020.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5951,10 +6125,11 @@
 				"downhill": ["0 ~ 290（-1%）", "1400 ~ 1995（-1%）"],
 				"uphill": ["295 ~ 420（2%）", "2000 ~ 2125（2%）"]
 			},
-			"uuid": "00018377e9dda076e179fd945075a1dd"
+			"uuid": "00018377e9dda076e179fd945075a1dd",
+			"abbr": "菫S"
 		},
 		{
-			"name": "大阪城ステークス",
+			"name": "大阪城錦標賽",
 			"link": "/race/races/4021",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4021.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -5984,10 +6159,11 @@
 				"downhill": ["1150 ~ 1550（-1%）"],
 				"uphill": ["1605 ~ 1725（2%）"]
 			},
-			"uuid": "8951f248a1f78eb562e5c5b36d0d24fc"
+			"uuid": "8951f248a1f78eb562e5c5b36d0d24fc",
+			"abbr": "大阪城S"
 		},
 		{
-			"name": "ポラリスステークス",
+			"name": "北極星錦標賽",
 			"link": "/race/races/4022",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4022.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6000,7 +6176,7 @@
 				"distance": "1400",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -6016,10 +6192,11 @@
 				"straight1": ["1048 ~ 1400"],
 				"uphill": ["1200 ~ 1325（1.5%）"]
 			},
-			"uuid": "a64962ab7691d48226f157c5a5d74008"
+			"uuid": "5390650fec7c11b80969db762b93ca94",
+			"abbr": "北極星S"
 		},
 		{
-			"name": "仁川ステークス",
+			"name": "仁川錦標賽",
 			"link": "/race/races/4023",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4023.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6050,10 +6227,11 @@
 				"corner4": ["1400 ~ 1648"],
 				"uphill": ["275 ~ 400（1.5%）", "1800 ~ 1925（1.5%）"]
 			},
-			"uuid": "9377897dcc5ad8394954fc047321a126"
+			"uuid": "9377897dcc5ad8394954fc047321a126",
+			"abbr": "仁川S"
 		},
 		{
-			"name": "アネモネステークス",
+			"name": "銀蓮花錦標賽",
 			"link": "/race/races/4024",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4024.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6084,10 +6262,11 @@
 				"downhill": ["300 ~ 600（-1.5%）"],
 				"uphill": ["1425 ~ 1535（2%）"]
 			},
-			"uuid": "9703d11711fad037bee769f70e555a4f"
+			"uuid": "9703d11711fad037bee769f70e555a4f",
+			"abbr": "銀蓮花S"
 		},
 		{
-			"name": "昇竜ステークス",
+			"name": "升龍錦標賽",
 			"link": "/race/races/4025",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4025.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6100,7 +6279,7 @@
 				"distance": "1400",
 				"course": "沙地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -6117,10 +6296,11 @@
 				"downhill": ["425 ~ 1025（-1.5%）"],
 				"uphill": ["1025 ~ 1175（1.5%）"]
 			},
-			"uuid": "e9dca473a8380f0ca068f8e588343bc5"
+			"uuid": "1da724dcb7bbd215cd532b41d0dd182b",
+			"abbr": "升龍S"
 		},
 		{
-			"name": "東風ステークス",
+			"name": "東風錦標賽",
 			"link": "/race/races/4026",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4026.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6151,10 +6331,11 @@
 				"downhill": ["300 ~ 600（-1.5%）"],
 				"uphill": ["1425 ~ 1535（2%）"]
 			},
-			"uuid": "f2705d5fcad274ee3031029541734d41"
+			"uuid": "f2705d5fcad274ee3031029541734d41",
+			"abbr": "東風S"
 		},
 		{
-			"name": "若葉ステークス",
+			"name": "若葉錦標賽",
 			"link": "/race/races/4027",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4027.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6186,10 +6367,11 @@
 				"downhill": ["0 ~ 140（-1%）", "1200 ~ 1795（-1%）"],
 				"uphill": ["145 ~ 270（2%）", "1800 ~ 1925（2%）"]
 			},
-			"uuid": "f845e1dd85d4f37d6b1d790253c0c519"
+			"uuid": "f845e1dd85d4f37d6b1d790253c0c519",
+			"abbr": "若葉S"
 		},
 		{
-			"name": "千葉ステークス",
+			"name": "千葉錦標賽",
 			"link": "/race/races/4028",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4028.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6219,10 +6401,11 @@
 				"downhill": ["175 ~ 350（-1.5%）"],
 				"uphill": ["1000 ~ 1175（1.5%）"]
 			},
-			"uuid": "88b7f5a8162308a13bf44752c2e26847"
+			"uuid": "88b7f5a8162308a13bf44752c2e26847",
+			"abbr": "千葉S"
 		},
 		{
-			"name": "六甲ステークス",
+			"name": "六甲錦標賽",
 			"link": "/race/races/4030",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4030.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6252,10 +6435,11 @@
 				"downhill": ["950 ~ 1350（-1%）"],
 				"uphill": ["1405 ~ 1525（2%）"]
 			},
-			"uuid": "2d5c95f15da6c2e86b2098a04939c8bc"
+			"uuid": "2d5c95f15da6c2e86b2098a04939c8bc",
+			"abbr": "六甲S"
 		},
 		{
-			"name": "コーラルステークス",
+			"name": "珊瑚錦標賽",
 			"link": "/race/races/4031",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4031.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6268,7 +6452,7 @@
 				"distance": "1400",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -6284,10 +6468,11 @@
 				"straight1": ["1048 ~ 1400"],
 				"uphill": ["1200 ~ 1325（1.5%）"]
 			},
-			"uuid": "97ff01da86e03fb3bd7d9878aeeae7c9"
+			"uuid": "67cee0d6794476c33d7880204fc0922f",
+			"abbr": "珊瑚S"
 		},
 		{
-			"name": "マーガレットステークス",
+			"name": "瑪格麗特錦標賽",
 			"link": "/race/races/4032",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4032.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6300,7 +6485,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -6317,10 +6502,11 @@
 				"downhill": ["400 ~ 995（-1%）"],
 				"uphill": ["1000 ~ 1125（2%）"]
 			},
-			"uuid": "67b59cde33e0ef7887a712e0eb314d6a"
+			"uuid": "582b17fa483552b8d95967f3df7f3ff9",
+			"abbr": "瑪格麗特S"
 		},
 		{
-			"name": "伏竜ステークス",
+			"name": "伏龍錦標賽",
 			"link": "/race/races/4033",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4033.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6351,10 +6537,11 @@
 				"uphill": ["100 ~ 275（1.5%）", "350 ~ 525（1%）", "1600 ~ 1775（1.5%）"],
 				"downhill": ["775 ~ 950（-1.5%）"]
 			},
-			"uuid": "09416949790c6ed1fa5fe0bf57bd1c08"
+			"uuid": "09416949790c6ed1fa5fe0bf57bd1c08",
+			"abbr": "伏龍S"
 		},
 		{
-			"name": "忘れな草賞",
+			"name": "勿忘草賞",
 			"link": "/race/races/4035",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4035.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6386,10 +6573,11 @@
 				"downhill": ["0 ~ 140（-1%）", "1200 ~ 1795（-1%）"],
 				"uphill": ["145 ~ 270（2%）", "1800 ~ 1925（2%）"]
 			},
-			"uuid": "de7053c2e0cf5d81ab728eb77816f149"
+			"uuid": "de7053c2e0cf5d81ab728eb77816f149",
+			"abbr": "勿忘草賞"
 		},
 		{
-			"name": "京葉ステークス",
+			"name": "京葉錦標賽",
 			"link": "/race/races/4036",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4036.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6419,10 +6607,11 @@
 				"downhill": ["175 ~ 350（-1.5%）"],
 				"uphill": ["1000 ~ 1175（1.5%）"]
 			},
-			"uuid": "ca153e5d1f00f0d694e026487428ac54"
+			"uuid": "ca153e5d1f00f0d694e026487428ac54",
+			"abbr": "京葉S"
 		},
 		{
-			"name": "春雷ステークス",
+			"name": "春雷錦標賽",
 			"link": "/race/races/4037",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4037.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6435,7 +6624,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -6452,10 +6641,11 @@
 				"downhill": ["0 ~ 200（-1.5%）"],
 				"uphill": ["1025 ~ 1135（2%）"]
 			},
-			"uuid": "b8fa34b22fcd215bbd391a9303ce868d"
+			"uuid": "1449d07633987108b24bae8a1d3725ae",
+			"abbr": "春雷S"
 		},
 		{
-			"name": "福島民報杯",
+			"name": "福島民報盃",
 			"link": "/race/races/4038",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4038.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6486,10 +6676,11 @@
 				"corner4": ["1520 ~ 1708"],
 				"uphill": ["980 ~ 1080（1.5%）"]
 			},
-			"uuid": "accaba8ae8b6830be780b3e9de360860"
+			"uuid": "accaba8ae8b6830be780b3e9de360860",
+			"abbr": "福島民報盃"
 		},
 		{
-			"name": "橘ステークス",
+			"name": "橘錦標賽",
 			"link": "/race/races/4039",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4039.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6502,7 +6693,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -6519,10 +6710,11 @@
 				"uphill": ["250 ~ 350（2%）", "350 ~ 575（1%）"],
 				"downhill": ["575 ~ 725（-2%）"]
 			},
-			"uuid": "b3ffc58217a4715e971f5775e00b146c"
+			"uuid": "04a22e79d9d166656d9362f793b1c417",
+			"abbr": "橘S"
 		},
 		{
-			"name": "オアシスステークス",
+			"name": "綠洲錦標賽",
 			"link": "/race/races/4040",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4040.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6552,10 +6744,11 @@
 				"downhill": ["575 ~ 775（-1%）"],
 				"uphill": ["1100 ~ 1350（1.5%）"]
 			},
-			"uuid": "040a454aeef535de8c0c30e769b945ae"
+			"uuid": "040a454aeef535de8c0c30e769b945ae",
+			"abbr": "綠洲S"
 		},
 		{
-			"name": "天王山ステークス",
+			"name": "天王山錦標賽",
 			"link": "/race/races/4041",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4041.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6568,7 +6761,7 @@
 				"distance": "1200",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -6585,10 +6778,11 @@
 				"uphill": ["175 ~ 375（1.5%）"],
 				"downhill": ["475 ~ 675（-1.5%）"]
 			},
-			"uuid": "783b2b61534228161ea49fc9e1df5a20"
+			"uuid": "62baf4433cc9af9696369890849c64d5",
+			"abbr": "天王山S"
 		},
 		{
-			"name": "端午ステークス",
+			"name": "端午錦標賽",
 			"link": "/race/races/4042",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4042.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6601,7 +6795,7 @@
 				"distance": "1400",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -6619,10 +6813,11 @@
 				"uphill": ["375 ~ 575（1.5%）"],
 				"downhill": ["675 ~ 875（-1.5%）"]
 			},
-			"uuid": "abf8b84e997380cbbc904f7c29ef6254"
+			"uuid": "09e5fa28923ed2b8a3a90675a90832a1",
+			"abbr": "端午S"
 		},
 		{
-			"name": "スイートピーステークス",
+			"name": "香豌豆錦標賽",
 			"link": "/race/races/4043",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4043.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6654,10 +6849,11 @@
 				"uphill": ["525 ~ 600（2%）", "1350 ~ 1500（1.5%）"],
 				"downhill": ["650 ~ 900（-1.5%）"]
 			},
-			"uuid": "bfa799dbce3b3ebd29dd22e328748963"
+			"uuid": "bfa799dbce3b3ebd29dd22e328748963",
+			"abbr": "香豌豆S"
 		},
 		{
-			"name": "谷川岳ステークス",
+			"name": "谷川岳錦標賽",
 			"link": "/race/races/4044",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4044.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6670,7 +6866,7 @@
 				"distance": "1600",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 267",
@@ -6687,10 +6883,11 @@
 				"uphill": ["250 ~ 600（1%）"],
 				"downhill": ["600 ~ 900（-1.5%）"]
 			},
-			"uuid": "50a8a201dea17c74d5aae3ae5fe02a6a"
+			"uuid": "c297f4553bb648455fd09e9ee55a1107",
+			"abbr": "谷川岳S"
 		},
 		{
-			"name": "プリンシパルステークス",
+			"name": "主角錦標賽",
 			"link": "/race/races/4045",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4045.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6703,7 +6900,7 @@
 				"distance": "2000",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 333",
@@ -6722,10 +6919,11 @@
 				"uphill": ["725 ~ 800（2%）", "1550 ~ 1700（1.5%）"],
 				"downhill": ["850 ~ 1100（-1.5%）"]
 			},
-			"uuid": "fc04aa9b89459488b5d6ac2930508e15"
+			"uuid": "34e123afd207fc454ec6121567dab0c8",
+			"abbr": "主角S"
 		},
 		{
-			"name": "メトロポリタンステークス",
+			"name": "大都會錦標賽",
 			"link": "/race/races/4046",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4046.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6738,7 +6936,7 @@
 				"distance": "2400",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 400",
@@ -6757,10 +6955,11 @@
 				"uphill": ["0 ~ 40（1.5%）", "1125 ~ 1200（2%）", "1950 ~ 2100（1.5%）"],
 				"downhill": ["1250 ~ 1500（-1.5%）"]
 			},
-			"uuid": "842080ce7024e95493d6ae31bff615ee"
+			"uuid": "7371df451c63be1e3b97c61c17444583",
+			"abbr": "大都會S"
 		},
 		{
-			"name": "鞍馬ステークス",
+			"name": "鞍馬錦標賽",
 			"link": "/race/races/4047",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4047.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6773,7 +6972,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -6790,10 +6989,11 @@
 				"uphill": ["120 ~ 295（1.5%）"],
 				"downhill": ["420 ~ 570（-1.5%）"]
 			},
-			"uuid": "b037c67c1573ef91dacdf34d8d5e011a"
+			"uuid": "a669d3991bb9a9d2eb3fb0dfdfd4cf59",
+			"abbr": "鞍馬S"
 		},
 		{
-			"name": "ブリリアントステークス",
+			"name": "鑽輝錦標賽",
 			"link": "/race/races/4048",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4048.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6806,7 +7006,7 @@
 				"distance": "2100",
 				"course": "沙地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 350",
@@ -6825,10 +7025,11 @@
 				"downhill": ["1075 ~ 1275（-1%）"],
 				"uphill": ["1600 ~ 1850（1.5%）"]
 			},
-			"uuid": "d1628348699b79d621364d5272b1a58b"
+			"uuid": "a59ee9d0a4ca4cf14beb0b571f2ec042",
+			"abbr": "鑽輝S"
 		},
 		{
-			"name": "都大路ステークス",
+			"name": "都大路錦標賽",
 			"link": "/race/races/4049",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4049.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6841,7 +7042,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -6859,10 +7060,11 @@
 				"uphill": ["650 ~ 750（2%）", "750 ~ 975（1%）"],
 				"downhill": ["975 ~ 1125（-2%）"]
 			},
-			"uuid": "3503169220bcab986e2644f9c8ba6034"
+			"uuid": "badaad436d461cca837b15ebcc5f6aa8",
+			"abbr": "都大路S"
 		},
 		{
-			"name": "栗東ステークス",
+			"name": "栗東錦標賽",
 			"link": "/race/races/4051",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4051.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6875,7 +7077,7 @@
 				"distance": "1400",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -6893,10 +7095,11 @@
 				"uphill": ["375 ~ 575（1.5%）"],
 				"downhill": ["675 ~ 875（-1.5%）"]
 			},
-			"uuid": "7d3b1a13cdc80941b2a59e98841586a7"
+			"uuid": "5b9a1544116eb3126bb92a4045488297",
+			"abbr": "栗東S"
 		},
 		{
-			"name": "青竜ステークス",
+			"name": "青龍錦標賽",
 			"link": "/race/races/4052",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4052.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6926,10 +7129,11 @@
 				"downhill": ["575 ~ 775（-1%）"],
 				"uphill": ["1100 ~ 1350（1.5%）"]
 			},
-			"uuid": "40c38dbcdab1aa118868c164e5d10768"
+			"uuid": "40c38dbcdab1aa118868c164e5d10768",
+			"abbr": "青龍S"
 		},
 		{
-			"name": "メイステークス",
+			"name": "五月錦標賽",
 			"link": "/race/races/4053",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4053.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6961,10 +7165,11 @@
 				"uphill": ["525 ~ 600（2%）", "1350 ~ 1500（1.5%）"],
 				"downhill": ["650 ~ 900（-1.5%）"]
 			},
-			"uuid": "35a091621af2cbb4f536d24aaf1db08a"
+			"uuid": "35a091621af2cbb4f536d24aaf1db08a",
+			"abbr": "五月S"
 		},
 		{
-			"name": "鳳雛ステークス",
+			"name": "鳳雛錦標賽",
 			"link": "/race/races/4054",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4054.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -6977,7 +7182,7 @@
 				"distance": "1800",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -6996,10 +7201,11 @@
 				"uphill": ["775 ~ 975（1.5%）"],
 				"downhill": ["1075 ~ 1275（-1.5%）"]
 			},
-			"uuid": "3182f5af736a1f08bebf31a57c13e397"
+			"uuid": "ef30852bda4386bbbbaa471606ed810d",
+			"abbr": "鳳雛S"
 		},
 		{
-			"name": "韋駄天ステークス",
+			"name": "韋馱天錦標賽",
 			"link": "/race/races/4055",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4055.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7021,11 +7227,12 @@
 				"last_spring": "833 ~ 1000",
 				"pos_keep": "0 ~ 417"
 			},
-			"course": { "straight1": ["0 ~ 650", "650 ~ 1000"] },
-			"uuid": "569f9a0e59747f3d69f0047d884979ec"
+			"course": { "straight1": ["0 ~ 1000"] },
+			"uuid": "569f9a0e59747f3d69f0047d884979ec",
+			"abbr": "韋馱天S"
 		},
 		{
-			"name": "白百合ステークス",
+			"name": "白百合錦標賽",
 			"link": "/race/races/4056",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4056.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7038,7 +7245,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -7056,10 +7263,11 @@
 				"uphill": ["650 ~ 750（2%）", "750 ~ 975（1%）"],
 				"downhill": ["975 ~ 1125（-2%）"]
 			},
-			"uuid": "8ca4857f059872dc2c8ed2660e02ae3a"
+			"uuid": "9f78d92d76ade0664188e9410c03fa96",
+			"abbr": "白百合S"
 		},
 		{
-			"name": "欅ステークス",
+			"name": "櫸樹錦標賽",
 			"link": "/race/races/4057",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4057.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7089,10 +7297,11 @@
 				"downhill": ["375 ~ 575（-1%）"],
 				"uphill": ["900 ~ 1150（1.5%）"]
 			},
-			"uuid": "6e8043e8e5d56dc2f5c2745b569056ed"
+			"uuid": "6e8043e8e5d56dc2f5c2745b569056ed",
+			"abbr": "櫸樹S"
 		},
 		{
-			"name": "安土城ステークス",
+			"name": "安土城錦標賽",
 			"link": "/race/races/4058",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4058.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7105,7 +7314,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -7122,10 +7331,11 @@
 				"uphill": ["250 ~ 350（2%）", "350 ~ 575（1%）"],
 				"downhill": ["575 ~ 725（-2%）"]
 			},
-			"uuid": "67e4397e7c69c3523e9e6c0e58a66fe1"
+			"uuid": "8ce4e0ccd8021f7bc3a03c3297f03e36",
+			"abbr": "安土城S"
 		},
 		{
-			"name": "アハルテケステークス",
+			"name": "阿哈爾捷金馬錦標賽",
 			"link": "/race/races/4059",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4059.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7155,10 +7365,11 @@
 				"downhill": ["575 ~ 775（-1%）"],
 				"uphill": ["1100 ~ 1350（1.5%）"]
 			},
-			"uuid": "1666992a061df32e3cb0633f5873acab"
+			"uuid": "1666992a061df32e3cb0633f5873acab",
+			"abbr": "阿哈爾捷金馬S"
 		},
 		{
-			"name": "天保山ステークス",
+			"name": "天保山錦標賽",
 			"link": "/race/races/4060",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4060.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7171,7 +7382,7 @@
 				"distance": "1400",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -7187,10 +7398,11 @@
 				"straight1": ["1048 ~ 1400"],
 				"uphill": ["1200 ~ 1325（1.5%）"]
 			},
-			"uuid": "2ec9f5d72de7391a2913bf9ba9f25c61"
+			"uuid": "92fc3a9367b554a1a0b53acf3000c590",
+			"abbr": "天保山S"
 		},
 		{
-			"name": "米子ステークス",
+			"name": "米子錦標賽",
 			"link": "/race/races/4061",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4061.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7220,10 +7432,11 @@
 				"downhill": ["950 ~ 1350（-1%）"],
 				"uphill": ["1405 ~ 1525（2%）"]
 			},
-			"uuid": "76aeab7bc8e44354e429df653c91ab5e"
+			"uuid": "76aeab7bc8e44354e429df653c91ab5e",
+			"abbr": "米子S"
 		},
 		{
-			"name": "大沼ステークス",
+			"name": "大沼錦標賽",
 			"link": "/race/races/4062",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4062.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7236,7 +7449,7 @@
 				"distance": "1700",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 283",
@@ -7255,10 +7468,11 @@
 				"downhill": ["275 ~ 615（-1%）"],
 				"uphill": ["615 ~ 1285（1%）"]
 			},
-			"uuid": "3c9bacb3bdd0364b4bf1206aa87d20e4"
+			"uuid": "f4f5f9b6c270c14f62a291273b8100d7",
+			"abbr": "大沼S"
 		},
 		{
-			"name": "パラダイスステークス",
+			"name": "天堂錦標賽",
 			"link": "/race/races/4063",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4063.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7288,7 +7502,8 @@
 				"uphill": ["125 ~ 200（2%）", "950 ~ 1100（1.5%）"],
 				"downhill": ["250 ~ 500（-1.5%）"]
 			},
-			"uuid": "4dda84dcf51eb55ad69506d22932a90b"
+			"uuid": "4dda84dcf51eb55ad69506d22932a90b",
+			"abbr": "天堂S"
 		},
 		{
 			"name": "巴賞",
@@ -7323,10 +7538,11 @@
 				"downhill": ["220 ~ 420（-1%）"],
 				"uphill": ["665 ~ 1385（1%）"]
 			},
-			"uuid": "9bb428e645fa687e6738aedbc4c30d65"
+			"uuid": "9bb428e645fa687e6738aedbc4c30d65",
+			"abbr": "巴賞"
 		},
 		{
-			"name": "マリーンステークス",
+			"name": "海洋錦標賽",
 			"link": "/race/races/4065",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4065.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7339,7 +7555,7 @@
 				"distance": "1700",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 283",
@@ -7358,10 +7574,11 @@
 				"downhill": ["275 ~ 615（-1%）"],
 				"uphill": ["615 ~ 1285（1%）"]
 			},
-			"uuid": "33a72fc4d393b23a87d949b4a359595e"
+			"uuid": "ccf71dfc1ead8c70bff0305a53cb953b",
+			"abbr": "海洋S"
 		},
 		{
-			"name": "名鉄杯",
+			"name": "名鐵盃",
 			"link": "/race/races/4066",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4066.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7393,10 +7610,11 @@
 				"uphill": ["0 ~ 50（1.5%）", "1425 ~ 1575（1.5%）"],
 				"downhill": ["825 ~ 1425（-1.5%）"]
 			},
-			"uuid": "098e29848057033ee87db060981beb9d"
+			"uuid": "098e29848057033ee87db060981beb9d",
+			"abbr": "名鐵盃"
 		},
 		{
-			"name": "中京ジュニアステークス",
+			"name": "中京新手級錦標賽",
 			"link": "/race/races/4068",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4068.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7428,10 +7646,11 @@
 				"downhill": ["500 ~ 1275（-1%）"],
 				"uphill": ["1275 ~ 1375（2%）"]
 			},
-			"uuid": "c5455e5d55e914ff29758cea103855c8"
+			"uuid": "c5455e5d55e914ff29758cea103855c8",
+			"abbr": "中京新手級S"
 		},
 		{
-			"name": "福島テレビオープン",
+			"name": "福島電視台公開賽",
 			"link": "/race/races/4069",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4069.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7444,7 +7663,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -7460,10 +7679,11 @@
 				"straight1": ["908 ~ 1200"],
 				"uphill": ["180 ~ 280（1.5%）"]
 			},
-			"uuid": "e7132719e1a2a67112fd533ee603cc5d"
+			"uuid": "b47310b167c499ca39220dae6a8d89ca",
+			"abbr": "福島電視台OP"
 		},
 		{
-			"name": "ダリア賞",
+			"name": "大麗花賞",
 			"link": "/race/races/4070",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4070.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7476,7 +7696,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -7491,10 +7711,11 @@
 				"corner4": ["850 ~ 1042"],
 				"straight1": ["1042 ~ 1400"]
 			},
-			"uuid": "23505becb599485f119752af31cf25a0"
+			"uuid": "eca32f4943b72780a32f8873a117b9f9",
+			"abbr": "大麗花賞"
 		},
 		{
-			"name": "札幌日経オープン",
+			"name": "札幌日經公開賽",
 			"link": "/race/races/4071",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4071.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7524,7 +7745,8 @@
 				"corner1": ["975 ~ 1250"],
 				"corner2": ["1250 ~ 1525"]
 			},
-			"uuid": "de4eac587e5597e67d18f73b512b2692"
+			"uuid": "de4eac587e5597e67d18f73b512b2692",
+			"abbr": "札幌日經OP"
 		},
 		{
 			"name": "UHB賞",
@@ -7540,7 +7762,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -7555,10 +7777,11 @@
 				"corner4": ["675 ~ 934"],
 				"straight1": ["934 ~ 1200"]
 			},
-			"uuid": "e0bd6c4e0e7a80f5f86343ce47968ba6"
+			"uuid": "a235db8e57e8135663e13a09da86de5b",
+			"abbr": "UHB賞"
 		},
 		{
-			"name": "阿蘇ステークス",
+			"name": "阿蘇錦標賽",
 			"link": "/race/races/4073",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4073.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7571,7 +7794,7 @@
 				"distance": "1700",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 283",
@@ -7589,10 +7812,11 @@
 				"corner4": ["1240 ~ 1409"],
 				"uphill": ["370 ~ 520（1.5%）"]
 			},
-			"uuid": "b92767a8f85817de8da9637437c73a25"
+			"uuid": "19e3fe6a0b07737ac10d4edd98d12268",
+			"abbr": "阿蘇S"
 		},
 		{
-			"name": "フェニックス賞",
+			"name": "鳳凰賞",
 			"link": "/race/races/4074",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4074.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7621,10 +7845,11 @@
 				"straight1": ["907 ~ 1200"],
 				"downhill": ["0 ~ 60（-1.5%）"]
 			},
-			"uuid": "2e768fcab756e06d974e5a6a62f61755"
+			"uuid": "2e768fcab756e06d974e5a6a62f61755",
+			"abbr": "鳳凰賞"
 		},
 		{
-			"name": "コスモス賞",
+			"name": "波斯菊賞",
 			"link": "/race/races/4075",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4075.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7637,7 +7862,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -7654,7 +7879,8 @@
 				"corner3": ["1000 ~ 1275"],
 				"corner4": ["1275 ~ 1534"]
 			},
-			"uuid": "be92f2994d2976f6526c01c171d10a70"
+			"uuid": "e0bd13d1c330a32e6f4d531a07c47aae",
+			"abbr": "波斯菊賞"
 		},
 		{
 			"name": "NST賞",
@@ -7670,7 +7896,7 @@
 				"distance": "1200",
 				"course": "沙地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -7685,10 +7911,11 @@
 				"corner4": ["700 ~ 847"],
 				"straight1": ["847 ~ 1200"]
 			},
-			"uuid": "0d615ca9b3948b8c783eb7f8976cacd2"
+			"uuid": "565b44ee71ef7f2fc4987db0dbd30216",
+			"abbr": "NST賞"
 		},
 		{
-			"name": "クローバー賞",
+			"name": "三葉草賞",
 			"link": "/race/races/4077",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4077.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7701,7 +7928,7 @@
 				"distance": "1500",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 250",
@@ -7718,7 +7945,8 @@
 				"corner4": ["975 ~ 1234"],
 				"straight1": ["1234 ~ 1500"]
 			},
-			"uuid": "2426e132ed8d7d2a05cea3960ef8ead0"
+			"uuid": "64b0d731ad6b05114e2aa34e26158afe",
+			"abbr": "三葉草賞"
 		},
 		{
 			"name": "BSN賞",
@@ -7751,10 +7979,11 @@
 				"corner3": ["1140 ~ 1300"],
 				"corner4": ["1300 ~ 1447"]
 			},
-			"uuid": "b76a0d396aeff228816609261b765671"
+			"uuid": "b76a0d396aeff228816609261b765671",
+			"abbr": "BSN賞"
 		},
 		{
-			"name": "小倉日経オープン",
+			"name": "小倉日經公開賽",
 			"link": "/race/races/4080",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4080.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7767,7 +7996,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -7785,10 +8014,11 @@
 				"corner4": ["1305 ~ 1507"],
 				"uphill": ["280 ~ 535（1.5%）"]
 			},
-			"uuid": "eb72342a7402fd0363d66d9a6133a330"
+			"uuid": "5cf42779c6eeacbbebd01cd0b528f5f3",
+			"abbr": "小倉日經OP"
 		},
 		{
-			"name": "朱鷺ステークス",
+			"name": "朱鷺錦標賽",
 			"link": "/race/races/4081",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4081.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7801,7 +8031,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -7816,10 +8046,11 @@
 				"corner4": ["850 ~ 1042"],
 				"straight1": ["1042 ~ 1400"]
 			},
-			"uuid": "17fd127aebfcac08645906c9e085a5f1"
+			"uuid": "c50f912cbdd39be9df1c28048c5d9f26",
+			"abbr": "朱鷺S"
 		},
 		{
-			"name": "丹頂ステークス",
+			"name": "丹頂錦標賽",
 			"link": "/race/races/4082",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4082.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7849,10 +8080,11 @@
 				"corner1": ["975 ~ 1250"],
 				"corner2": ["1250 ~ 1525"]
 			},
-			"uuid": "d0fa78a8f7bdd2ba5b14b93919148047"
+			"uuid": "d0fa78a8f7bdd2ba5b14b93919148047",
+			"abbr": "丹頂S"
 		},
 		{
-			"name": "すずらん賞",
+			"name": "鈴蘭賞",
 			"link": "/race/races/4083",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4083.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7865,7 +8097,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -7880,10 +8112,11 @@
 				"corner4": ["675 ~ 934"],
 				"straight1": ["934 ~ 1200"]
 			},
-			"uuid": "8d30d2f6e403be1beb156f2fd1c9b02e"
+			"uuid": "aa8f2d6a9f383662b4538fc91ad51e17",
+			"abbr": "鈴蘭賞"
 		},
 		{
-			"name": "エニフステークス",
+			"name": "危宿三錦標賽",
 			"link": "/race/races/4084",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4084.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7896,7 +8129,7 @@
 				"distance": "1400",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -7912,10 +8145,11 @@
 				"straight1": ["1048 ~ 1400"],
 				"uphill": ["1200 ~ 1325（1.5%）"]
 			},
-			"uuid": "094f38cf90956d437f8f36d1af806ad6"
+			"uuid": "fbb277f117cd3138d1edc7516c99ee0f",
+			"abbr": "危宿三S"
 		},
 		{
-			"name": "野路菊ステークス",
+			"name": "野地菊錦標賽",
 			"link": "/race/races/4085",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4085.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7945,10 +8179,11 @@
 				"downhill": ["1150 ~ 1550（-1%）"],
 				"uphill": ["1605 ~ 1725（2%）"]
 			},
-			"uuid": "41f15ea32714b73b574bf4f8e981b978"
+			"uuid": "41f15ea32714b73b574bf4f8e981b978",
+			"abbr": "野地菊S"
 		},
 		{
-			"name": "ラジオ日本賞",
+			"name": "日本電台賞",
 			"link": "/race/races/4086",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4086.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7979,10 +8214,11 @@
 				"uphill": ["100 ~ 275（1.5%）", "350 ~ 525（1%）", "1600 ~ 1775（1.5%）"],
 				"downhill": ["775 ~ 950（-1.5%）"]
 			},
-			"uuid": "6ef462e08cfb78e84d30018b9047814d"
+			"uuid": "6ef462e08cfb78e84d30018b9047814d",
+			"abbr": "日本電台賞"
 		},
 		{
-			"name": "ききょうステークス",
+			"name": "桔梗錦標賽",
 			"link": "/race/races/4087",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4087.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -7995,7 +8231,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -8012,7 +8248,8 @@
 				"downhill": ["600 ~ 1195（-1%）"],
 				"uphill": ["1200 ~ 1325（2%）"]
 			},
-			"uuid": "6a7b4c7034562fd42db2b1d744cfa21e"
+			"uuid": "5ac8084ea96a8f13545d040ef00eb892",
+			"abbr": "桔梗S"
 		},
 		{
 			"name": "芙蓉ステークス",
@@ -8050,7 +8287,7 @@
 			"uuid": "dce29b6c3c52d1cc09df6f595e0a5d4f"
 		},
 		{
-			"name": "カンナステークス",
+			"name": "美人蕉錦標賽",
 			"link": "/race/races/4089",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4089.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8063,7 +8300,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -8080,10 +8317,11 @@
 				"downhill": ["0 ~ 200（-1.5%）"],
 				"uphill": ["1025 ~ 1135（2%）"]
 			},
-			"uuid": "7c9069c667094162a3659a7343b76827"
+			"uuid": "7a321714089f71bc28d1cb51abe3f680",
+			"abbr": "美人蕉S"
 		},
 		{
-			"name": "ポートアイランドステークス",
+			"name": "港灣人工島錦標賽",
 			"link": "/race/races/4090",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4090.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8113,10 +8351,11 @@
 				"downhill": ["950 ~ 1350（-1%）"],
 				"uphill": ["1405 ~ 1525（2%）"]
 			},
-			"uuid": "0bb824ed8b9c4908d45b0836f57158ef"
+			"uuid": "0bb824ed8b9c4908d45b0836f57158ef",
+			"abbr": "港灣人工島S"
 		},
 		{
-			"name": "オパールステークス",
+			"name": "蛋白石錦標賽",
 			"link": "/race/races/4091",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4091.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8129,7 +8368,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -8146,10 +8385,11 @@
 				"uphill": ["120 ~ 295（1.5%）"],
 				"downhill": ["420 ~ 570（-1.5%）"]
 			},
-			"uuid": "1efa1afc7beda1f739ef28d7eca4fb48"
+			"uuid": "e50e4950bcf7830d93da628fc54bdd7a",
+			"abbr": "蛋白石S"
 		},
 		{
-			"name": "グリーンチャンネルカップ",
+			"name": "綠色頻道盃",
 			"link": "/race/races/4092",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4092.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8179,10 +8419,11 @@
 				"downhill": ["375 ~ 575（-1%）"],
 				"uphill": ["900 ~ 1150（1.5%）"]
 			},
-			"uuid": "ba92a1098379816a566be5eda533083c"
+			"uuid": "ba92a1098379816a566be5eda533083c",
+			"abbr": "綠色頻道盃"
 		},
 		{
-			"name": "もみじステークス",
+			"name": "紅葉錦標賽",
 			"link": "/race/races/4093",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4093.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8195,7 +8436,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -8212,10 +8453,11 @@
 				"uphill": ["250 ~ 350（2%）", "350 ~ 575（1%）"],
 				"downhill": ["575 ~ 725（-2%）"]
 			},
-			"uuid": "51d7e3e755788c39d7214af9f552ce52"
+			"uuid": "9b56547b6e6920a09a8091451b347b23",
+			"abbr": "紅葉S"
 		},
 		{
-			"name": "オクトーバーステークス",
+			"name": "十月錦標賽",
 			"link": "/race/races/4094",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4094.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8228,7 +8470,7 @@
 				"distance": "2000",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 333",
@@ -8247,10 +8489,11 @@
 				"uphill": ["725 ~ 800（2%）", "1550 ~ 1700（1.5%）"],
 				"downhill": ["850 ~ 1100（-1.5%）"]
 			},
-			"uuid": "cff03e2d7b997644420a16b1d0c80d83"
+			"uuid": "39e38d67dcdbb257cabf0895924040f9",
+			"abbr": "十月S"
 		},
 		{
-			"name": "信越ステークス",
+			"name": "信越錦標賽",
 			"link": "/race/races/4095",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4095.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8263,7 +8506,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -8278,10 +8521,11 @@
 				"corner4": ["850 ~ 1042"],
 				"straight1": ["1042 ~ 1400"]
 			},
-			"uuid": "34e1d44a02bb42e72dde0c7d76b3bd8f"
+			"uuid": "caf6a7576b0e9d22bb1b5aabbe447f70",
+			"abbr": "信越S"
 		},
 		{
-			"name": "アイビーステークス",
+			"name": "常春藤錦標賽",
 			"link": "/race/races/4096",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4096.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8313,7 +8557,8 @@
 				"uphill": ["525 ~ 600（2%）", "1350 ~ 1500（1.5%）"],
 				"downhill": ["650 ~ 900（-1.5%）"]
 			},
-			"uuid": "6aa4e5796cb8ff93e1c8392a42d31ec1"
+			"uuid": "6aa4e5796cb8ff93e1c8392a42d31ec1",
+			"abbr": "常春藤S"
 		},
 		{
 			"name": "室町ステークス",
@@ -8329,7 +8574,7 @@
 				"distance": "1200",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -8346,10 +8591,10 @@
 				"uphill": ["175 ~ 375（1.5%）"],
 				"downhill": ["475 ~ 675（-1.5%）"]
 			},
-			"uuid": "236968f8b387498ddfc6d68920b8ed02"
+			"uuid": "7f44a3c23cdcfef8649c9b85d21a829e"
 		},
 		{
-			"name": "ブラジルカップ",
+			"name": "巴西盃",
 			"link": "/race/races/4098",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4098.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8362,7 +8607,7 @@
 				"distance": "2100",
 				"course": "沙地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 350",
@@ -8381,10 +8626,11 @@
 				"downhill": ["1075 ~ 1275（-1%）"],
 				"uphill": ["1600 ~ 1850（1.5%）"]
 			},
-			"uuid": "0f94bcd10baa620021e529df81c7b66c"
+			"uuid": "5a5b0d0313bcfa52f270cbdc26e55e56",
+			"abbr": "巴西盃"
 		},
 		{
-			"name": "萩ステークス",
+			"name": "萩錦標賽",
 			"link": "/race/races/4099",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4099.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8397,7 +8643,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -8415,10 +8661,11 @@
 				"uphill": ["650 ~ 750（2%）", "750 ~ 975（1%）"],
 				"downhill": ["975 ~ 1125（-2%）"]
 			},
-			"uuid": "3047c4d9fc81dea128a2ac5504ad811b"
+			"uuid": "84f27eb2b7014cf4d2de02df50a2f8e7",
+			"abbr": "萩S"
 		},
 		{
-			"name": "カシオペアステークス",
+			"name": "仙女座錦標賽",
 			"link": "/race/races/4100",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4100.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8431,7 +8678,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -8449,10 +8696,11 @@
 				"uphill": ["650 ~ 750（2%）", "750 ~ 975（1%）"],
 				"downhill": ["975 ~ 1125（-2%）"]
 			},
-			"uuid": "f0769ca04c4487971417a16442491c42"
+			"uuid": "7f4e1712b18cbac1119f2341912b1f3b",
+			"abbr": "仙女座S"
 		},
 		{
-			"name": "ルミエールオータムダッシュ",
+			"name": "光芒秋季短途賽",
 			"link": "/race/races/4101",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4101.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8474,11 +8722,12 @@
 				"last_spring": "833 ~ 1000",
 				"pos_keep": "0 ~ 417"
 			},
-			"course": { "straight1": ["0 ~ 650", "650 ~ 1000"] },
-			"uuid": "5c8440396561a119279dc25daa8097ec"
+			"course": { "straight1": ["0 ~ 1000"] },
+			"uuid": "5c8440396561a119279dc25daa8097ec",
+			"abbr": "光芒秋季D"
 		},
 		{
-			"name": "オーロカップ",
+			"name": "黃金盃",
 			"link": "/race/races/4102",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4102.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8508,10 +8757,11 @@
 				"uphill": ["125 ~ 200（2%）", "950 ~ 1100（1.5%）"],
 				"downhill": ["250 ~ 500（-1.5%）"]
 			},
-			"uuid": "7cccfe19bffa1ec061ffb41f7cfd1871"
+			"uuid": "7cccfe19bffa1ec061ffb41f7cfd1871",
+			"abbr": "黃金盃"
 		},
 		{
-			"name": "福島ジュニアステークス",
+			"name": "福島新手級錦標賽",
 			"link": "/race/races/4103",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4103.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8524,7 +8774,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -8540,10 +8790,11 @@
 				"straight1": ["908 ~ 1200"],
 				"uphill": ["180 ~ 280（1.5%）"]
 			},
-			"uuid": "bdeceabfb9413c5988a65d24ea9e49bb"
+			"uuid": "beedf6004e9bd4c5216f19a70849fb4b",
+			"abbr": "福島新手級S"
 		},
 		{
-			"name": "アンドロメダステークス",
+			"name": "仙后座錦標賽",
 			"link": "/race/races/4104",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4104.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8575,10 +8826,11 @@
 				"uphill": ["970 ~ 1145（1.5%）"],
 				"downhill": ["1270 ~ 1420（-1.5%）"]
 			},
-			"uuid": "2c6e984d6be78fd5d4234485f850f704"
+			"uuid": "2c6e984d6be78fd5d4234485f850f704",
+			"abbr": "仙后座S"
 		},
 		{
-			"name": "霜月ステークス",
+			"name": "霜月錦標賽",
 			"link": "/race/races/4105",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4105.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8608,10 +8860,11 @@
 				"downhill": ["375 ~ 575（-1%）"],
 				"uphill": ["900 ~ 1150（1.5%）"]
 			},
-			"uuid": "dcb5ece37239dc93e5bc90e4eada004a"
+			"uuid": "dcb5ece37239dc93e5bc90e4eada004a",
+			"abbr": "霜月S"
 		},
 		{
-			"name": "福島民友カップ",
+			"name": "福島民友盃",
 			"link": "/race/races/4106",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4106.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8642,10 +8895,11 @@
 				"corner4": ["1260 ~ 1405"],
 				"downhill": ["285 ~ 605（-1%）"]
 			},
-			"uuid": "09db4193e466b9bb5755f46d7af6d17a"
+			"uuid": "09db4193e466b9bb5755f46d7af6d17a",
+			"abbr": "福島民友盃"
 		},
 		{
-			"name": "キャピタルステークス",
+			"name": "首都錦標賽",
 			"link": "/race/races/4107",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4107.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8675,10 +8929,11 @@
 				"uphill": ["325 ~ 400（2%）", "1150 ~ 1300（1.5%）"],
 				"downhill": ["450 ~ 700（-1.5%）"]
 			},
-			"uuid": "00bb39a113e164d19a51227b0ae6b214"
+			"uuid": "00bb39a113e164d19a51227b0ae6b214",
+			"abbr": "首都S"
 		},
 		{
-			"name": "オータムリーフステークス",
+			"name": "秋葉錦標賽",
 			"link": "/race/races/4108",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4108.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8691,7 +8946,7 @@
 				"distance": "1200",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -8708,10 +8963,11 @@
 				"uphill": ["175 ~ 375（1.5%）"],
 				"downhill": ["475 ~ 675（-1.5%）"]
 			},
-			"uuid": "c472524b4264ea77df3a664c4b20970f"
+			"uuid": "59b4f00b31b5319933e8ee69feca6093",
+			"abbr": "秋葉S"
 		},
 		{
-			"name": "ラピスラズリステークス",
+			"name": "青金石錦標賽",
 			"link": "/race/races/4109",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4109.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8724,7 +8980,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -8741,10 +8997,11 @@
 				"downhill": ["0 ~ 200（-1.5%）"],
 				"uphill": ["1025 ~ 1135（2%）"]
 			},
-			"uuid": "8e416aa97ebbdcebf866d66005a3e349"
+			"uuid": "8309b009f74ebe2a1e5686b4c03a7e7f",
+			"abbr": "青金石S"
 		},
 		{
-			"name": "師走ステークス",
+			"name": "師走錦標賽",
 			"link": "/race/races/4110",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4110.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8775,10 +9032,11 @@
 				"uphill": ["100 ~ 275（1.5%）", "350 ~ 525（1%）", "1600 ~ 1775（1.5%）"],
 				"downhill": ["775 ~ 950（-1.5%）"]
 			},
-			"uuid": "0785069a681ae98b733e273f11de3a25"
+			"uuid": "0785069a681ae98b733e273f11de3a25",
+			"abbr": "師走S"
 		},
 		{
-			"name": "リゲルステークス",
+			"name": "參宿七錦標賽",
 			"link": "/race/races/4111",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4111.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8808,10 +9066,11 @@
 				"downhill": ["950 ~ 1350（-1%）"],
 				"uphill": ["1405 ~ 1525（2%）"]
 			},
-			"uuid": "a4b582e913b4f91371c9ecae51eaf005"
+			"uuid": "a4b582e913b4f91371c9ecae51eaf005",
+			"abbr": "參宿七S"
 		},
 		{
-			"name": "タンザナイトステークス",
+			"name": "坦桑石錦標賽",
 			"link": "/race/races/4112",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4112.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8824,7 +9083,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -8841,10 +9100,11 @@
 				"downhill": ["400 ~ 995（-1%）"],
 				"uphill": ["1000 ~ 1125（2%）"]
 			},
-			"uuid": "28ac7ab06bae67e4c2645074d216cb5b"
+			"uuid": "d8792da7da82c45ed6e272ffe1572e33",
+			"abbr": "坦桑石S"
 		},
 		{
-			"name": "ディセンバーステークス",
+			"name": "十二月錦標賽",
 			"link": "/race/races/4113",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4113.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8857,7 +9117,7 @@
 				"distance": "1800",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -8876,10 +9136,11 @@
 				"uphill": ["1 ~ 36（2%）", "125 ~ 325（1.5%）", "1625 ~ 1735（2%）"],
 				"downhill": ["425 ~ 825（-1.5%）"]
 			},
-			"uuid": "5d503acb389258a8beb104be72e07225"
+			"uuid": "e30a42cf977395b6ec5d20e20e2390d4",
+			"abbr": "十二月S"
 		},
 		{
-			"name": "クリスマスローズステークス",
+			"name": "聖誕玫瑰錦標賽",
 			"link": "/race/races/4114",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4114.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8892,7 +9153,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -8909,10 +9170,11 @@
 				"downhill": ["0 ~ 200（-1.5%）"],
 				"uphill": ["1025 ~ 1135（2%）"]
 			},
-			"uuid": "560ec18bd9ec0097f458202a30a0438b"
+			"uuid": "1663036770544cf6c156398dd508d951",
+			"abbr": "聖誕玫瑰S"
 		},
 		{
-			"name": "ギャラクシーステークス",
+			"name": "銀河錦標賽",
 			"link": "/race/races/4115",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4115.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8925,7 +9187,7 @@
 				"distance": "1400",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -8941,10 +9203,11 @@
 				"straight1": ["1048 ~ 1400"],
 				"uphill": ["1200 ~ 1325（1.5%）"]
 			},
-			"uuid": "8ab11be69b5770b2e5194c572d76ac7b"
+			"uuid": "e81c1dd3ed64f4cec59fe70e47f93b86",
+			"abbr": "銀河S"
 		},
 		{
-			"name": "ベテルギウスステークス",
+			"name": "參宿四錦標賽",
 			"link": "/race/races/4116",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4116.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -8957,7 +9220,7 @@
 				"distance": "1800",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -8975,10 +9238,11 @@
 				"corner4": ["1200 ~ 1448"],
 				"uphill": ["105 ~ 230（1.5%）", "1599 ~ 1724（1.5%）"]
 			},
-			"uuid": "17225e8573289c6b6d05312fad875da2"
+			"uuid": "5374e6b9ec1b8f241c00b5e7668d88bd",
+			"abbr": "參宿四S"
 		},
 		{
-			"name": "北九州短距離ステークス",
+			"name": "北九州短距離錦標賽",
 			"link": "/race/races/4118",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4117.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9007,10 +9271,11 @@
 				"straight1": ["907 ~ 1200"],
 				"downhill": ["0 ~ 60（-1.5%）"]
 			},
-			"uuid": "dd21c2e48f70981203672890006ee0a2"
+			"uuid": "dd21c2e48f70981203672890006ee0a2",
+			"abbr": "北九州短距離S"
 		},
 		{
-			"name": "吾妻小富士ステークス",
+			"name": "吾妻小富士錦標賽",
 			"link": "/race/races/4119",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4118.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9041,10 +9306,11 @@
 				"corner4": ["1260 ~ 1405"],
 				"downhill": ["285 ~ 605（-1%）"]
 			},
-			"uuid": "5ecb2969881762d35294e662b1caa988"
+			"uuid": "5ecb2969881762d35294e662b1caa988",
+			"abbr": "吾妻小富士S"
 		},
 		{
-			"name": "スレイプニルステークス",
+			"name": "神駿錦標賽",
 			"link": "/race/races/4120",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4119.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9057,7 +9323,7 @@
 				"distance": "2100",
 				"course": "沙地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 350",
@@ -9076,10 +9342,11 @@
 				"downhill": ["1075 ~ 1275（-1%）"],
 				"uphill": ["1600 ~ 1850（1.5%）"]
 			},
-			"uuid": "71207af96264b235dc3c3646e5a32a01"
+			"uuid": "05690645b6b5a7b4b9c1d1c13824bd5e",
+			"abbr": "神駿S"
 		},
 		{
-			"name": "三宮ステークス",
+			"name": "三宮錦標賽",
 			"link": "/race/races/4121",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4120.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9092,7 +9359,7 @@
 				"distance": "1800",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -9110,10 +9377,11 @@
 				"corner4": ["1200 ~ 1448"],
 				"uphill": ["105 ~ 230（1.5%）", "1599 ~ 1724（1.5%）"]
 			},
-			"uuid": "181c79f752eca1f743a2ac01408ee747"
+			"uuid": "a7e1d4ec2e8884c6b8522c81c4f88deb",
+			"abbr": "三宮S"
 		},
 		{
-			"name": "関越ステークス",
+			"name": "關越錦標賽",
 			"link": "/race/races/4122",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4121.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9143,10 +9411,11 @@
 				"uphill": ["450 ~ 800（1%）"],
 				"downhill": ["800 ~ 1100（-1.5%）"]
 			},
-			"uuid": "384000155f6c68932dc5e4843a9c2ca9"
+			"uuid": "384000155f6c68932dc5e4843a9c2ca9",
+			"abbr": "關越S"
 		},
 		{
-			"name": "ながつきステークス",
+			"name": "長月錦標賽",
 			"link": "/race/races/4123",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4122.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9176,10 +9445,11 @@
 				"downhill": ["175 ~ 350（-1.5%）"],
 				"uphill": ["1000 ~ 1175（1.5%）"]
 			},
-			"uuid": "1344c5d496c131d6fe1f642c8bfa2842"
+			"uuid": "1344c5d496c131d6fe1f642c8bfa2842",
+			"abbr": "長月S"
 		},
 		{
-			"name": "太秦ステークス",
+			"name": "太秦錦標賽",
 			"link": "/race/races/4124",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4123.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9192,7 +9462,7 @@
 				"distance": "1800",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -9211,12 +9481,13 @@
 				"uphill": ["775 ~ 975（1.5%）"],
 				"downhill": ["1075 ~ 1275（-1.5%）"]
 			},
-			"uuid": "033d2ff84a96c5ece19a33f1cd2c33b9"
+			"uuid": "31623f193df9d80c3b4a8ce037726d9d",
+			"abbr": "太秦S"
 		}
 	],
 	"Pre": [
 		{
-			"name": "アスター賞",
+			"name": "紫菀賞",
 			"link": "/race/races/4501",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4501.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9247,10 +9518,11 @@
 				"downhill": ["300 ~ 600（-1.5%）"],
 				"uphill": ["1425 ~ 1535（2%）"]
 			},
-			"uuid": "8e488a9f3b0a5c16ae2bc08d045c669a"
+			"uuid": "8e488a9f3b0a5c16ae2bc08d045c669a",
+			"abbr": "紫菀賞"
 		},
 		{
-			"name": "サフラン賞",
+			"name": "番紅花賞",
 			"link": "/race/races/4502",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4502.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9281,10 +9553,11 @@
 				"downhill": ["300 ~ 600（-1.5%）"],
 				"uphill": ["1425 ~ 1535（2%）"]
 			},
-			"uuid": "94ede280f6c9633317d0e5c7d040e2f2"
+			"uuid": "94ede280f6c9633317d0e5c7d040e2f2",
+			"abbr": "番紅花賞"
 		},
 		{
-			"name": "りんどう賞",
+			"name": "龍膽賞",
 			"link": "/race/races/4503",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4503.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9297,7 +9570,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -9314,7 +9587,8 @@
 				"uphill": ["250 ~ 350（2%）", "350 ~ 575（1%）"],
 				"downhill": ["575 ~ 725（-2%）"]
 			},
-			"uuid": "074dc3a875b8383a42042add4cdc7c8d"
+			"uuid": "04dd373762ad3b6aafe4d37faf87ef81",
+			"abbr": "懸鈴木賞"
 		},
 		{
 			"name": "紫菊賞",
@@ -9349,10 +9623,11 @@
 				"uphill": ["970 ~ 1145（1.5%）"],
 				"downhill": ["1270 ~ 1420（-1.5%）"]
 			},
-			"uuid": "a81c1b2208733c304137f29d97e2b9bc"
+			"uuid": "a81c1b2208733c304137f29d97e2b9bc",
+			"abbr": "紫菊賞"
 		},
 		{
-			"name": "プラタナス賞",
+			"name": "懸鈴木賞",
 			"link": "/race/races/4505",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4505.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9382,10 +9657,11 @@
 				"downhill": ["575 ~ 775（-1%）"],
 				"uphill": ["1100 ~ 1350（1.5%）"]
 			},
-			"uuid": "9c6178200461b3a096adee3e7aca5a31"
+			"uuid": "9c6178200461b3a096adee3e7aca5a31",
+			"abbr": "懸鈴木賞"
 		},
 		{
-			"name": "なでしこ賞",
+			"name": "撫子賞",
 			"link": "/race/races/4506",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4506.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9398,7 +9674,7 @@
 				"distance": "1400",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -9416,7 +9692,8 @@
 				"uphill": ["375 ~ 575（1.5%）"],
 				"downhill": ["675 ~ 875（-1.5%）"]
 			},
-			"uuid": "0a264e1b194f82200fe04ab8f4a1008a"
+			"uuid": "f88a1899544515d2fdbb5e9c9eba33c5",
+			"abbr": "撫子賞"
 		},
 		{
 			"name": "百日草特別",
@@ -9432,7 +9709,7 @@
 				"distance": "2000",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 333",
@@ -9451,10 +9728,11 @@
 				"uphill": ["725 ~ 800（2%）", "1550 ~ 1700（1.5%）"],
 				"downhill": ["850 ~ 1100（-1.5%）"]
 			},
-			"uuid": "f4a09e939fa2559aae3bcb7d8b2ea615"
+			"uuid": "0ae827fb50de32486144fc1e04d71712",
+			"abbr": "百日草特別"
 		},
 		{
-			"name": "きんもくせい特別",
+			"name": "金木犀特別賽",
 			"link": "/race/races/4508",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4508.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9485,10 +9763,11 @@
 				"corner4": ["1320 ~ 1508"],
 				"uphill": ["780 ~ 880（1.5%）"]
 			},
-			"uuid": "c18a1c720b0083a65c7dea6ae8881c3f"
+			"uuid": "c18a1c720b0083a65c7dea6ae8881c3f",
+			"abbr": "金木犀特別賽"
 		},
 		{
-			"name": "オキザリス賞",
+			"name": "酢漿草賞",
 			"link": "/race/races/4509",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4509.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9518,10 +9797,11 @@
 				"downhill": ["375 ~ 575（-1%）"],
 				"uphill": ["900 ~ 1150（1.5%）"]
 			},
-			"uuid": "a233760dd8facdd44bda981fb68252d0"
+			"uuid": "a233760dd8facdd44bda981fb68252d0",
+			"abbr": "酢漿草賞"
 		},
 		{
-			"name": "黄菊賞",
+			"name": "黃菊賞",
 			"link": "/race/races/4510",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4510.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9553,10 +9833,11 @@
 				"uphill": ["970 ~ 1145（1.5%）"],
 				"downhill": ["1270 ~ 1420（-1.5%）"]
 			},
-			"uuid": "58b2b091e7cb38f72d61e63ca737ed96"
+			"uuid": "58b2b091e7cb38f72d61e63ca737ed96",
+			"abbr": "黃菊賞"
 		},
 		{
-			"name": "もちの木賞",
+			"name": "全綠冬青賞",
 			"link": "/race/races/4511",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4511.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9569,7 +9850,7 @@
 				"distance": "1800",
 				"course": "沙地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 300",
@@ -9588,7 +9869,8 @@
 				"uphill": ["775 ~ 975（1.5%）"],
 				"downhill": ["1075 ~ 1275（-1.5%）"]
 			},
-			"uuid": "42213b8975bd02332b32e62149ac8930"
+			"uuid": "dd15c90076514c2323ea691b2303280b",
+			"abbr": "全綠冬青賞"
 		},
 		{
 			"name": "赤松賞",
@@ -9621,7 +9903,8 @@
 				"uphill": ["325 ~ 400（2%）", "1150 ~ 1300（1.5%）"],
 				"downhill": ["450 ~ 700（-1.5%）"]
 			},
-			"uuid": "94ffef5d8617be812f03e1714670cb16"
+			"uuid": "94ffef5d8617be812f03e1714670cb16",
+			"abbr": "赤松賞"
 		},
 		{
 			"name": "秋明菊賞",
@@ -9637,7 +9920,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -9654,10 +9937,11 @@
 				"uphill": ["250 ~ 350（2%）", "350 ~ 575（1%）"],
 				"downhill": ["575 ~ 725（-2%）"]
 			},
-			"uuid": "7e3c7fea540ad1c0c364fe4cd9a4e233"
+			"uuid": "c1dfaecf27d1a33b1ef752ac2936a459",
+			"abbr": "秋明菊賞"
 		},
 		{
-			"name": "カトレア賞",
+			"name": "嘉德麗雅蘭賞",
 			"link": "/race/races/4514",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4514.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9687,10 +9971,11 @@
 				"downhill": ["575 ~ 775（-1%）"],
 				"uphill": ["1100 ~ 1350（1.5%）"]
 			},
-			"uuid": "7e21ef8ef4e62e7130a5ea18a1fe82f8"
+			"uuid": "7e21ef8ef4e62e7130a5ea18a1fe82f8",
+			"abbr": "嘉德麗雅蘭賞"
 		},
 		{
-			"name": "ベゴニア賞",
+			"name": "秋海棠賞",
 			"link": "/race/races/4515",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4515.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9720,7 +10005,8 @@
 				"uphill": ["325 ~ 400（2%）", "1150 ~ 1300（1.5%）"],
 				"downhill": ["450 ~ 700（-1.5%）"]
 			},
-			"uuid": "2ae812fef80832e2e760e4fd0adea4f0"
+			"uuid": "2ae812fef80832e2e760e4fd0adea4f0",
+			"abbr": "秋海棠賞"
 		},
 		{
 			"name": "白菊賞",
@@ -9754,7 +10040,8 @@
 				"uphill": ["450 ~ 550（2%）", "550 ~ 775（1%）"],
 				"downhill": ["775 ~ 925（-2%）"]
 			},
-			"uuid": "44ea9a74842ca42f4b19df332d975881"
+			"uuid": "44ea9a74842ca42f4b19df332d975881",
+			"abbr": "白菊賞"
 		},
 		{
 			"name": "葉牡丹賞",
@@ -9789,10 +10076,11 @@
 				"uphill": ["125 ~ 235（2%）", "325 ~ 525（1.5%）", "1825 ~ 1935（2%）"],
 				"downhill": ["625 ~ 1025（-1.5%）"]
 			},
-			"uuid": "2e9eb6d3ca63089f1068845ec17c2836"
+			"uuid": "2e9eb6d3ca63089f1068845ec17c2836",
+			"abbr": "葉牡丹賞"
 		},
 		{
-			"name": "こうやまき賞",
+			"name": "日本金松賞",
 			"link": "/race/races/4518",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4518.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9824,10 +10112,11 @@
 				"downhill": ["500 ~ 1275（-1%）"],
 				"uphill": ["1275 ~ 1375（2%）"]
 			},
-			"uuid": "3c73679a124b16fd100192fb0e296b23"
+			"uuid": "3c73679a124b16fd100192fb0e296b23",
+			"abbr": "日本金松賞"
 		},
 		{
-			"name": "万両賞",
+			"name": "萬兩賞",
 			"link": "/race/races/4519",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4519.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9840,7 +10129,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -9857,10 +10146,11 @@
 				"downhill": ["600 ~ 1195（-1%）"],
 				"uphill": ["1200 ~ 1325（2%）"]
 			},
-			"uuid": "b53443bba68cdf8625c16d9944ad108f"
+			"uuid": "54e08fe2433f13a31b15d6fb213ce6e2",
+			"abbr": "萬兩賞"
 		},
 		{
-			"name": "黒松賞",
+			"name": "黑松賞",
 			"link": "/race/races/4520",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4520.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9873,7 +10163,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -9890,10 +10180,11 @@
 				"downhill": ["0 ~ 200（-1.5%）"],
 				"uphill": ["1025 ~ 1135（2%）"]
 			},
-			"uuid": "39a27f1fc8a95ec875f056c7b7dcb38a"
+			"uuid": "618f6cc521a45369985c21e547d88ae6",
+			"abbr": "黑松賞"
 		},
 		{
-			"name": "エリカ賞",
+			"name": "歐石楠賞",
 			"link": "/race/races/4521",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4521.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9925,10 +10216,11 @@
 				"downhill": ["0 ~ 140（-1%）", "1200 ~ 1795（-1%）"],
 				"uphill": ["145 ~ 270（2%）", "1800 ~ 1925（2%）"]
 			},
-			"uuid": "4ff77351e4f1b32b8ecdf8b69afc835d"
+			"uuid": "4ff77351e4f1b32b8ecdf8b69afc835d",
+			"abbr": "歐石楠賞"
 		},
 		{
-			"name": "つわぶき賞",
+			"name": "大吳風草賞",
 			"link": "/race/races/4522",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4522.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9941,7 +10233,7 @@
 				"distance": "1400",
 				"course": "草地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -9958,10 +10250,11 @@
 				"downhill": ["300 ~ 1075（-1%）"],
 				"uphill": ["1075 ~ 1175（2%）"]
 			},
-			"uuid": "2633ec64892d30871bdf7526a87dec4a"
+			"uuid": "e41d0bdae05bdd34198755f2f11457ef",
+			"abbr": "大吳風草賞"
 		},
 		{
-			"name": "ひいらぎ賞",
+			"name": "柊樹賞",
 			"link": "/race/races/4523",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4523.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -9992,10 +10285,11 @@
 				"downhill": ["300 ~ 600（-1.5%）"],
 				"uphill": ["1425 ~ 1535（2%）"]
 			},
-			"uuid": "d2300c22d939f1de0d395c50f7887cc0"
+			"uuid": "d2300c22d939f1de0d395c50f7887cc0",
+			"abbr": "柊樹賞"
 		},
 		{
-			"name": "さざんか賞",
+			"name": "茶梅賞",
 			"link": "/race/races/4524",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4524.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -10008,7 +10302,7 @@
 				"distance": "1200",
 				"course": "草地",
 				"direction": "順時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 200",
@@ -10025,7 +10319,8 @@
 				"downhill": ["400 ~ 995（-1%）"],
 				"uphill": ["1000 ~ 1125（2%）"]
 			},
-			"uuid": "22a99986610eb3e887ad110294e5612f"
+			"uuid": "05f7efb2ba2aaad2ac41e752698c9f6d",
+			"abbr": "茶梅賞"
 		},
 		{
 			"name": "寒椿賞",
@@ -10041,7 +10336,7 @@
 				"distance": "1400",
 				"course": "沙地",
 				"direction": "逆時針",
-				"comp_status": "無"
+				"comp_status": "none"
 			},
 			"phase": {
 				"opening_phase": "0 ~ 233",
@@ -10058,10 +10353,11 @@
 				"downhill": ["425 ~ 1025（-1.5%）"],
 				"uphill": ["1025 ~ 1175（1.5%）"]
 			},
-			"uuid": "3335c23caef8f0365c4695e2e5d34f73"
+			"uuid": "920ca36279882064e1a917f1cc56cdfc",
+			"abbr": "寒椿賞"
 		},
 		{
-			"name": "千両賞",
+			"name": "千兩賞",
 			"link": "/race/races/4526",
 			"image": "https://kouryaku-tools.imgix.net/umamusume/images/race/4526.png?auto=format&fit=max&w=1200&q=50",
 			"basic": {
@@ -10091,7 +10387,8 @@
 				"downhill": ["950 ~ 1350（-1%）"],
 				"uphill": ["1405 ~ 1525（2%）"]
 			},
-			"uuid": "d440ba1d3a51c4ad5bb617ed20e5759c"
+			"uuid": "d440ba1d3a51c4ad5bb617ed20e5759c",
+			"abbr": "千兩賞"
 		}
 	]
 }
