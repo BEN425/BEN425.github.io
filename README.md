@@ -10,9 +10,13 @@ The data in this website is for the **Traditional Chinese version** of the game.
 This website is only in Traditional Chinese.
 
 The data in this website is mainly from
+
 BiliWiki: https://wiki.biligame.com/umamusume/
+
 Utools: https://xn--gck1f423k.xn--1bvt37a.tools/
+
 Moegirlpedia: https://zh.moegirl.org.cn/Mainpage#/desktop/index
+
 
 ## Framework
 
