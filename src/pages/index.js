@@ -28,7 +28,9 @@ export default function Home() {
 			<main style={{ margin: "10px" }}>
 				{/* Top Row */}
 				<div className={`${styles.top_row} row`}>
-					<div className={`${styles.icon} ${styles.col}`}></div>
+					<Link
+						href="https://uma.komoejoy.com/"
+						className={`${styles.icon} ${styles.col}`}></Link>
 					<div className={`${styles.title} ${styles.col}`}>Uma Site</div>
 					<div
 						className={`${styles.intro} ${styles.col}`}
@@ -70,10 +72,15 @@ export default function Home() {
 							title="競賽查詢"
 							image="/icon/Race.png"
 							link="/race"></GridItem>
+						<GridItem
+							title="冠軍集會"
+							image="/icon/Champion.png"
+							link="/champion"></GridItem>
 						{/* <GridItem title="測試" link="/test"></GridItem> */}
 					</div>
 				</div>
 
+				{/* Introduction */}
 				<div
 					className="main"
 					style={{ marginTop: "20px" }}>
@@ -107,6 +114,22 @@ export default function Home() {
 							className={styles.link}>
 							萌娘百科
 						</a>
+					</div>
+					<div className={styles.text}>
+						專案Github頁面：
+						<a
+							href="https://github.com/BEN425/BEN425.github.io"
+							className={styles.link}>
+							這裡
+						</a>
+					</div>
+					<div
+						className={styles.text}
+						style={{ marginTop: "30px" }}>
+						※資料與名詞若與遊戲中有誤差，歡迎提出更正。
+					</div>
+					<div className={styles.text}>
+						※競賽資料來源為日服攻略網站，實際資料與譯名可能與台服不同。
 					</div>
 				</div>
 			</main>

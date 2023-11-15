@@ -1,0 +1,320 @@
+[
+	[
+		{
+			"name": "金牛盃",
+			"place": "東京",
+			"course": "草地",
+			"distance": "2400",
+			"range": "中距離",
+			"direction": "逆時針",
+			"season": "春",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{
+			"name": "雙子盃",
+			"place": "京都",
+			"course": "草地",
+			"distance": "3200",
+			"range": "長距離",
+			"direction": "順時針",
+			"season": "春",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{
+			"name": "巨蟹盃",
+			"place": "東京",
+			"course": "草地",
+			"distance": "1600",
+			"range": "一哩",
+			"direction": "逆時針",
+			"season": "夏",
+			"weather": "晴",
+			"condition": "差"
+		},
+		{
+			"name": "獅子盃",
+			"place": "阪神",
+			"course": "草地",
+			"distance": "2200",
+			"range": "中距離",
+			"direction": "順時針",
+			"season": "夏",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{
+			"name": "處女盃",
+			"place": "阪神",
+			"course": "草地",
+			"distance": "1600",
+			"range": "一哩",
+			"direction": "順時針",
+			"season": "秋",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{
+			"name": "天秤盃",
+			"place": "京都",
+			"course": "草地",
+			"distance": "3000",
+			"range": "長距離",
+			"direction": "順時針",
+			"season": "秋",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{
+			"name": "天蠍盃",
+			"place": "東京",
+			"course": "草地",
+			"distance": "2000",
+			"range": "中距離",
+			"direction": "逆時針",
+			"season": "秋",
+			"weather": "雨",
+			"condition": "差"
+		},
+		{
+			"name": "射手盃",
+			"place": "中山",
+			"course": "草地",
+			"distance": "2500",
+			"range": "長距離",
+			"direction": "順時針",
+			"season": "冬",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{
+			"name": "魔羯盃",
+			"place": "中京",
+			"course": "草地",
+			"distance": "1200",
+			"range": "短距離",
+			"direction": "逆時針",
+			"season": "冬",
+			"weather": "雪",
+			"condition": "差"
+		},
+		{
+			"name": "水瓶盃",
+			"place": "東京",
+			"course": "沙地",
+			"distance": "1600",
+			"range": "一哩",
+			"direction": "逆時針",
+			"season": "冬",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{
+			"name": "雙魚盃",
+			"place": "阪神",
+			"course": "草地",
+			"distance": "3200",
+			"range": "長距離",
+			"direction": "順時針",
+			"season": "春",
+			"weather": "雨",
+			"condition": "極差"
+		},
+		{
+			"name": "牡羊盃",
+			"place": "中山",
+			"course": "草地",
+			"distance": "2000",
+			"range": "中距離",
+			"direction": "順時針",
+			"season": "春",
+			"weather": "晴",
+			"condition": "良好"
+		}
+	],
+	[
+		{
+			"name": "金牛盃",
+			"place": "東京",
+			"course": "草地",
+			"distance": "2400",
+			"range": "中距離",
+			"direction": "逆時針",
+			"season": "春",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{
+			"name": "雙子盃",
+			"place": "東京",
+			"course": "草地",
+			"distance": "1600",
+			"range": "一哩",
+			"direction": "逆時針",
+			"season": "春",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{
+			"name": "巨蟹盃",
+			"place": "阪神",
+			"course": "草地",
+			"distance": "2200",
+			"range": "中距離",
+			"direction": "順時針",
+			"season": "夏",
+			"weather": "陰",
+			"condition": "稍差"
+		},
+		{
+			"name": "獅子盃",
+			"place": "中山",
+			"course": "草地",
+			"distance": "1200",
+			"range": "短距離",
+			"direction": "順時針",
+			"season": "夏",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{
+			"name": "處女盃",
+			"place": "大井",
+			"course": "沙地",
+			"distance": "2000",
+			"range": "中距離",
+			"direction": "順時針",
+			"season": "秋",
+			"weather": "晴",
+			"condition": "稍差"
+		},
+		{
+			"name": "天秤盃",
+			"place": "阪神",
+			"course": "草地",
+			"distance": "1600",
+			"range": "一哩",
+			"direction": "順時針",
+			"season": "秋",
+			"weather": "陰",
+			"condition": "良好"
+		},
+		{
+			"name": "天蠍盃",
+			"place": "京都",
+			"course": "草地",
+			"distance": "2200",
+			"range": "中距離",
+			"direction": "順時針",
+			"season": "秋",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{
+			"name": "射手盃",
+			"place": "中山",
+			"course": "草地",
+			"distance": "2500",
+			"range": "長距離",
+			"direction": "順時針",
+			"season": "冬",
+			"weather": "陰",
+			"condition": "稍差"
+		},
+		{
+			"name": "魔羯盃",
+			"place": "中京",
+			"course": "草地",
+			"distance": "1200",
+			"range": "短距離",
+			"direction": "逆時針",
+			"season": "冬",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{
+			"name": "水瓶盃",
+			"place": "東京",
+			"course": "沙地",
+			"distance": "1600",
+			"range": "一哩",
+			"direction": "逆時針",
+			"season": "冬",
+			"weather": "雪",
+			"condition": "差"
+		},
+		{
+			"name": "雙魚盃",
+			"place": "中山",
+			"course": "草地",
+			"distance": "2000",
+			"range": "中距離",
+			"direction": "順時針",
+			"season": "春",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{
+			"name": "牡羊盃",
+			"place": "京都",
+			"course": "草地",
+			"distance": "3200",
+			"range": "長距離",
+			"direction": "順時針",
+			"season": "春",
+			"weather": "晴",
+			"condition": "良好"
+		}
+	],
+	[
+		{ "name": "LOH" },
+		{
+			"name": "MILE",
+			"place": "東京",
+			"course": "草地",
+			"distance": "1600",
+			"range": "一哩",
+			"direction": "逆時針",
+			"season": "春",
+			"weather": "雨",
+			"condition": "極差"
+		},
+		{ "name": "LOH" },
+		{
+			"name": "DIRT",
+			"place": "船橋",
+			"course": "沙地",
+			"distance": "1600",
+			"range": "一哩",
+			"direction": "逆時針",
+			"season": "夏",
+			"weather": "晴",
+			"condition": "良好"
+		},
+		{ "name": "LOH" },
+		{
+			"name": "CLASSIC",
+			"place": "隆尚",
+			"course": "草地",
+			"distance": "2400",
+			"range": "中距離",
+			"direction": "順時針",
+			"season": "秋",
+			"weather": "雨",
+			"condition": "差"
+		},
+		{ "name": "LOH" },
+		{
+			"name": "LONG",
+			"place": "中山",
+			"course": "草地",
+			"distance": "2500",
+			"range": "長距離",
+			"direction": "順時針",
+			"season": "冬",
+			"weather": "雪",
+			"condition": "差"
+		}
+	]
+]

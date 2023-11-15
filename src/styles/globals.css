@@ -46,6 +46,16 @@
 	--g3-color: #1b5e20;
 	--op-color: #ff6f00;
 	--pre-op-color: #fbc02d;
+	--grass-color: #c5e1a5;
+	--dirt-color: #ffe082;
+	--spring-color: #f48fb1;
+	--summer-color: #c5e1a5;
+	--fall-color: #ffab91;
+	--winter-color: #81d4fa;
+	--sunny-color: #ffcc80;
+	--cloudy-color: #b0bec5;
+	--rainy-color: #9fa8da;
+	--snowy-color: #81d4fa;
 	/* Font */
 	--text-font: "Noto Sans TC", "Quicksand", sans-serif;
 	--title-font: "Quicksand", sans-serif;
